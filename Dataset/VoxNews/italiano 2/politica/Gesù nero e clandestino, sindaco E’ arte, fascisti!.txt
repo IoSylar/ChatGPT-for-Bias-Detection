@@ -1,0 +1,31 @@
+- Gesù nero e clandestino, sindaco: “E’ arte, fascisti!”	https://voxnews.info/2018/12/09/gesu-nero-e-clandestino-sindaco-e-arte-fascisti/
+
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo: parole o espressioni linguistiche che esprimono odio o incoraggiano la violenza nei confronti di una persona o di un gruppo di persone sulla base della loro razza ed etnia
+2 - Gender bias: parole o espressioni linguistiche pregiudizievoli basati sulla percezione di genere che le donne non sono uguali agli uomini in termini di diritti e dignità.
+3 - Orientamento politico: parole o espressioni linguistiche che implicano l'inclinazione o l'alterazione delle informazioni per far sembrare più attraente una posizione politica o un candidato politico.
+4 - Orientamento religioso: parole o espressioni linguistiche pregiudizievoli basate sull'appartenenza di una persona a un gruppo religioso, piuttosto che sui suoi meriti individuali.
+5 - Sensazionalismo: la tendenza di alcuni giornali o periodici a pubblicare e diffondere certe notizie conferendo loro un risalto eccessivo e presentandole come sensazionali tramite l'utilizzo di parole o espressioni linguistiche per alimentare lo scandalo e l'indignazione dei lettori.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+<Title: Gesù nero e clandestino, sindaco “E’ arte, fascisti!”
+
+Body: E la risposta del sindaco di sinistra, tal Davide Carlucci, è delirante: «Vi sarebbe piaciuto vietare questa installazione, vi sarebbe piaciuto dare sfogo ai vostri pruriti fascistoidi: “Questo non si fa, questo non si può..” E invece no. Ad Acquaviva c’è ancora la libertà, c’è ancora la democrazia. Fatevene una ragione! Quando l’arte fa scandalo e quando anche il messaggio religioso è (per dirla con don Tonino Bello) “scandaloso” – aggiunge Carlucci – vuol dire che l’obiettivo è stato raggiunto. Scuotere la nostra visione del mondo “pacificata”, insinuare il dubbio, farci reagire. E da questo punto di vista l’installazione di piazza dei Martiri ha centrato in pieno l’obiettivo».
+
+Il Presepe non è una ‘installazione artistica’, è la rappresentazione della nascita di Cristo, può essere arte, ma deve essere fedele, altrimenti la si fa in un museo, e non come Presepe. La libertà non c’entra una mazza, il fascismo nemmeno. C’entra avere più di mezzo neurone in testa.>
+
+
+
+
+
+{"Razzismo": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche che esprimono odio o incoraggiano la violenza sulla base della razza ed etnia."}, "Gender bias": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche pregiudizievoli basati sulla percezione di genere."}, "Orientamento politico": {"bias": 1, "motivazione": "Nel testo viene implicata l'inclinazione politica del sindaco di sinistra e viene accusata l'opposizione di avere pruriti fascistoidi."}, "Orientamento religioso": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche pregiudizievoli basate sull'appartenenza religiosa."}, "Sensazionalismo": {"bias": 1, "motivazione": "Nel testo viene utilizzato un linguaggio sensazionalistico per descrivere l'installazione artistica e le reazioni ad essa."}}

@@ -1,0 +1,65 @@
+IL GOVERNO ACCOGLIE I PROFUGHI UCRAINI, MA DISCRIMINA ANCORA GLI ITALIANI    
+
+ 
+https://www.byoblu.com/2022/03/30/il-dpcm-che-accoglie-i-profughi-ucraini/
+
+### Read the description of the following biases ###
+1 - Racism: words or linguistic expressions that express hatred or encourage violence against a person or group of people on the basis of their race and ethnicity
+2 - Gender bias: prejudicial words or linguistic expressions based on the gender perception that women are not equal to men in terms of rights and dignity.
+3 - Political bias: Words or linguistic expressions that involve skewing or altering information to make a political position or political candidate seem more attractive.
+4 - Religious orientation: Prejudicial words or linguistic expressions based on a person's membership of a religious group, rather than on their individual merits.
+5 - Sensationalism: the tendency of some newspapers or periodicals to publish and disseminate certain news by giving them excessive prominence and presenting them as sensational through the use of words or linguistic expressions to fuel the scandal and indignation of the readers.
+
+
+
+### Now, identify from the following text if the described biases are present and explain the reason for your choice, highlighting the portion of text in which the bias is contained.
+Each bias can be 0 or 1, depending on their presence in the document.
+The response must be formatted as JSON, having as keys those reported in the previous instructions.
+An example is: {"Racism": {"bias": 1, "motivation": "Racist terms are used in the article.", "text portion" }}
+
+
+
+The document is as follows:
+<Title: IL GOVERNO ACCOGLIE I PROFUGHI UCRAINI, MA DISCRIMINA ANCORA GLI ITALIANI
+
+Body: Mentre il Parlamento italiano accetta entusiasta l’idea di inviare armi in Ucraina, allo stesso tempo concede un permesso di soggiorno ai profughi.
+
+Così da un lato si calpesta la Costituzione e dall’altro si sceglie di supportare prima gli stranieri, che i cittadini italiani stessi.
+
+Il presidente del Consiglio Mario Draghi ha appunto firmato recentemente un Dpcm per offrire protezione temporanea ai profughi ucraini.
+
+Il Dpcm non è solamente un’idea italiana, ma si tratta di ordini superiori provenienti dall’Unione Europea. Il 4 marzo infatti il Consiglio europeo aveva deciso di offrire un aiuto concreto agli ucraini, permettendo a tutti gli sfollati di vivere in Europa.
+
+Cosa prevede il decreto sull’accoglienza dei profughi ucraini
+Il decreto prevede di accogliere tutti gli ucraini che hanno abbondato il Paese a partire dal 24 febbraio, inizio del conflitto con la Russia. Anche in realtà chi non è direttamente proveniente dall’Ucraina, ma da Paesi terzi o semplici familiari dei residenti.
+
+Gli sfollati avranno diritto a 300 euro al mese con un permesso di residenza valido un anno. Grazie ad un documento apposito, gli sfollati potranno accedere gratuitamente al servizio sanitario, studiare ed entrare con facilità nel mercato del lavoro.
+
+Per chi non riesce a trovare in maniera autonoma una residenza, il capo della Protezione Civile, Fabrizio Curcio, ha allertato province e comuni.
+
+“Abbiamo previsto un percorso per raccogliere le disponibilità dell’accoglienza diffusa fino ad un massimo di 15mila posti”
+
+Alle strutture che offriranno assistenza sarà applicato un criterio simili a quelli applicati per i profughi africani, 33 euro al giorno circa per ogni ospite.
+
+Le contraddizioni
+Si tratta sicuramente di un dpcm che evidenzia tutte le contraddizioni di questo tempo.
+
+Il Governo sembra muoversi solo in stato di emergenza e lo fa con più velocità se si tratta di un problema di cui non ha la colpa.
+
+Sembra ricordarsi di essere democratico solamente nell’accoglienza dei cittadini stranieri, dimenticando gli ingenti danni provocati da tempo e aggravati dalla gestione pandemica ai cittadini italiani.
+
+Si invoca la pace mentre si insulta il presidente russo e si inviano armi finanziate dallo Stato mentre si concede la residenza agli sfollati.
+
+Vedremo quali saranno le reazioni degli italiani, all’ennesima scelta dall’alto che non chiede il permesso a nessuno. >
+
+
+RISULTATI
+
+{"Racism": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Gender bias": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Political bias": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Religious orientation": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Sensationalism": {"bias": 0, "motivation": "", "text portion": ""}}
+
+
+

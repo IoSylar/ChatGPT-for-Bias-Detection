@@ -1,0 +1,32 @@
+- Gesù nero e clandestino, sindaco: “E’ arte, fascisti!”	https://voxnews.info/2018/12/09/gesu-nero-e-clandestino-sindaco-e-arte-fascisti/
+
+
+### Read the description of the following biases ###
+1 - Racism: words or linguistic expressions that express hatred or encourage violence against a person or group of people on the basis of their race and ethnicity
+2 - Gender bias: prejudicial words or linguistic expressions based on the gender perception that women are not equal to men in terms of rights and dignity.
+3 - Political bias: Words or linguistic expressions that involve skewing or altering information to make a political position or political candidate seem more attractive.
+4 - Religious orientation: Prejudicial words or linguistic expressions based on a person's membership of a religious group, rather than on their individual merits.
+5 - Sensationalism: the tendency of some newspapers or periodicals to publish and disseminate certain news by giving them excessive prominence and presenting them as sensational through the use of words or linguistic expressions to fuel the scandal and indignation of the readers.
+
+
+
+### Now, identify from the following text if the described biases are present and explain the reason for your choice, highlighting the portion of text in which the bias is contained.
+Each bias can be 0 or 1, depending on their presence in the document.
+The response must be formatted as JSON, having as keys those reported in the previous instructions.
+An example is: {"Racism": {"bias": 1, "motivation": "Racist terms are used in the article.", "text portion" }}
+
+
+
+The document is as follows:
+<Title: Gesù nero e clandestino, sindaco “E’ arte, fascisti!”
+
+Body: E la risposta del sindaco di sinistra, tal Davide Carlucci, è delirante: «Vi sarebbe piaciuto vietare questa installazione, vi sarebbe piaciuto dare sfogo ai vostri pruriti fascistoidi: “Questo non si fa, questo non si può..” E invece no. Ad Acquaviva c’è ancora la libertà, c’è ancora la democrazia. Fatevene una ragione! Quando l’arte fa scandalo e quando anche il messaggio religioso è (per dirla con don Tonino Bello) “scandaloso” – aggiunge Carlucci – vuol dire che l’obiettivo è stato raggiunto. Scuotere la nostra visione del mondo “pacificata”, insinuare il dubbio, farci reagire. E da questo punto di vista l’installazione di piazza dei Martiri ha centrato in pieno l’obiettivo».
+
+Il Presepe non è una ‘installazione artistica’, è la rappresentazione della nascita di Cristo, può essere arte, ma deve essere fedele, altrimenti la si fa in un museo, e non come Presepe. La libertà non c’entra una mazza, il fascismo nemmeno. C’entra avere più di mezzo neurone in testa.>
+
+
+
+
+
+
+{"Racism": {"bias": 0, "motivation": "", "text portion": ""}, "Gender bias": {"bias": 0, "motivation": "", "text portion": ""}, "Political bias": {"bias": 1, "motivation": "The text contains biased words that suggest a political bias.", "text portion": "E la risposta del sindaco di sinistra, tal Davide Carlucci, è delirante: «Vi sarebbe piaciuto vietare questa installazione, vi sarebbe piaciuto dare sfogo ai vostri pruriti fascistoidi"}}, "Religious orientation": {"bias": 0, "motivation": "", "text portion": ""}, "Sensationalism": {"bias": 0, "motivation": "", "text portion": ""}}

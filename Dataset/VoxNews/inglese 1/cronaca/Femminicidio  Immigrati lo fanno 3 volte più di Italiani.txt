@@ -1,0 +1,34 @@
+- Femminicidio:  Immigrati lo fanno 3 volte più di Italiani	https://voxnews.info/2017/11/22/femminicidio-immigrati-lo-fanno-3-volte-piu-di-italiani/
+
+### Read the description of the following biases ###
+1 - Razzismo: the use of racist language or expressions to discriminate against people based on their ethnicity
+2 - Gender bias: the use of language or expressions that imply discrimination against people on the basis of their gender
+3 - Orientamento politico: the use of language or expressions that imply discrimination against people on the basis of their political orientation
+4 - Orientamento religioso: the use of language or expressions that imply discrimination against people on the basis of their religious orientation
+5 - Sensazionalismo:The use of language used to feed the scandal and the indignation of readers, to which is added an excessive and unbalanced use of exclamation marks and questions.
+6 - Advertising bias: When a newspaper chooses to mainly underline events or news that can elicit a positive reaction in the audience.
+
+
+### Now, identify in the following text wether or not these biases are present and explain the reason of your choice, underlying the step of the text in which the bias is present.
+Each bias can be 0 or 1, depending on their presence in the document.
+The answer must be formatted as a JSON, having as keys the ones reported in the previous steps. 
+
+An example is {"Razzismo": {"bias": 1, "explanation": "Nell'articolo vengono utilizzati termini razzisti.", "part of the text" }}
+
+The document is the following:
+<Title: Femminicidio  Immigrati lo fanno 3 volte più di Italiani
+
+Body: Da un monitoraggio effettuato dal ministero della Giustizia, partendo dall’esame di 417 sentenze rappresentative del 60% dei casi di violenza sulle donne, tra il 2012 e il 2016, emerge che l’85% dei casi (355 su 417) sono classificabili come omicidio. Nel 98% dei casi l’autore del reato è un uomo e la nazionalità dell’autore conferma la prevalenza di immigrati visto che gli italiani (92% della popolazione) rappresentano il 74,5% di chi commette questo reato. Ovviamente gli Zingari e i ‘nuovi italiani’ sono inclusi come ‘italiani’.
+
+Significa che l’8 per cento della popolazione, commette il 25,5% di questo tipo di reato. Ovvero 3 volte il normale. Tradotto: ci sono bastardi italiani, ma i bastardi, tra gli immigrati, sono 3 volte di più.
+
+
+Nel 55,8% dei casi tra autore e vittima esiste una relazione sentimentale. Lo ha detto il ministro della Giustizia, Andrea Orlando, sentito dalla commissione parlamentare sull’inesistente fenomeno del femminicidio: 417 casi in 4 anni sono circa 100 casi l’anno. Ci sono più persone colpite dai fulmini.
+
+Riguardo alla relazione sentimentale che lega vittima e autore, la percentuale del 55,8% è così distribuita: nel 63,8% dei casi si registra un rapporto di coniugio o convivenza; nel 12% una relazione sentimentale in atto; per il restante 24% tra le due parti vi era stata una relazione sentimentale terminata prima dell’omicidio. L’arma prevalentemente utilizzata è il coltello, che spesso risulta il mezzo di più agevole disponibilità.
+Ovviamente, i media di distrazione di massa, diffonderanno la fake news che si “conferma la prevalenza di soggetti italiani”. E i più analfabeti stile Fedeli ci crederanno.
+
+>
+
+
+{"Razzismo": {"bias": 0, "explanation": "No racist language or expressions are used in the text.", "part of the text": ""}, "Gender bias": {"bias": 0, "explanation": "No language or expressions implying discrimination based on gender are used in the text.", "part of the text": ""}, "Orientamento politico": {"bias": 0, "explanation": "No language or expressions implying discrimination based on political orientation are used in the text.", "part of the text": ""}, "Orientamento religioso": {"bias": 0, "explanation": "No language or expressions implying discrimination based on religious orientation are used in the text.", "part of the text": ""}, "Sensazionalismo": {"bias": 1, "explanation": "The use of excessive exclamation marks and sensational language can be seen in the statement 'Ci sono più persone colpite dai fulmini.'", "part of the text": "Nel 55,8% dei casi tra autore e vittima esiste una relazione sentimentale. Lo ha detto il ministro della Giustizia, Andrea Orlando, sentito dalla commissione parlamentare sull’inesistente fenomeno del femminicidio: 417 casi in 4 anni sono circa 100 casi l’anno. Ci sono più persone colpite dai fulmini."}, "Advertising bias": {"bias": 0, "explanation": "No specific events or news are highlighted in a positive way in the text.", "part of the text": ""}}

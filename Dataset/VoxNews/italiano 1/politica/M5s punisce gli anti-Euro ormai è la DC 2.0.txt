@@ -1,0 +1,49 @@
+- M5s punisce gli anti-Euro: ormai è la DC 2.0	https://voxnews.info/2020/06/04/m5s-punisce-gli-anti-euro-ormai-e-la-dc-2-0/
+
+
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo:  utilizzo linguaggio e espressioni di odio e intolleranza verso individui appartenenti ad una determinata etnia
+2 - Gender bias: utilizzo linguaggio o espressioni sessiste
+3 - Orientamento politico: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata opinione politica
+4 - Orientamento religioso: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata fede religiosa
+5 - Sensazionalismo: utilizzo di linguaggio o espressioni per alimentare lo scandalo e l'indignazione dei lettori, oltre ad un uso eccessivo di domande ed esclamazioni.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+<Title: M5s punisce gli anti-Euro ormai è la DC 2.0
+
+Body: Sono ormai solo un branco di democristiani. Il partito dei parassiti che ha sostituito l’assistenzialismo con il reddito di cittadinanza. Comprano voti peggio dei boss al tempo di Ciancimino. Boss che, del resto, scarcerano a centinaia.
+
+[…] dopo le sanzioni adottate dai probiviri nei confronti degli europarlamentari Ignazio Corrao, Rosa D’Amato, Piernicola Pedicini ed Eleonora Evi, i quali alcune settimane fa avevano espresso un voto in dissenso dal proprio gruppo sul tema del Mes. I primi tre sono stati sospesi per un mese dal M5S (Corrao e D’Amato sono stati anche sollevati dall’incarico di ‘facilitatori’), mentre Evi, secondo quanto apprende l’Adnkronos, avrebbe ricevuto solo un richiamo.
+
+Per molti, all’interno del Movimento, si tratta di un ‘segnale’ nei confronti di Alessandro Di Battista. Lo dice senza giri di parole la senatrice Barbara Lezzi, in un post al vetriolo contro i vertici pentastellati. “Parliamoci chiaro – scrive su Facebook Lezzi – colpire Ignazio Corrao e Rosa D’Amato rimuovendoli dal ruolo di facilitatori e sospendere per un mese Piernicola Pedicini significa isolare Alessandro Di Battista, reo di aver presentato una proposta. Parlare di temi, presentare proposte e chiedere di non rinnovare alla guida della più potente partecipata di Stato un inquisito, è diventato per il M5S uno stigma”.
+
+“Bastava dire, da parte dei presunti vertici, che non c’è interesse per la proposta. Del resto, io stessa ho chiesto al capogruppo in Senato di organizzare una riunione per discuterne con lo stesso Alessandro ma mi ha risposto il vuoto pneumatico. Attenzione, il vuoto e non un diniego. Per dire NO”, rincara Lezzi, ci vorrebbe un po’ di coraggio nei confronti di quella buona parte del M5S che, invece, ne vorrebbe parlare. Eppure le riunioni tra noi sono numerose e convocate anche da chi non ha titolo per farlo. È, evidentemente, più facile, per i presunti vertici, sedere al tavolo con Franceschini, la Boschi e Salvini che confrontarsi con Alessandro Di Battista. Ed è questo il punto su cui vorrei soffermarmi perché è l’aspetto che più mi preoccupa”.
+
+
+“Il M5S che non si concentra sui temi da portare avanti e si avviluppa su dinamiche interne da sottobosco per colpire bersagli sgraditi, è un Movimento debole pronto a scendere a qualsiasi compromesso pur di mantenere quella piccola percentuale utile a garantire sempre qualcuno a scapito di idee, progetti, soluzioni. E, soprattutto, a scapito di quello di cui il Paese avrebbe davvero bisogno. Si predica unità nazionale, coesione e partecipazione in questo momento drammatico e il M5S diventa un cannibale dimostrando, così, tutta la sua fragilità”.
+
+“Fragilità e debolezza”, insiste Lezzi, “che sono alla base di quella insana proposta di una costituente fondata da chi si eleva al di sopra di tutto e di tutti e si nomina padre nobile ma per farlo, e per far ingoiare ai nostri iscritti una ennesima ratifica del già tutto deciso e apparecchiato, deve necessariamente spezzare le gambe a chi vorrebbe prima parlare e stabilire gli ulteriori obiettivi del Movimento, del come raggiungerli e poi con chi farlo”.
+
+“Nessuno ha l’ambizione di disperdere le potenzialità di questo governo ma l’ambizione di centrare nuovi obiettivi con uno spirito più determinato e meno incline ai compromessi al ribasso, quella c’è”, avverte l’ex ministro per il Sud.
+
+Tutte chiacchiere. Alla fine rimangono tutti dentro il M5s a mangiare. Finché c’è da mangiare.>
+
+
+
+
+
+{"Razzismo": {"bias": 0, "motivazione": ""}, "Gender bias": {"bias": 0, "motivazione": ""}, "Orientamento politico": {"bias": 1, "motivazione": "Nel testo vengono espressi giudizi negativi nei confronti del Movimento 5 Stelle e dei suoi membri, definendoli 'un branco di democristiani', 'parassiti' e 'cannibali'."}, "Orientamento religioso": {"bias": 0, "motivazione": ""}, "Sensazionalismo": {"bias": 0, "motivazione": ""}}
+
+
+
+

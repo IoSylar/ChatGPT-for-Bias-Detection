@@ -1,0 +1,54 @@
+https://www.byoblu.com/2022/07/26/caos-lampedusa-i-migranti-sono-cinque-volte-di-piu-dei-posti-disponibili/
+
+CAOS LAMPEDUSA: I MIGRANTI SONO CINQUE VOLTE DI PIÙ DEI POSTI DISPONIBILI
+
+### Read the description of the following biases ###
+1 - Racism: words or linguistic expressions that express hatred or encourage violence against a person or group of people on the basis of their race and ethnicity
+2 - Gender bias: prejudicial words or linguistic expressions based on the gender perception that women are not equal to men in terms of rights and dignity.
+3 - Political bias: Words or linguistic expressions that involve skewing or altering information to make a political position or political candidate seem more attractive.
+4 - Religious orientation: Prejudicial words or linguistic expressions based on a person's membership of a religious group, rather than on their individual merits.
+5 - Sensationalism: the tendency of some newspapers or periodicals to publish and disseminate certain news by giving them excessive prominence and presenting them as sensational through the use of words or linguistic expressions to fuel the scandal and indignation of the readers.
+
+
+
+### Now, identify from the following text if the described biases are present and explain the reason for your choice, highlighting the portion of text in which the bias is contained.
+Each bias can be 0 or 1, depending on their presence in the document.
+The response must be formatted as JSON, having as keys those reported in the previous instructions.
+An example is: {"Racism": {"bias": 1, "motivation": "Racist terms are used in the article.", "text portion" }}
+
+
+
+The document is as follows:
+<Title: CAOS LAMPEDUSA: I MIGRANTI SONO CINQUE VOLTE DI PIÙ DEI POSTI DISPONIBILI	
+
+Body: La campagna elettorale ha riacceso i riflettori sull’emergenza migranti. I titoli che riempiono le pagine di questi giorni parlano di una Lampedusa al collasso, di assedio e di invasione.
+
+Si tratta però sempre e comunque dello stesso fenomeno, le temperature si alzano, il mare si calma e gli sbarchi aumentano. È un emergenza che quindi dovremmo conoscere bene e sapere anche come gestire. Eppure ancora una volta le pessime condizioni di accoglienza e il costante nascondere la polvere sotto il tappeto della politica lasciano l’Italia alla mercé dei flussi incontrollati.
+
+L’hub di Lampedusa continua ad avere posti limitati, solo 350 quelli disponibili, a fronte di sbarchi che vanno dalle 300 alle 700 persone al giorno. Dagli ultimi dati attualmente sull’isola sarebbero presenti 1871 immigrati, e si può solo immaginare in quali condizioni versino. Altre 439 persone invece sono a largo sulle navi, in attesa di sbarcare. Un totale che ammonta quindi a 2310 persone.
+
+Il vicesindaco dell’Isola, Attilio Lucia, ha descritto il quadro come tragico:
+
+“Una trentina di sbarchi solo ieri, circa 2mila nel centro di accoglienza. Se l’Europa c’è batta un colpo, altrimenti fuori dall’Ue perché la situazione è ormai insostenibile. È un’invasione silenziosa. Anche le forze dell’ordine sono stremate, non è possibile andare avanti così”.
+
+Un grido d’aiuto che si prolunga da 35 anni, mentre le ONG continuano a fare la spola e moltissimi ancora muoiono di stenti nel viaggio. Si denunciano numerosi casi di disidratazione, domenica a bordo di un peschereccio si sono trovati cinque cadaveri.
+
+I migranti arrivano soprattutto dall’Egitto, ma ci sono anche eritrei, siriani, bengalesi e marocchini.
+
+Risposte all’immigrazione clandestina
+La risposta del Viminale per ora è stata solo quella del trasferimento, 600 migranti hanno lasciato Lampedusa verso Agrigento. C’è però chi pensa che il problema debba essere fermato all’origine e che rimbalzare esseri umani da un porto all’altro come in un business di carne umana non sia la soluzione.
+
+Fra questi c’è la giornalista Francesca Totolo, che da tempo propone soluzioni già testate con successo. “Rispetto allo stesso periodo del 2019 gli sbarchi sono aumentati del 1054%” ci spiega la Totolo.
+
+“Questo significa che se c’è la volontà politica gli sbarchi possono essere fermati. Anche solo ostacolando le navi ONG e non permettendo gli attracchi per le operazioni logistiche, pratica che velocizza l’andata e il ritorno dalla Libia. Questa campagna di non concessione dello sbarco verrebbe percepita anche nei paesi di origine dei migranti. Altro punto su cui agire sono i respingimenti assistiti in collaborazione con le guardie costiere libiche e tunisine, così da fare respingimento senza infrangere la legge italiana. È una pratica già utilizzata con successo in Australia, che in sostanza ha annullato l’immigrazione clandestina”.
+
+Le soluzioni quindi esistono, eppure sembra che il mercato dell’immigrazione sia ancora troppo proficuo per essere abbandonato.>
+
+
+
+RISULTATI
+{"Racism": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Gender bias": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Political bias": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Religious orientation": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Sensationalism": {"bias": 0, "motivation": "", "text portion": ""}}

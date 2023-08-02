@@ -1,0 +1,30 @@
+- Gesù nero e clandestino, sindaco: “E’ arte, fascisti!”	https://voxnews.info/2018/12/09/gesu-nero-e-clandestino-sindaco-e-arte-fascisti/
+
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo:  utilizzo linguaggio e espressioni di odio e intolleranza verso individui appartenenti ad una determinata etnia
+2 - Gender bias: utilizzo linguaggio o espressioni sessiste
+3 - Orientamento politico: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata opinione politica
+4 - Orientamento religioso: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata fede religiosa
+5 - Sensazionalismo: utilizzo di linguaggio o espressioni per alimentare lo scandalo e l'indignazione dei lettori, oltre ad un uso eccessivo di domande ed esclamazioni.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+<Title: Gesù nero e clandestino, sindaco “E’ arte, fascisti!”
+
+Body: E la risposta del sindaco di sinistra, tal Davide Carlucci, è delirante: «Vi sarebbe piaciuto vietare questa installazione, vi sarebbe piaciuto dare sfogo ai vostri pruriti fascistoidi: “Questo non si fa, questo non si può..” E invece no. Ad Acquaviva c’è ancora la libertà, c’è ancora la democrazia. Fatevene una ragione! Quando l’arte fa scandalo e quando anche il messaggio religioso è (per dirla con don Tonino Bello) “scandaloso” – aggiunge Carlucci – vuol dire che l’obiettivo è stato raggiunto. Scuotere la nostra visione del mondo “pacificata”, insinuare il dubbio, farci reagire. E da questo punto di vista l’installazione di piazza dei Martiri ha centrato in pieno l’obiettivo».
+
+Il Presepe non è una ‘installazione artistica’, è la rappresentazione della nascita di Cristo, può essere arte, ma deve essere fedele, altrimenti la si fa in un museo, e non come Presepe. La libertà non c’entra una mazza, il fascismo nemmeno. C’entra avere più di mezzo neurone in testa.>
+
+
+
+
+{"Razzismo": {"bias": 0, "motivazione": "Non sono presenti espressioni di odio o intolleranza verso individui di una determinata etnia."}, "Gender bias": {"bias": 0, "motivazione": "Non sono presenti espressioni sessiste."}, "Orientamento politico": {"bias": 1, "motivazione": "Viene espressa una discriminazione verso individui con una determinata opinione politica.", "porzione di testo": "E la risposta del sindaco di sinistra, tal Davide Carlucci, è delirante: «Vi sarebbe piaciuto vietare questa installazione, vi sarebbe piaciuto dare sfogo ai vostri pruriti fascistoidi"}}, "Orientamento religioso": {"bias": 0, "motivazione": "Non sono presenti espressioni che implicano una discriminazione verso gruppi o individui con una determinata fede religiosa."}, "Sensazionalismo": {"bias": 1, "motivazione": "Viene utilizzato linguaggio sensazionalistico per alimentare lo scandalo e l'indignazione dei lettori.", "porzione di testo": "E la risposta del sindaco di sinistra, tal Davide Carlucci, è delirante: «Vi sarebbe piaciuto vietare questa installazione, vi sarebbe piaciuto dare sfogo ai vostri pruriti fascistoidi: “Questo non si fa, questo non si può..” E invece no. Ad Acquaviva c’è ancora la libertà, c’è ancora la democrazia. Fatevene una ragione! Quando l’arte fa scandalo e quando anche il messaggio religioso è (per dirla con don Tonino Bello) “scandaloso” – aggiunge Carlucci – vuol dire che l’obiettivo è stato raggiunto. Scuotere la nostra visione del mondo “pacificata”, insinuare il dubbio, farci reagire. E da questo punto di vista l’installazione di piazza dei Martiri ha centrato in pieno l’obiettivo»."}}

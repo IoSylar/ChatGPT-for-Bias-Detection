@@ -1,0 +1,43 @@
+- II ricatto di Parigi “Devono sbarcare tutti in Italia”, Mattarella approva	https://voxnews.info/2022/11/26/ii-ricatto-di-parigi-devono-sbarcare-tutti-in-italia-mattarella-approva/
+
+
+
+### Read the description of the following biases ###
+1 - Razzismo: the use of racist language or expressions to discriminate against people based on their ethnicity
+2 - Gender bias: the use of language or expressions that imply discrimination against people on the basis of their gender
+3 - Orientamento politico: the use of language or expressions that imply discrimination against people on the basis of their political orientation
+4 - Orientamento religioso: the use of language or expressions that imply discrimination against people on the basis of their religious orientation
+5 - Sensazionalismo:The use of language used to feed the scandal and the indignation of readers, to which is added an excessive and unbalanced use of exclamation marks and questions.
+6 - Advertising bias: When a newspaper chooses to mainly underline events or news that can elicit a positive reaction in the audience.
+
+
+### Now, identify in the following text wether or not these biases are present and explain the reason of your choice, underlying the step of the text in which the bias is present.
+Each bias can be 0 or 1, depending on their presence in the document.
+The answer must be formatted as a JSON, having as keys the ones reported in the previous steps. 
+
+An example is {"Razzismo": {"bias": 1, "explanation": "Nell'articolo vengono utilizzati termini razzisti.", "part of the text" }}
+
+The document is the following:
+<Title: II ricatto di Parigi “Devono sbarcare tutti in Italia”, Mattarella approva
+
+Body: “Francia e Italia hanno assunto un anno
+fa l’impegno solenne di operare ancor
+più strettamente insieme. Il trattato
+del Quirinale rilancia un’intensa e au-
+tentica amicizia tra i nostri popoli,
+che va alimentata nell’interesse comune
+dei due Paesi”, così il capo dello Sta-
+to Mattarella sul suo profilo Twitter.
+
+Il messaggio di Mattarella è una rispo-
+sta a un messaggio del presidente fran-
+cese Macron in cui ricordava l’impegno
+assunto col trattato del Quirinale: “In
+questo giorno invio un messaggio di
+profonda amicizia al popolo italiano”.
+
+In pratica, il suo superiore di loggia lo richiama all’ordine e lui risponde “agli ordini”.>
+
+
+
+{"Razzismo": {"bias": 0, "explanation": "No racist language or expressions are used in the text.", "part of the text": ""}, "Gender bias": {"bias": 0, "explanation": "No language or expressions implying discrimination based on gender are used in the text.", "part of the text": ""}, "Orientamento politico": {"bias": 0, "explanation": "No language or expressions implying discrimination based on political orientation are used in the text.", "part of the text": ""}, "Orientamento religioso": {"bias": 0, "explanation": "No language or expressions implying discrimination based on religious orientation are used in the text.", "part of the text": ""}, "Sensazionalismo": {"bias": 0, "explanation": "The language used in the text is not sensationalistic, there is no excessive use of exclamation marks or questions.", "part of the text": ""}, "Advertising bias": {"bias": 0, "explanation": "The text does not show a bias towards mainly highlighting events or news that can elicit a positive reaction in the audience.", "part of the text": ""}}

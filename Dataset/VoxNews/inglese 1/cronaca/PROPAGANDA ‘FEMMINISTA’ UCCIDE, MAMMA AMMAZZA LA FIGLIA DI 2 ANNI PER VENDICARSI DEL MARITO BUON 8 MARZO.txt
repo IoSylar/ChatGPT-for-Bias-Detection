@@ -1,0 +1,41 @@
+- Propaganda ‘FEMMINISTA’ uccide, MAMMA AMMAZZA LA FIGLIA DI 2 ANNI PER VENDICARSI DEL MARITO: BUON 8 MARZO	https://voxnews.info/2021/03/08/femminista-ammazza-la-figlia-di-2-anni-per-vendicarsi-del-marito-buon-8-marzo/
+
+
+### Read the description of the following biases ###
+1 - Razzismo: the use of racist language or expressions to discriminate against people based on their ethnicity
+2 - Gender bias: the use of language or expressions that imply discrimination against people on the basis of their gender
+3 - Orientamento politico: the use of language or expressions that imply discrimination against people on the basis of their political orientation
+4 - Orientamento religioso: the use of language or expressions that imply discrimination against people on the basis of their religious orientation
+5 - Sensazionalismo:The use of language used to feed the scandal and the indignation of readers, to which is added an excessive and unbalanced use of exclamation marks and questions.
+6 - Advertising bias: When a newspaper chooses to mainly underline events or news that can elicit a positive reaction in the audience.
+
+
+### Now, identify in the following text wether or not these biases are present and explain the reason of your choice, underlying the step of the text in which the bias is present.
+Each bias can be 0 or 1, depending on their presence in the document.
+The answer must be formatted as a JSON, having as keys the ones reported in the previous steps. 
+
+An example is {"Razzismo": {"bias": 1, "explanation": "Nell'articolo vengono utilizzati termini razzisti.", "part of the text" }}
+
+The document is the following:
+<Title: - Propaganda ‘FEMMINISTA’ uccide, MAMMA AMMAZZA LA FIGLIA DI 2 ANNI PER VENDICARSI DEL MARITO: BUON 8 MARZO
+
+Body:  Come vedete la violenza non ha genere. E qualche mente debole psichicamente può essere traviata dalla delirante propaganda ‘femminista’. Contro il ‘maschio cattivo’ e la ‘dittatura patriarcale’.
+
+Bimba morta, la mamma fermata per omicidio. Aveva denunciato il marito tre volte.
+
+E’ stata fermata con l’accusa di omicidio volontario la donna di 41 anni trovata incoscente con delle ferite da taglio questa notte nel suo appartamento di Cisliano, nel Milanese, con accanto a sé la figlia di due anni.
+Il fermo è del pm di Pavia Roberto Valli che con il procuratore Mario Venditti si occupa delle indagini.
+
+Lei è ora piantonata in ospedale per le ferite riportate. Era stata lei stessa a chiamare in piena notte il marito, con il quale aveva in corso una difficilissima separazione, per avvisarlo che la figlia “non c’è più”.
+
+Lei lo aveva denunciato tre volte e nell’ultimo lungo post scritto su Facebook a lui si era rivolta “Caro marito vai a denunciami ancora per calunnia e diffamazione. Denunciami ancora per sequestro di minore.” ma lei “è la mia bambina”, per poi criticare come erano state accolte le sue denunce. “Denunciate donne. Siete comunque giudicate da un mondo omertoso a coprire gli orrori. Solo da morte verrete chiamate vittime”.
+
+Le donne non sono sempre vittime in quanto donne. Non hanno sempre ragione perché sono donne.
+
+La propaganda contro il maschio uccide. La stessa propaganda andata in scena anche oggi nella giornata dell’8 marzo che non è più la festa della donna ma la giornata dell’odio contro il maschio. I boldrini andrebbero denunciati per istigazione a delinquere.>
+
+
+
+
+
+{"Razzismo": {"bias": 0, "explanation": "No racist language or expressions are used in the text.", "part of the text": ""}, "Gender bias": {"bias": 1, "explanation": "The text implies discrimination against men based on their gender.", "part of the text": "Come vedete la violenza non ha genere. E qualche mente debole psichicamente può essere traviata dalla delirante propaganda ‘femminista’. Contro il ‘maschio cattivo’ e la ‘dittatura patriarcale’."}, "Orientamento politico": {"bias": 0, "explanation": "No discrimination based on political orientation is present in the text.", "part of the text": ""}, "Orientamento religioso": {"bias": 0, "explanation": "No discrimination based on religious orientation is present in the text.", "part of the text": ""}, "Sensazionalismo": {"bias": 1, "explanation": "The text uses sensational language and excessive exclamation marks.", "part of the text": "Propaganda ‘FEMMINISTA’ uccide, MAMMA AMMAZZA LA FIGLIA DI 2 ANNI PER VENDICARSI DEL MARITO: BUON 8 MARZO"}}, "Advertising bias": {"bias": 0, "explanation": "No bias towards positive news is present in the text.", "part of the text": ""}}

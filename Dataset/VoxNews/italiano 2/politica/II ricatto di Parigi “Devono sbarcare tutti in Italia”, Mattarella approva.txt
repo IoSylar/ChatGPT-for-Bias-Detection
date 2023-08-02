@@ -1,0 +1,46 @@
+- II ricatto di Parigi “Devono sbarcare tutti in Italia”, Mattarella approva	https://voxnews.info/2022/11/26/ii-ricatto-di-parigi-devono-sbarcare-tutti-in-italia-mattarella-approva/
+
+
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo: parole o espressioni linguistiche che esprimono odio o incoraggiano la violenza nei confronti di una persona o di un gruppo di persone sulla base della loro razza ed etnia
+2 - Gender bias: parole o espressioni linguistiche pregiudizievoli basati sulla percezione di genere che le donne non sono uguali agli uomini in termini di diritti e dignità.
+3 - Orientamento politico: parole o espressioni linguistiche che implicano l'inclinazione o l'alterazione delle informazioni per far sembrare più attraente una posizione politica o un candidato politico.
+4 - Orientamento religioso: parole o espressioni linguistiche pregiudizievoli basate sull'appartenenza di una persona a un gruppo religioso, piuttosto che sui suoi meriti individuali.
+5 - Sensazionalismo: la tendenza di alcuni giornali o periodici a pubblicare e diffondere certe notizie conferendo loro un risalto eccessivo e presentandole come sensazionali tramite l'utilizzo di parole o espressioni linguistiche per alimentare lo scandalo e l'indignazione dei lettori.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+<Title: II ricatto di Parigi “Devono sbarcare tutti in Italia”, Mattarella approva
+
+Body: “Francia e Italia hanno assunto un anno
+fa l’impegno solenne di operare ancor
+più strettamente insieme. Il trattato
+del Quirinale rilancia un’intensa e au-
+tentica amicizia tra i nostri popoli,
+che va alimentata nell’interesse comune
+dei due Paesi”, così il capo dello Sta-
+to Mattarella sul suo profilo Twitter.
+
+Il messaggio di Mattarella è una rispo-
+sta a un messaggio del presidente fran-
+cese Macron in cui ricordava l’impegno
+assunto col trattato del Quirinale: “In
+questo giorno invio un messaggio di
+profonda amicizia al popolo italiano”.
+
+In pratica, il suo superiore di loggia lo richiama all’ordine e lui risponde “agli ordini”.>
+
+
+
+
+
+{"Razzismo": {"bias": 0, "motivazione": "Nessuna parola o espressione che esprime odio o incoraggia la violenza sulla base della razza ed etnia."}, "Gender bias": {"bias": 0, "motivazione": "Nessuna parola o espressione pregiudizievole basata sulla percezione di genere."}, "Orientamento politico": {"bias": 0, "motivazione": "Nessuna parola o espressione che implichi l'inclinazione o l'alterazione delle informazioni per favorire una posizione politica o un candidato politico."}, "Orientamento religioso": {"bias": 0, "motivazione": "Nessuna parola o espressione pregiudizievole basata sull'appartenenza religiosa."}, "Sensazionalismo": {"bias": 0, "motivazione": "Nessuna tendenza a pubblicare notizie sensazionalistiche o utilizzare parole o espressioni linguistiche per alimentare lo scandalo o l'indignazione dei lettori."}}

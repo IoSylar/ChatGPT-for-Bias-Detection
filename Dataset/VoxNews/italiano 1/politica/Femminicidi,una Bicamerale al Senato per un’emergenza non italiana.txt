@@ -1,0 +1,43 @@
+- Femminicidi,una Bicamerale al Senato per un’emergenza non italiana 🤡	https://voxnews.info/2022/11/24/femminidiuna-bicamerale-al-senato-per-unemergenza-non-italiana-%f0%9f%a4%a1/
+
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo:  utilizzo linguaggio e espressioni di odio e intolleranza verso individui appartenenti ad una determinata etnia
+2 - Gender bias: utilizzo linguaggio o espressioni sessiste
+3 - Orientamento politico: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata opinione politica
+4 - Orientamento religioso: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata fede religiosa
+5 - Sensazionalismo: utilizzo di linguaggio o espressioni per alimentare lo scandalo e l'indignazione dei lettori, oltre ad un uso eccessivo di domande ed esclamazioni.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+<Title: Femminicidi,una Bicamerale al Senato per un’emergenza non italiana
+
+Body: Non c’è nulla da fare, sono culturalmente succubi della sinistra. Fino ad inventare un problema inesistente. Speriamo si rendano conto, ‘studiandolo’, che c’è una sproporzione di immigrati a commettere questo reato rispetto agli italiani. L’Italia è il Paese europeo con il più basso tasso di ‘femminicidi’. In testa la Svezia: mix di liberalismo ed immigrazione afroislamica.
+
+L’aula del Senato ha approvato all’una-
+nimità il disegno di legge per l’isti-
+tuzione di una commissione bicamerale
+di inchiesta sui femminicidi e su ogni
+forma di violenza di genere. Applauso
+all’annuncio dell’esito del voto.
+La decisione dimostra la volontà di ar-
+ginare il problema, ha detto il presi-
+dente La Russa. “Sbaglia chi pensa” che
+il femminicidio “sia una questione di
+donne, è essenzialmente una questione
+di uomini”.”E’ una grave violazione dei
+diritti umani”, un fenomeno che spesso
+nasce da ignoranza e intolleranza”.
+>
+
+
+
+{"Razzismo": {"bias": 1, "motivazione": "Nel testo viene utilizzato un linguaggio che implica una discriminazione verso gli immigrati.", "porzione di testo": "Non c’è nulla da fare, sono culturalmente succubi della sinistra. Fino ad inventare un problema inesistente. Speriamo si rendano conto, ‘studiandolo’, che c’è una sproporzione di immigrati a commettere questo reato rispetto agli italiani. L’Italia è il Paese europeo con il più basso tasso di ‘femminicidi’. In testa la Svezia: mix di liberalismo ed immigrazione afroislamica."}, "Gender bias": {"bias": 0, "motivazione": "Nel testo non sono presenti espressioni sessiste."}, "Orientamento politico": {"bias": 1, "motivazione": "Nel testo viene utilizzato un linguaggio che implica una discriminazione verso la sinistra politica.", "porzione di testo": "Non c’è nulla da fare, sono culturalmente succubi della sinistra."}, "Orientamento religioso": {"bias": 0, "motivazione": "Nel testo non sono presenti espressioni che implicano una discriminazione verso gruppi o individui con una determinata fede religiosa."}, "Sensazionalismo": {"bias": 0, "motivazione": "Nel testo non sono presenti espressioni sensazionalistiche."}}

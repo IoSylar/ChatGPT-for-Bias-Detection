@@ -1,0 +1,41 @@
+- Immigrati pisciano contro vetrine negozi: folla tenta linciaggio	https://voxnews.info/2015/11/06/immigrati-pisciano-contro-vetrine-negozi-folla-tenta-linciaggio/
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo:  utilizzo linguaggio e espressioni di odio e intolleranza verso individui appartenenti ad una determinata etnia
+2 - Gender bias: utilizzo linguaggio o espressioni sessiste
+3 - Orientamento politico: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata opinione politica
+4 - Orientamento religioso: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata fede religiosa
+5 - Sensazionalismo: utilizzo di linguaggio o espressioni per alimentare lo scandalo e l'indignazione dei lettori, oltre ad un uso eccessivo di domande ed esclamazioni.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+
+<Title: Immigrati pisciano contro vetrine negozi folla tenta linciaggio
+
+Body: Immigrati ubriachi urinano sulle serrande di alcuni negozi e molestano i passanti. La storia si ripete a Poggiomarino, dove appena dieci giorni fa si scatenò una violenta rissa con due romeni pestati dalla folla ormai stufa.
+
+I fatti si sono svolti intorno alle 21,30 di martedì, quando i negozi avevano appena abbassato le saracinesche. I due stranieri, entrambi intorno ai trentacinque anni, ubriachi, hanno iniziato a molestare i passanti, ad urlare E poi urla e offendere le persone affacciate ai balconi.
+
+Poi, si sono sbottonati i pantaloni pisciando contro le serrande delle attività commerciali della zona.
+
+
+A quel punto, molti residenti sono scesi in strada, purtroppo qualcuno ha avvisato i carabinieri che hanno sventato il linciaggio.
+
+Messi in salvo, i due immigrati sono stati portati in caserma.
+
+L’Italia è in balia degli immigrati, e lo Stato li difende.>
+
+
+
+
+{"Razzismo": {"bias": 0, "motivazione": "Non sono presenti espressioni di odio o intolleranza verso individui di una determinata etnia.", "porzione di testo": ""}, "Gender bias": {"bias": 0, "motivazione": "Non sono presenti espressioni sessiste.", "porzione di testo": ""}, "Orientamento politico": {"bias": 0, "motivazione": "Non sono presenti espressioni che implicano una discriminazione verso gruppi o individui con una determinata opinione politica.", "porzione di testo": ""}, "Orientamento religioso": {"bias": 0, "motivazione": "Non sono presenti espressioni che implicano una discriminazione verso gruppi o individui con una determinata fede religiosa.", "porzione di testo": ""}, "Sensazionalismo": {"bias": 1, "motivazione": "Il titolo e il linguaggio utilizzato nel testo sono sensazionalistici, con l'uso di parole come 'pisciano', 'tentano linciaggio', 'molestano', 'pestati dalla folla ormai stufa'. Inoltre, viene fatto un uso eccessivo di esclamazioni.", "porzione di testo": "<Title: Immigrati pisciano contro vetrine negozi folla tenta linciaggio\n\nBody: Immigrati ubriachi urinano sulle serrande di alcuni negozi e molestano i passanti. La storia si ripete a Poggiomarino, dove appena dieci giorni fa si scatenò una violenta rissa con due romeni pestati dalla folla ormai stufa.\n\nI fatti si sono svolti intorno alle 21,30 di martedì, quando i negozi avevano appena abbassato le saracinesche. I due stranieri, entrambi intorno ai trentacinque anni, ubriachi, hanno iniziato a molestare i passanti, ad urlare E poi urla e offendere le persone affacciate ai balconi.\n\nPoi, si sono sbottonati i pantaloni pisciando contro le serrande delle attività commerciali della zona.\n\n\nA quel punto, molti residenti sono scesi in strada, purtroppo qualcuno ha avvisato i carabinieri che hanno sventato il linciaggio.\n\nMessi in salvo, i due immigrati sono stati portati in caserma.\n\nL’Italia è in balia degli immigrati, e lo Stato li difende."}}
+
+

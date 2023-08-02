@@ -1,0 +1,67 @@
+IL GOVERNO ACCOGLIE I PROFUGHI UCRAINI, MA DISCRIMINA ANCORA GLI ITALIANI    
+
+ 
+https://www.byoblu.com/2022/03/30/il-dpcm-che-accoglie-i-profughi-ucraini/
+
+
+### Read the description of the following biases ###
+1 - Razzismo: the use of racist language or expressions to discriminate against people based on their ethnicity
+2 - Gender bias: the use of language or expressions that imply discrimination against people on the basis of their gender
+3 - Orientamento politico: the use of language or expressions that imply discrimination against people on the basis of their political orientation
+4 - Orientamento religioso: the use of language or expressions that imply discrimination against people on the basis of their religious orientation
+5 - Sensazionalismo:The use of language used to feed the scandal and the indignation of readers, to which is added an excessive and unbalanced use of exclamation marks and questions.
+6 - Advertising bias: When a newspaper chooses to mainly underline events or news that can elicit a positive reaction in the audience.
+
+
+### Now, identify in the following text wether or not these biases are present and explain the reason of your choice, underlying the step of the text in which the bias is present.
+Each bias can be 0 or 1, depending on their presence in the document.
+The answer must be formatted as a JSON, having as keys the ones reported in the previous steps. 
+
+An example is {"Razzismo": {"bias": 1, "explanation": "Nell'articolo vengono utilizzati termini razzisti.", "part of the text" }}
+
+The document is the following:
+<Title: IL GOVERNO ACCOGLIE I PROFUGHI UCRAINI, MA DISCRIMINA ANCORA GLI ITALIANI
+
+Body: Mentre il Parlamento italiano accetta entusiasta l’idea di inviare armi in Ucraina, allo stesso tempo concede un permesso di soggiorno ai profughi.
+
+Così da un lato si calpesta la Costituzione e dall’altro si sceglie di supportare prima gli stranieri, che i cittadini italiani stessi.
+
+Il presidente del Consiglio Mario Draghi ha appunto firmato recentemente un Dpcm per offrire protezione temporanea ai profughi ucraini.
+
+Il Dpcm non è solamente un’idea italiana, ma si tratta di ordini superiori provenienti dall’Unione Europea. Il 4 marzo infatti il Consiglio europeo aveva deciso di offrire un aiuto concreto agli ucraini, permettendo a tutti gli sfollati di vivere in Europa.
+
+Cosa prevede il decreto sull’accoglienza dei profughi ucraini
+Il decreto prevede di accogliere tutti gli ucraini che hanno abbondato il Paese a partire dal 24 febbraio, inizio del conflitto con la Russia. Anche in realtà chi non è direttamente proveniente dall’Ucraina, ma da Paesi terzi o semplici familiari dei residenti.
+
+Gli sfollati avranno diritto a 300 euro al mese con un permesso di residenza valido un anno. Grazie ad un documento apposito, gli sfollati potranno accedere gratuitamente al servizio sanitario, studiare ed entrare con facilità nel mercato del lavoro.
+
+Per chi non riesce a trovare in maniera autonoma una residenza, il capo della Protezione Civile, Fabrizio Curcio, ha allertato province e comuni.
+
+“Abbiamo previsto un percorso per raccogliere le disponibilità dell’accoglienza diffusa fino ad un massimo di 15mila posti”
+
+Alle strutture che offriranno assistenza sarà applicato un criterio simili a quelli applicati per i profughi africani, 33 euro al giorno circa per ogni ospite.
+
+Le contraddizioni
+Si tratta sicuramente di un dpcm che evidenzia tutte le contraddizioni di questo tempo.
+
+Il Governo sembra muoversi solo in stato di emergenza e lo fa con più velocità se si tratta di un problema di cui non ha la colpa.
+
+Sembra ricordarsi di essere democratico solamente nell’accoglienza dei cittadini stranieri, dimenticando gli ingenti danni provocati da tempo e aggravati dalla gestione pandemica ai cittadini italiani.
+
+Si invoca la pace mentre si insulta il presidente russo e si inviano armi finanziate dallo Stato mentre si concede la residenza agli sfollati.
+
+Vedremo quali saranno le reazioni degli italiani, all’ennesima scelta dall’alto che non chiede il permesso a nessuno. >
+
+
+RISULTATI
+
+{"Razzismo": {"bias": 0, "explanation": "No racist language or expressions are used in the text.", "part of the text": ""}, 
+"Gender bias": {"bias": 0, "explanation": "No language or expressions implying discrimination based on gender are used in the text.", "part of the text": ""}, 
+"Orientamento politico": {"bias": 0, "explanation": "No language or expressions implying discrimination based on political orientation are used in the text.", "part of the text": ""}, 
+"Orientamento religioso": {"bias": 0, "explanation": "No language or expressions implying discrimination based on religious orientation are used in the text.", "part of the text": ""}, 
+"Sensazionalismo": {"bias": 0, "explanation": "The text does not use excessive exclamation marks or questions to feed scandal or indignation.", "part of the text": ""}, 
+"Advertising bias": {"bias": 1, "explanation": "The text mainly underlines events or news that can elicit a negative reaction in the audience, criticizing the government's actions.", "part of the text": "Il Governo sembra muoversi solo in stato di emergenza e lo fa con più velocità se si tratta di un problema di cui non ha la colpa.\n\nSembra ricordarsi di essere democratico solamente nell’accoglienza dei cittadini stranieri, dimenticando gli ingenti danni provocati da tempo e aggravati dalla gestione pandemica ai cittadini italiani.\n\nSi invoca la pace mentre si insulta il presidente russo e si inviano armi finanziate dallo Stato mentre si concede la residenza agli sfollati.\n\nVedremo quali saranno le reazioni degli italiani, all’ennesima scelta dall’alto che non chiede il permesso a nessuno."}}
+
+
+
+

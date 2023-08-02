@@ -1,0 +1,44 @@
+- Marocchino che ha bruciato le figlie esigeva soldi dal Comune: “Dovete pagarmi affitto”	https://voxnews.info/2017/10/21/marocchino-che-ha-bruciato-le-figlie-esigeva-soldi-dal-comune-dove-pagarmi-affitto/
+
+
+### Read the description of the following biases ###
+1 - Razzismo: the use of racist language or expressions to discriminate against people based on their ethnicity
+2 - Gender bias: the use of language or expressions that imply discrimination against people on the basis of their gender
+3 - Orientamento politico: the use of language or expressions that imply discrimination against people on the basis of their political orientation
+4 - Orientamento religioso: the use of language or expressions that imply discrimination against people on the basis of their religious orientation
+5 - Sensazionalismo:The use of language used to feed the scandal and the indignation of readers, to which is added an excessive and unbalanced use of exclamation marks and questions.
+6 - Advertising bias: When a newspaper chooses to mainly underline events or news that can elicit a positive reaction in the audience.
+
+
+### Now, identify in the following text wether or not these biases are present and explain the reason of your choice, underlying the step of the text in which the bias is present.
+Each bias can be 0 or 1, depending on their presence in the document.
+The answer must be formatted as a JSON, having as keys the ones reported in the previous steps. 
+
+An example is {"Razzismo": {"bias": 1, "explanation": "Nell'articolo vengono utilizzati termini razzisti.", "part of the text" }}
+
+The document is the following:
+<Title: Marocchino che ha bruciato le figlie esigeva soldi dal Comune “Dovete pagarmi affitto”
+
+Body: Faycal Haitot, l’immigrato marocchino che ieri a Como ha dato fuoco a moglie e quattro figlie incendiando l’appartamento, un mese fa aveva scritto a La provincia di Como una lettera in cui esigeva i soldi degli italiani: “Ho chiesto l’aiuto economico e l’assistente: zero. Ho scritto al dirigente e diceva che il Comune paga l’affitto. Come fanno a mangiare questi bimbi, forse sono troppi. La scuola è gia cominciata e il primo giorno sono andato dai carabinieri per non prendere una denuncia, noi siamo a casa“.
+
+
+Poi lamentava di non avere mai ricevuto “nessuna visita a casa dei servizi sociali per controllare la vita quotidiana dei bambini. Non vado via per paura del servizio sociale. Se ci sono problemi tra me e loro, cosa c’entrano i bambini?”. Da parte sua il Comune di Como già ieri aveva specificato quali erano state le iniziative prese a sostegno della famiglia Haitot: housing sociale dal 2014, supporti all’assistenza scolastica, mensa gratuita, diurnato pomeridiano.
+
+Perché dobbiamo mantenere i marocchini? Perché devono stare qui se non sono in grado di mantenersi? Se fossero stati rimandati in Marocco non alla prima richiesta di soldi, sintomo che in Italia non potevano stare, ora quelle bambine sarebbero ancora vive.
+Le poche risorse pubbliche servono alle famiglie italiane. Chi non ha la possibilità di lavorare deve tornare a casa, non riprodursi in modo incontrollato e poi bruciare delle povere bambine.
+>
+
+
+
+
+{"Razzismo": {"bias": 1, "explanation": "Nell'articolo vengono utilizzati termini razzisti.", "part of the text": "Perché dobbiamo mantenere i marocchini? Perché devono stare qui se non sono in grado di mantenersi? Se fossero stati rimandati in Marocco non alla prima richiesta di soldi, sintomo che in Italia non potevano stare, ora quelle bambine sarebbero ancora vive."}}
+
+{"Gender bias": {"bias": 0, "explanation": "No gender discrimination is present in the text.", "part of the text": ""}}
+
+{"Orientamento politico": {"bias": 0, "explanation": "No discrimination based on political orientation is present in the text.", "part of the text": ""}}
+
+{"Orientamento religioso": {"bias": 0, "explanation": "No discrimination based on religious orientation is present in the text.", "part of the text": ""}}
+
+{"Sensazionalismo": {"bias": 1, "explanation": "The use of excessive exclamation marks and sensational language.", "part of the text": "Marocchino che ha bruciato le figlie esigeva soldi dal Comune “Dovete pagarmi affitto”"}}
+
+{"Advertising bias": {"bias": 0, "explanation": "No bias towards positive news is present in the text.", "part of the text": ""}}

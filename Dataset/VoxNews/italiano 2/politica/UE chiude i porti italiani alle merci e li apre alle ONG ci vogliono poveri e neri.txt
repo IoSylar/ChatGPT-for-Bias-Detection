@@ -1,0 +1,52 @@
+- UE chiude i porti italiani alle merci e li apre alle ONG: ci vogliono poveri e neri	https://voxnews.info/2022/11/26/ue-chiude-i-porti-italiani-alle-merci-e-li-apre-alle-ong-ci-vogliono-poveri-e-neri/
+
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo: parole o espressioni linguistiche che esprimono odio o incoraggiano la violenza nei confronti di una persona o di un gruppo di persone sulla base della loro razza ed etnia
+2 - Gender bias: parole o espressioni linguistiche pregiudizievoli basati sulla percezione di genere che le donne non sono uguali agli uomini in termini di diritti e dignità.
+3 - Orientamento politico: parole o espressioni linguistiche che implicano l'inclinazione o l'alterazione delle informazioni per far sembrare più attraente una posizione politica o un candidato politico.
+4 - Orientamento religioso: parole o espressioni linguistiche pregiudizievoli basate sull'appartenenza di una persona a un gruppo religioso, piuttosto che sui suoi meriti individuali.
+5 - Sensazionalismo: la tendenza di alcuni giornali o periodici a pubblicare e diffondere certe notizie conferendo loro un risalto eccessivo e presentandole come sensazionali tramite l'utilizzo di parole o espressioni linguistiche per alimentare lo scandalo e l'indignazione dei lettori.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+<Title: UE chiude i porti italiani alle merci e li apre alle ONG ci vogliono poveri e neri
+
+Body: La Ue chiude i porti italiani alle merci e li apre alle ong. E’ evidente che vogliono trasformare l’Italia in un enorme centro di accoglienza e hub di ingresso per l’invasione.>
+
+
+
+{
+    "Razzismo": {
+        "bias": 1,
+        "motivazione": "Nel titolo dell'articolo viene utilizzato il termine 'neri' in modo dispregiativo e in correlazione con la parola 'poveri', suggerendo una visione negativa delle persone di colore.",
+        "porzione di testo": "UE chiude i porti italiani alle merci e li apre alle ONG ci vogliono poveri e neri"
+    },
+    "Gender bias": {
+        "bias": 0
+    },
+    "Orientamento politico": {
+        "bias": 1,
+        "motivazione": "L'articolo presenta una visione negativa della UE e delle ONG, suggerendo che ci sia un complotto per 'trasformare l’Italia in un enorme centro di accoglienza e hub di ingresso per l’invasione'.",
+        "porzione di testo": "La Ue chiude i porti italiani alle merci e li apre alle ong. E’ evidente che vogliono trasformare l’Italia in un enorme centro di accoglienza e hub di ingresso per l’invasione."
+    },
+    "Orientamento religioso": {
+        "bias": 0
+    },
+    "Sensazionalismo": {
+        "bias": 1,
+        "motivazione": "L'articolo utilizza parole come 'invasione' e presenta la situazione in modo sensazionalistico, cercando di alimentare lo scandalo e l'indignazione dei lettori.",
+        "porzione di testo": "hub di ingresso per l’invasione"
+    }
+}
+
+
+

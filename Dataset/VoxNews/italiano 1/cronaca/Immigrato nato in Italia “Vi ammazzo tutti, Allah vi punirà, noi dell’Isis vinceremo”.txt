@@ -1,0 +1,53 @@
+- Immigrato nato in Italia: “Vi ammazzo tutti, Allah vi punirà, noi dell’Isis vinceremo”	https://voxnews.info/2015/09/10/immigrato-nato-in-italia-vi-ammazzo-tutti-allah-vi-punira-noi-dellisis-vinceremo/
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo:  utilizzo linguaggio e espressioni di odio e intolleranza verso individui appartenenti ad una determinata etnia
+2 - Gender bias: utilizzo linguaggio o espressioni sessiste
+3 - Orientamento politico: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata opinione politica
+4 - Orientamento religioso: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata fede religiosa
+5 - Sensazionalismo: utilizzo di linguaggio o espressioni per alimentare lo scandalo e l'indignazione dei lettori, oltre ad un uso eccessivo di domande ed esclamazioni.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+<Title: Immigrato nato in Italia: “Vi ammazzo tutti, Allah vi punirà, noi dell’Isis vinceremo”
+
+Body: Loano – Assume contorni inquietanti, quello che sembrava ‘solo’ l’ennesimo atto vandalico di un immigrato.
+
+«Vi ammazzo tutti, Allah vi punirà, noi dell’Isis vinceremo». Queste le frasi gridate ai presenti dal ventenne marocchino che, all’alba di mercoledì, si è reso protagonista di un raid vandalico a Loano ed è finito in manette. Ad essere danneggiati sono stati motocicli parcheggiati, auto e un dehors di un locale.
+
+Durante il processo per direttissima di questa mattina (in cui l’arresto è stato convalidato) il giovane ha tentato di negare, di avere inneggiato al terrorismo islamico e ad Isis, circostanza c confermata dai testimoni e dalle indagini dei carabinieri.
+
+Per ora rimane in carcere. Si chiama Sufienn D., marocchino di 20 anni. Uno dei tanti immigrati che ha risposto al ‘richiamo della foresta’.
+
+L’immigrato di seconda generazione (molto peggio delle prime), nato in Italia e residente a Borghetto Santo Spirito, é stato arrestato nella notte dai Carabinieri della Compagnia di Albenga.
+
+
+Nel tribunale si Savona ha continuato ad inveire e ad opporre resistenza ai pubblici ufficiali.
+
+Il giudice ha così convalidato l’arresto e disposto la misura cautela in carcere, mentre il processo per direttissima è stato rinviato al 23 settembre.
+
+Ecco di seguito la ricostruzione dell’accaduto, da parte di un giornale locale: si parla di ‘vandali’, non di ‘vandalo’. Quindi non era solo, il ‘nuovo italiano’. Si muovono in bande:
+
+I Carabinieri, all’alba, hanno ricevuto una chiamata che segnalava diversi danneggiamenti ai danni di mezzi parcheggiati su Corso Roma. Sul posto sono dunque confluiti una pattuglia dell’Arma di Pietra Ligure e della Radiomobile di Albenga. I militari hanno cosi constatato che erano stati danneggiati in totale quattro scooter e tre macchine. In particolare i mezzi a due ruote erano stati buttati a terra, mentre le vetture presentavano segni evidenti di calci sulla carrozzeria. A chiamare il 112 era stato il guardiano del residence Perelli, che attirato dai rumori era uscito in strada. L’uomo, nel tentativo di allontanare i vandali, è stato ferito ed è dovuto ricorrere alle cure del pronto Soccorso del Santa Corona.
+
+
+Nel frattempo i Carabinieri, dopo aver registrato le targhe, hanno individuato uno dei responsabili dei raid all’interno del bar Kiss sulla via Aurelia. Il 20enne, dopo essersi introdotto nel locale aperto tutta la notte, si è diretto al bancone del bar, dietro il quale si trovava il titolare. Dopo aver prelevato un grosso vaso di ceramica posizionato al di sopra è uscito e lo ha scagliato con violenza contro il vetro del dehor.
+
+Il ragazzo, dopo aver distrutto parte degli arredi esterni, ha iniziato a lanciare gli oggetti rinvenuti nel dehor, quali portatovaglioli e simili, contro le auto che in quel momento stavano transitando sulla via Aurelia. I Carabinieri sono dunque entrati e riusciti a bloccarlo non senza fatica. L’extracomunitario in forte stato di agitazione, conseguente forse all’assunzione di sostanze alteranti, ha aggredito anche uno dei militari, procurandogli diverse ferite.>
+
+
+
+
+{"Razzismo": {"bias": 1, "motivazione": "Nel testo viene utilizzato un linguaggio di odio e intolleranza verso gli immigrati.", "porzione di testo": "L’immigrato di seconda generazione (molto peggio delle prime), nato in Italia e residente a Borghetto Santo Spirito, é stato arrestato nella notte dai Carabinieri della Compagnia di Albenga."}}
+{"Gender bias": {"bias": 0, "motivazione": "Non sono presenti espressioni sessiste nel testo."}}
+{"Orientamento politico": {"bias": 0, "motivazione": "Non sono presenti espressioni che implicano una discriminazione politica nel testo."}}
+{"Orientamento religioso": {"bias": 1, "motivazione": "Nel testo viene utilizzato un linguaggio che implica una discriminazione verso l'Islam.", "porzione di testo": "«Vi ammazzo tutti, Allah vi punirà, noi dell’Isis vinceremo»."}}
+{"Sensazionalismo": {"bias": 1, "motivazione": "Nel testo viene utilizzato un linguaggio sensazionalistico per alimentare lo scandalo e l'indignazione dei lettori.", "porzione di testo": "Assume contorni inquietanti, quello che sembrava ‘solo’ l’ennesimo atto vandalico di un immigrato."}}

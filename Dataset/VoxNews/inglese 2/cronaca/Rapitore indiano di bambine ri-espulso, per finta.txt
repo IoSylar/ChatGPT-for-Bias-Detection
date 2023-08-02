@@ -1,0 +1,33 @@
+- Rapitore indiano di bambine ri-espulso, per finta	https://voxnews.info/2016/08/22/rapitore-indiano-di-bambine-ri-espulso-per-finta/
+
+
+### Read the description of the following biases ###
+1 - Racism: words or linguistic expressions that express hatred or encourage violence against a person or group of people on the basis of their race and ethnicity
+2 - Gender bias: prejudicial words or linguistic expressions based on the gender perception that women are not equal to men in terms of rights and dignity.
+3 - Political bias: Words or linguistic expressions that involve skewing or altering information to make a political position or political candidate seem more attractive.
+4 - Religious orientation: Prejudicial words or linguistic expressions based on a person's membership of a religious group, rather than on their individual merits.
+5 - Sensationalism: the tendency of some newspapers or periodicals to publish and disseminate certain news by giving them excessive prominence and presenting them as sensational through the use of words or linguistic expressions to fuel the scandal and indignation of the readers.
+
+
+
+### Now, identify from the following text if the described biases are present and explain the reason for your choice, highlighting the portion of text in which the bias is contained.
+Each bias can be 0 or 1, depending on their presence in the document.
+The response must be formatted as JSON, having as keys those reported in the previous instructions.
+An example is: {"Racism": {"bias": 1, "motivation": "Racist terms are used in the article.", "text portion" }}
+
+
+
+The document is as follows:
+<Title: Rapitore indiano di bambine ri-espulso, per finta
+
+Body: Ram Lubhay, il cittadino indiano, clandestino e spacciatore, accusato del tentato rapimento di una bimba di 5 anni, a Scoglitti, è destinatario di un nuovo decreto di espulsione dall’Italia emesso dal questore di Ragusa. Il provvedimento scade oggi.
+
+
+L’indiano aveva già un precedente decreto di espulsione per i suoi precedenti penali: furto di rame e traffico di droga. Non avendo ottemperato al decreto, il 16 agosto, giorno del tentato sequestro, gli è stato reiterato l’ordine di lasciare l’Italia. Con un foglio: ridicolo questore. Ridicolo governo.
+
+Secondo fonti investigative non è stato possibile finora assicurare un posto in un CIE al cittadino indiano, che è senza fissa dimora, e che entro oggi dovrebbe lasciare l’Italia nonostante sia accusato di tentato sequestro di persona e sottrazione di minore. Metterlo su un aereo per l’India sarebbe troppo complicato, e i CIE sono stati trasformati in cazzari per finti profughi. In galera per clandestinità? Non usa più, dopo l’abolizione del reato.>
+
+
+
+
+{"Racism": {"bias": 0, "motivation": "", "text portion": ""}, "Gender bias": {"bias": 0, "motivation": "", "text portion": ""}, "Political bias": {"bias": 1, "motivation": "The article uses derogatory terms to criticize the government and the questore.", "text portion": "Con un foglio: ridicolo questore. Ridicolo governo."}, "Religious orientation": {"bias": 0, "motivation": "", "text portion": ""}, "Sensationalism": {"bias": 0, "motivation": "", "text portion": ""}}

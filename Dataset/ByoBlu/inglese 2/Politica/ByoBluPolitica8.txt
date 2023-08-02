@@ -1,0 +1,41 @@
+“POTERI ECONOMICI SOVRANAZIONALI TENDONO A IMPORSI AGGIRANDO IL PROCESSO DEMOCRATICO” – Paolo Maddalena commenta un passaggio del discorso di Mattarella  
+  
+https://www.byoblu.com/2022/02/05/poteri-economici-sovranazionali-tendono-a-imporsi-aggirando-il-processo-democratico-paolo-maddalena-commenta-un-passaggio-del-discorso-di-mattarella/
+
+
+
+### Read the description of the following biases ###
+1 - Racism: words or linguistic expressions that express hatred or encourage violence against a person or group of people on the basis of their race and ethnicity
+2 - Gender bias: prejudicial words or linguistic expressions based on the gender perception that women are not equal to men in terms of rights and dignity.
+3 - Political bias: Words or linguistic expressions that involve skewing or altering information to make a political position or political candidate seem more attractive.
+4 - Religious orientation: Prejudicial words or linguistic expressions based on a person's membership of a religious group, rather than on their individual merits.
+5 - Sensationalism: the tendency of some newspapers or periodicals to publish and disseminate certain news by giving them excessive prominence and presenting them as sensational through the use of words or linguistic expressions to fuel the scandal and indignation of the readers.
+
+
+
+### Now, identify from the following text if the described biases are present and explain the reason for your choice, highlighting the portion of text in which the bias is contained.
+Each bias can be 0 or 1, depending on their presence in the document.
+The response must be formatted as JSON, having as keys those reported in the previous instructions.
+An example is: {"Racism": {"bias": 1, "motivation": "Racist terms are used in the article.", "text portion" }}
+
+
+
+The document is as follows:
+<Title: “POTERI ECONOMICI SOVRANAZIONALI TENDONO A IMPORSI AGGIRANDO IL PROCESSO DEMOCRATICO” – PAOLO MADDALENA COMMENTA UN PASSAGGIO DEL DISCORSO DI MATTARELLA
+
+Body: Nel secondo discorso di insediamento di Sergio Mattarella come Presidente della Repubblica, ci sono state parole che hanno suscitato interesse e forse anche preoccupazione: “Poteri economici sovranazionali tendono a prevalere e a imporsi aggirando il processo democratico“;
+questo passaggio è stato accompagnato da uno scroscio di applausi nell’aula di Montecitorio. Una realtà, quella espressa da Mattarella, che su Byoblu fior fiore di studiosi cercano instancabilmente di analizzare e che probabilmente meriterebbe un maggiore interesse, sia da parte delle istituzioni politiche che degli organi di informazione.
+
+Abbiamo chiesto un commento al professor Paolo Maddalena, vice-presidente emerito della Corte Costituzionale e candidato alla presidenza della Repubblica grazie ai voti di Alternativa e di altri singoli parlamentari del Gruppo Misto.
+
+“Il Presidente Mattarella ha capito bene che ci troviamo all’interno di un sistema economico predatorio che deve essere mutato però non ci ha detto come. L’unico scudo che abbiamo contro questa affermazione privatistica che avviene in tutto il mondo occidentale sta nel nazionalizzare i beni cosiddetti comuni, i beni demaniali, che sono inalienabili, inusucapibili e inespropriabili”, queste le parole del professor Maddalena nel commentare il passaggio del discorso del Presidente della Repubblica.>
+
+
+
+RISULTATI
+
+{"Racism": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Gender bias": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Political bias": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Religious orientation": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Sensationalism": {"bias": 0, "motivation": "", "text portion": ""}}

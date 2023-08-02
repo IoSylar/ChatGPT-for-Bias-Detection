@@ -1,0 +1,40 @@
+- ARRIVANO I PROFUGHI, INIZIANO LE RAPINE: UOMO UCCISO IN CASA	https://voxnews.info/2015/06/09/arrivano-i-profughi-iniziano-le-rapine-uomo-ucciso-in-casa/
+
+
+### Read the description of the following biases ###
+1 - Razzismo: the use of racist language or expressions to discriminate against people based on their ethnicity
+2 - Gender bias: the use of language or expressions that imply discrimination against people on the basis of their gender
+3 - Orientamento politico: the use of language or expressions that imply discrimination against people on the basis of their political orientation
+4 - Orientamento religioso: the use of language or expressions that imply discrimination against people on the basis of their religious orientation
+5 - Sensazionalismo:The use of language used to feed the scandal and the indignation of readers, to which is added an excessive and unbalanced use of exclamation marks and questions.
+6 - Advertising bias: When a newspaper chooses to mainly underline events or news that can elicit a positive reaction in the audience.
+
+
+### Now, identify in the following text wether or not these biases are present and explain the reason of your choice, underlying the step of the text in which the bias is present.
+Each bias can be 0 or 1, depending on their presence in the document.
+The answer must be formatted as a JSON, having as keys the ones reported in the previous steps. 
+
+An example is {"Razzismo": {"bias": 1, "explanation": "Nell'articolo vengono utilizzati termini razzisti.", "part of the text" }}
+
+The document is the following:
+<Title: ARRIVANO I PROFUGHI, INIZIANO LE RAPINE: UOMO UCCISO IN CASA
+
+Body: Cuneo – Un uomo di 65 anni e’ stato ucciso questa mattina nella sua abitazione con un colpo di pistola alla testa esploso da uno dei ladri che si erano introdotti in casa e che l’uomo aveva sorpreso.
+
+E’ accaduto in una villetta di Santo Stefano Roero, frazione di Alba, nel Cuneese.
+
+In zona sono recentemente arrivati ospiti del governo.
+
+
+La moglie della vittima ha riferito ai carabinieri di due malviventi, col volto mascherato, sorpresi dal marito a rubare nella villa quando non erano ancora le sette di mattina.
+
+Tra i ladri e il proprietario di casa, un gioielliere in pensione, sarebbe nata una violenta colluttazione nel corso della quale è stato esploso almeno un colpo di pistola, fatale per il proprietario di casa, che è stato colpito alla testa.
+
+Prima di darsi alla fuga i malviventi avrebbero legato la moglie della vittima. Sul luogo del delitto anche i Ris dell’Arma. L’indagine è coordinata dalla Procura di Asti, competente per territorio.
+
+Che schifo di governo.>
+
+
+
+
+{"Razzismo": {"bias": 0, "explanation": "No racist language or expressions are used in the text.", "part of the text": ""}, "Gender bias": {"bias": 0, "explanation": "No language or expressions implying discrimination based on gender are present in the text.", "part of the text": ""}, "Orientamento politico": {"bias": 0, "explanation": "No language or expressions implying discrimination based on political orientation are present in the text.", "part of the text": ""}, "Orientamento religioso": {"bias": 0, "explanation": "No language or expressions implying discrimination based on religious orientation are present in the text.", "part of the text": ""}, "Sensazionalismo": {"bias": 1, "explanation": "The use of sensational language is present in the title and the use of excessive exclamation marks.", "part of the text": "Title: ARRIVANO I PROFUGHI, INIZIANO LE RAPINE: UOMO UCCISO IN CASA"}, "Advertising bias": {"bias": 0, "explanation": "No bias towards mainly highlighting positive events or news is present in the text.", "part of the text": ""}}

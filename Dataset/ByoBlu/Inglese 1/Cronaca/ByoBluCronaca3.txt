@@ -1,0 +1,55 @@
+https://www.byoblu.com/2022/08/20/1-settembre-fine-delle-discriminazioni-i-docenti-sospesi-posso-tornare-nelle-loro-classi/
+
+1 SETTEMBRE: FINE DELLE DISCRIMINAZIONI. I DOCENTI SOSPESI POSSONO TORNARE NELLE LORO CLASSI
+
+
+### Read the description of the following biases ###
+1 - Razzismo: the use of racist language or expressions to discriminate against people based on their ethnicity
+2 - Gender bias: the use of language or expressions that imply discrimination against people on the basis of their gender
+3 - Orientamento politico: the use of language or expressions that imply discrimination against people on the basis of their political orientation
+4 - Orientamento religioso: the use of language or expressions that imply discrimination against people on the basis of their religious orientation
+5 - Sensazionalismo:The use of language used to feed the scandal and the indignation of readers, to which is added an excessive and unbalanced use of exclamation marks and questions.
+6 - Advertising bias: When a newspaper chooses to mainly underline events or news that can elicit a positive reaction in the audience.
+
+
+### Now, identify in the following text wether or not these biases are present and explain the reason of your choice, underlying the step of the text in which the bias is present.
+Each bias can be 0 or 1, depending on their presence in the document.
+The answer must be formatted as a JSON, having as keys the ones reported in the previous steps. 
+
+An example is {"Razzismo": {"bias": 1, "explanation": "Nell'articolo vengono utilizzati termini razzisti.", "part of the text" }}
+
+The document is the following:
+<Title: 1 SETTEMBRE: FINE DELLE DISCRIMINAZIONI. I DOCENTI SOSPESI POSSONO TORNARE NELLE LORO CLASSI
+
+Body: J“Insegnanti pronti ad essere rimpiazzati come pedine, perché potenziali serbatoi del contagio. Non volevo arrivare a questo punto e non era questo il destino che avrei voluto vivere. Ho studiato tanto per insegnare. Ancora lo sto facendo. Con 42 anni ancora mi ritrovo a dare esami e pochi giorni fa mi è stata comunicata la brutta notizia sul nuovo Decreto”. 
+
+Queste sono le parole contenute in una lettera inviata a Byoblu da una insegnate che aveva appena appreso di essere stata sospesa. Una dei tantissimi docenti lasciati a casa dal Governo perché contrari all’obbligo vaccinale covid.
+
+“Qual è il prezzo della libertà di scelta? E di quella individuale?”- si domandava nella lettera l’insegnate – “Qual è il prezzo per poter lavorare e svolgere la propria attività con amore e dedizione? Il ricatto non è la via per ottenere i consensi, sopratutto in un ambiente educativo come la scuola”. 
+
+Queste parole risalgono a dicembre 2021 e adesso pesano ancora come un macigno. Ma qualcosa di positivo, per tutti questi insegnanti allontanati dal loro lavoro, sta per succedere. 
+
+Con una nota il ministero dell’Istruzione ha disposto, a tutte le scuole, il reintegro, dei docenti non vaccinati che potranno dal primo settembre tornare in classe a fare lezione. Lo stesso vale per bidelli e amministrativi che potranno ripresentarsi al lavoro pur senza essersi sottoposti all’obbligo vaccinale. 
+
+Il documento del Miur, indirizzato a presidi e dirigenti scolastici, dichiara concluse alla data del 31 agosto le disposizioni emergenziali che avevano regolato l’attività didattica fino allo scorso anno scolastico. Per lo svolgimento delle attività didattiche a contatto con gli alunni veniva richiesta la vaccinazione “come requisito essenziale“. Adesso tale requisito decade. 
+
+Quante immagini e racconti diretti di docenti allontanati dai loro alunni, perché definiti “inadempienti”, spostati in attività di supporto, spesso addirittura confinati in stanzini o scantinati perché considerati un pericolo per gli altri. 
+
+Il primo aprile scorso un nuovo decreto, infatti, aveva cancellato l’iniziale sospensione nei loro confronti, stabilendo che potessero continuare a lavorare ma non a contatto con gli studenti.  Si è trattato di un vero e proprio demansionamento. 
+
+La nota del Ministero, ora, stabilisce che queste norme hanno “esaurito la loro validità al 31 agosto 2022 e, in assenza di ulteriori specifiche proroghe o rinnovi, non prolungano i loro effetti nel prossimo anno scolastico 2022/2 023”.
+
+“La scuola per chi la ama è come una famiglia e in un certo senso andare a scuola è come tornare a casa. Questo è il vero vaccino dell’umanità e lo affermo in nome di tutti coloro che come me devono salutare i ragazzi e probabilmente non li vedranno più“. 
+
+Si concludeva così la lettera inviata a Byoblu dall’insegnante appena sospesa e che da settembre, finalmente, potrà tornare dai suoi alunni. Ma chi gli restituirà mai, a lei come a tanti altri, questo periodo di vita?>
+
+
+
+
+RISULTATO
+
+{"Razzismo": {"bias": 0, "explanation": "No racist language or expressions are used in the text.", "part of the text": ""}, 
+"Gender bias": {"bias": 0, "explanation": "No language or expressions implying discrimination based on gender are used in the text.", "part of the text": ""}, 
+"Orientamento politico": {"bias": 0, "explanation": "No language or expressions implying discrimination based on political orientation are used in the text.", "part of the text": ""}, 
+"Orientamento religioso": {"bias": 0, "explanation": "No language or expressions implying discrimination based on religious orientation are used in the text.", "part of the text": ""}, 
+"Sensazionalismo": {"bias": 0, "explanation": "The language used in the text is not sensationalistic, there is no excessive or unbalanced use of exclamation marks or questions.", "part of the text": ""}, "Advertising bias": {"bias": 0, "explanation": "The text does not show a bias towards mainly highlighting events or news that can elicit a positive reaction in the audience.", "part of the text": ""}}

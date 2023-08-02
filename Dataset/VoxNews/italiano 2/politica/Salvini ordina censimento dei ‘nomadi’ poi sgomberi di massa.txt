@@ -1,0 +1,62 @@
+- Salvini ordina censimento dei ‘nomadi’: poi sgomberi di massa	https://voxnews.info/2019/07/16/salvi-i-ordina-censimento-dei-nomadi/
+
+
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo: parole o espressioni linguistiche che esprimono odio o incoraggiano la violenza nei confronti di una persona o di un gruppo di persone sulla base della loro razza ed etnia
+2 - Gender bias: parole o espressioni linguistiche pregiudizievoli basati sulla percezione di genere che le donne non sono uguali agli uomini in termini di diritti e dignità.
+3 - Orientamento politico: parole o espressioni linguistiche che implicano l'inclinazione o l'alterazione delle informazioni per far sembrare più attraente una posizione politica o un candidato politico.
+4 - Orientamento religioso: parole o espressioni linguistiche pregiudizievoli basate sull'appartenenza di una persona a un gruppo religioso, piuttosto che sui suoi meriti individuali.
+5 - Sensazionalismo: la tendenza di alcuni giornali o periodici a pubblicare e diffondere certe notizie conferendo loro un risalto eccessivo e presentandole come sensazionali tramite l'utilizzo di parole o espressioni linguistiche per alimentare lo scandalo e l'indignazione dei lettori.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+<Title: Salvini ordina censimento dei ‘nomadi’ poi sgomberi di massa
+
+Body: Si dà quindi il via al censimento dei campi rom su tutto il territorio nazionale che in passato aveva creato numerose polemiche. Ora il Viminale tira dritto e spiega ai prefetti che i risultati della ricognizione sono “da far pervenire entro quindici giorni all’ufficio di Gabinetto”.
+
+Poi si procederà allo sgombero “delle aree abusivamente occupate attraverso l’esecuzione delle ordinanze di demolizione e rimozione delle opere abusive” nel contempo “attivando positive dinamiche di ricollocamento degli interessati”. Ricollocamento all’estero, si spera.
+
+Salvini a prefetti: rom siano censiti
+Il ministro dell’Interno Matteo Salvini
+ha firmato una circolare indirizzata a
+tutti i prefetti per chiedere una rela-
+zione sulla presenza di insediamenti
+rom, sinti e caminanti.
+
+L’obiettivo -riferisce il Viminale- è
+quello di verificare la presenza di
+realtà abusive per predisporre un piano
+di sgomberi. Il Viminale si aspetta di
+avere il quadro definito della situa-
+zione entro due settimane.
+
+
+Il ministro dell’Interno Matteo Salvini ha inviato ai prefetti una circolare con cui chiede una “relazione sulla presenza di insediamenti rom, sinti e camminanti” in Italia entro due settimane. L’obiettivo, sottolinea il Viminale, è quello di avere un quadro chiaro sui campi abusivi “per predisporre un piano di sgomberi”.
+
+Nella circolare il ministro sottolinea la necessità di porre l’attenzione sulle “situazioni di illegalità e di degrado che frequentemente si registrano negli insediamenti”, specie quelli abusivi, e “che spesso configurano un concreto pericolo per l’ordine e la sicurezza pubblica”, con l’obiettivo di adottare misure “finalizzate alla riaffermazione della legalità”.
+
+Va dunque fatta una “ricognizione urgente” di tutti i campi, autorizzati e abusivi, “nel rispetto dei diritti della persona” e “delle normative nazionali e internazionali”, alla quale deve seguire un “successivo monitoraggio” che consenta di conoscere costantemente l’evoluzione delle diversi situazioni per predisporre “interventi di sistema” in maniera “organica e continuata”. Il censimento, scrive ancora Salvini ai prefetti, dovrà riguardare la tipologia degli insediamenti e la densità abitativa, le condizioni dei campi (presenza di reti idriche, elettriche e fognarie, allacci abusivi), la presenza di strutture fisse e mobili, il numero di minori presenti negli insediamenti, le loro condizioni e le percentuali di abbandono scolastico.
+
+A loro volta i prefetti, entro 15 giorni, dovranno convocare i Comitati provinciali per l’ordine e la sicurezza pubblica e inviare una relazione al Viminale. Il censimento, dice la circolare, costituirà “una piattaforma di discussione in ambito locale per l’approfondimento delle singole situazioni e la massima sensibilizzazione dei sindaci ai fini dell’adozione dei provvedimenti ove ne ricorrano i presupposti”. Per arrivare, si ribadisce, “al superamento delle situazioni di degrado e al ripristino delle condizioni di legalità” attraverso un “progressivo sgombero delle aree abusivamente occupate”.
+
+Sinceramente, noi sgombereremmo senza censire. Ma va bene lo stesso. E ora sotto con i rastrellamenti e le espulsioni di delinquenti che parassitano il sistema sociale italiano e portano degrado e criminalità.>
+
+
+
+
+
+
+{"Razzismo": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche che esprimono odio o incoraggiano la violenza nei confronti di una persona o di un gruppo di persone sulla base della loro razza ed etnia.", "porzione di testo": ""}}, 
+"Gender bias": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche pregiudizievoli basati sulla percezione di genere che le donne non sono uguali agli uomini in termini di diritti e dignità.", "porzione di testo": ""}}, 
+"Orientamento politico": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche che implicano l'inclinazione o l'alterazione delle informazioni per far sembrare più attraente una posizione politica o un candidato politico.", "porzione di testo": ""}}, 
+"Orientamento religioso": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche pregiudizievoli basate sull'appartenenza di una persona a un gruppo religioso, piuttosto che sui suoi meriti individuali.", "porzione di testo": ""}}, 
+"Sensazionalismo": {"bias": 1, "motivazione": "Nel testo sono presenti parole o espressioni linguistiche che conferiscono un risalto eccessivo alle notizie e le presentano come sensazionali.", "porzione di testo": "Sinceramente, noi sgombereremmo senza censire. Ma va bene lo stesso. E ora sotto con i rastrellamenti e le espulsioni di delinquenti che parassitano il sistema sociale italiano e portano degrado e criminalità."}}

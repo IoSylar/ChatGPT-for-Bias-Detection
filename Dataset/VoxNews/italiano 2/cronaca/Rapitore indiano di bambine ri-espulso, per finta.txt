@@ -1,0 +1,36 @@
+- Rapitore indiano di bambine ri-espulso, per finta	https://voxnews.info/2016/08/22/rapitore-indiano-di-bambine-ri-espulso-per-finta/
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo: parole o espressioni linguistiche che esprimono odio o incoraggiano la violenza nei confronti di una persona o di un gruppo di persone sulla base della loro razza ed etnia
+2 - Gender bias: parole o espressioni linguistiche pregiudizievoli basati sulla percezione di genere che le donne non sono uguali agli uomini in termini di diritti e dignità.
+3 - Orientamento politico: parole o espressioni linguistiche che implicano l'inclinazione o l'alterazione delle informazioni per far sembrare più attraente una posizione politica o un candidato politico.
+4 - Orientamento religioso: parole o espressioni linguistiche pregiudizievoli basate sull'appartenenza di una persona a un gruppo religioso, piuttosto che sui suoi meriti individuali.
+5 - Sensazionalismo: la tendenza di alcuni giornali o periodici a pubblicare e diffondere certe notizie conferendo loro un risalto eccessivo e presentandole come sensazionali tramite l'utilizzo di parole o espressioni linguistiche per alimentare lo scandalo e l'indignazione dei lettori.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+<Title: Rapitore indiano di bambine ri-espulso, per finta
+
+Body: Ram Lubhay, il cittadino indiano, clandestino e spacciatore, accusato del tentato rapimento di una bimba di 5 anni, a Scoglitti, è destinatario di un nuovo decreto di espulsione dall’Italia emesso dal questore di Ragusa. Il provvedimento scade oggi.
+
+
+L’indiano aveva già un precedente decreto di espulsione per i suoi precedenti penali: furto di rame e traffico di droga. Non avendo ottemperato al decreto, il 16 agosto, giorno del tentato sequestro, gli è stato reiterato l’ordine di lasciare l’Italia. Con un foglio: ridicolo questore. Ridicolo governo.
+
+Secondo fonti investigative non è stato possibile finora assicurare un posto in un CIE al cittadino indiano, che è senza fissa dimora, e che entro oggi dovrebbe lasciare l’Italia nonostante sia accusato di tentato sequestro di persona e sottrazione di minore. Metterlo su un aereo per l’India sarebbe troppo complicato, e i CIE sono stati trasformati in cazzari per finti profughi. In galera per clandestinità? Non usa più, dopo l’abolizione del reato.>
+
+
+
+
+{"Razzismo": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche che esprimono odio o incoraggiano la violenza sulla base della razza ed etnia.", "porzione di testo": ""}}, 
+"Gender bias": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche pregiudizievoli basati sulla percezione di genere.", "porzione di testo": ""}}, 
+"Orientamento politico": {"bias": 1, "motivazione": "Nel testo viene espressa una posizione politica negativa nei confronti del questore e del governo.", "porzione di testo": "Con un foglio: ridicolo questore. Ridicolo governo."}}, 
+"Orientamento religioso": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche pregiudizievoli basate sull'appartenenza religiosa.", "porzione di testo": ""}}, 
+"Sensazionalismo": {"bias": 1, "motivazione": "Nel testo viene utilizzato un tono sensazionalistico per suscitare scandalo e indignazione.", "porzione di testo": "Metterlo su un aereo per l’India sarebbe troppo complicato, e i CIE sono stati trasformati in cazzari per finti profughi. In galera per clandestinità? Non usa più, dopo l’abolizione del reato."}}

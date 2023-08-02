@@ -1,0 +1,60 @@
+DISCRIMINAZIONE TRA TURISTI STRANIERI E ITALIANI: LE ULTIME DEL GOVERNO DRAGHI    
+
+https://www.byoblu.com/2022/02/03/discriminazione-tra-turisti-stranieri-e-italiani-le-ultime-del-governo-draghi/
+
+
+### Read the description of the following biases ###
+1 - Razzismo: the use of racist language or expressions to discriminate against people based on their ethnicity
+2 - Gender bias: the use of language or expressions that imply discrimination against people on the basis of their gender
+3 - Orientamento politico: the use of language or expressions that imply discrimination against people on the basis of their political orientation
+4 - Orientamento religioso: the use of language or expressions that imply discrimination against people on the basis of their religious orientation
+5 - Sensazionalismo:The use of language used to feed the scandal and the indignation of readers, to which is added an excessive and unbalanced use of exclamation marks and questions.
+6 - Advertising bias: When a newspaper chooses to mainly underline events or news that can elicit a positive reaction in the audience.
+
+
+### Now, identify in the following text wether or not these biases are present and explain the reason of your choice, underlying the step of the text in which the bias is present.
+Each bias can be 0 or 1, depending on their presence in the document.
+The answer must be formatted as a JSON, having as keys the ones reported in the previous steps. 
+
+An example is {"Razzismo": {"bias": 1, "explanation": "Nell'articolo vengono utilizzati termini razzisti.", "part of the text" }}
+
+The document is the following:
+<Title: DISCRIMINAZIONE TRA TURISTI STRANIERI E ITALIANI: LE ULTIME DEL GOVERNO DRAGHI
+
+Body: Due anni dopo l’inizio dell’emergenza sanitaria, il Governo italiano non ha cambiato abitudini: si introducono infatti nuove norme, spacciate come sanitarie, ma che non trovano alcuna conferma da parte delle evidenze scientifiche. Così anche l’ultimo Consiglio dei ministri ha seguito quest’ormai noiosissimo copione.
+
+Le nuove norme sulle scuole
+I ministri del Governo Draghi hanno infatti legiferato sulla scuola, sull’estensione del green pass e sull’utilizzo del certificato verde. Partiamo dalla scuola. Dallo slogan “mai più in DAD” si è ormai passati ad un più realistico “quasi sempre in DAD”, tenuto conto dell’estrema rigidità con cui le nuove norme costringono le classi alla didattica a distanza. Sono infatti 65mila le classi finite in DAD negli ultimi due mesi secondo dati riportati dallo stesso Ministro Bianchi.
+
+Ad ogni modo il Consiglio dei ministri ha stabilito che nelle scuole per l’infanzia sono sufficienti 5 casi di positività per comportare la sospensione totale delle lezioni per ben 5 giorni. Una norma che non può che mettere in difficoltà i genitori che saranno così costretti con l’acqua alla gola a districarsi tra permessi e baby sitter per poter stare dietro ai loro bambini.
+
+Perché in questo caso non si ricorre a test per l’intera classe per poter permettere di continuare la frequenza a scuola? Non si sa.
+
+Discriminante tra vaccinati e non vaccinati
+Le norme che invece coinvolgono scuole elementari, medie e superiori continuano ad essere all’insegna della suddivisione tra alunni di serie a, i vaccinati e guariti, e di serie b, non vaccinati. Alle elementari, dopo il quinto caso di positività, i vaccinati e i guariti possono continuare a seguire la lezione in presenza, senza dover ricorrere nemmeno ad un test.
+
+Mentre i non vaccinati saranno costretti a restare in didattica a distanza per cinque giorni, anche se sani e negativi al test. Stesso destino per scuole medie e superiori, ma in questo caso sono sufficienti due casi di positività per mandare i non vaccinati a seguire le lezioni da casa.
+
+In pratica ragazzi vaccinati, e magari positivi, potranno continuare a frequentare ambienti scolastici promiscui, mentre ragazzi non vaccinati, e magari negativi, dovranno stare segregati in casa per cinque giorni.
+
+Con terza dose green pass illimitato
+L’ambiguità delle norme introdotte dal Governo Draghi sembra toccare vette sempre più alte nei nuovi limiti temporali imposti per il green pass. “Le certificazioni verdi COVID-19 rilasciate dopo la terza dose hanno efficacia senza necessità di nuove vaccinazioni. Al regime di chi si è sottoposto alla terza dose è equiparato chi ha contratto il COVID ed è guarito dopo il completamento del ciclo vaccinale primario”.
+
+Quindi chi ha fatto la terza dose avrà un green pass di durata illimitata. Così come chi si è sottoposto a due dosi e in seguito si è preso il Covid ed è guarito. Ci sono evidenze scientifiche per cui un guarito con due dosi sia più protetto di un guarito senza dosi? No, allo stato attuale sappiamo infatti che l’efficacia delle due dosi di vaccino cala del tutto entro 4 mesi, se non prima.
+
+Di conseguenza una persona che contragga il Covid dopo il quarto mese dalla seconda dose come può avere più anticorpi di chi ha contratto il Covid senza prima vaccinarsi? Domande che rimangono senza risposte.
+
+I turisti italiani sono diversi dai turisti stranieri?
+Tuttavia la norma dal significato più oscuro resta quella che regola l’ingresso negli hotel per i turisti. Perché secondo il Governo Draghi un turista straniero, con due dosi scadute, può accedere in hotel con tampone negativo. Mentre un turista italiano, nello stesso hotel, può accedervi solo con super green pass valido. Perché tra due persone uguali entrambe con tampone negativo, lo Stato sceglie quello con passaporto non italiano?
+
+L’esecutivo Draghi crede per caso che i cittadini italiani siano geneticamente più propensi a diffondere il virus? L’unica certezza che abbiamo di fronte all’assurdo è che queste norme non hanno sicuramente una motivazione scientifica e possono quindi essere assimilate ad un rito voodoo o ad una danza della pioggia. Rituali magici messi in atto dal Governo per cercare disperatamente di restare avvinghiato al potere.>
+
+
+
+RISULTATI
+{"Razzismo": {"bias": 0, "explanation": "No racist language or expressions are used in the text.", "part of the text": ""}, 
+"Gender bias": {"bias": 0, "explanation": "No language or expressions implying discrimination based on gender are used in the text.", "part of the text": ""}, 
+"Orientamento politico": {"bias": 0, "explanation": "No language or expressions implying discrimination based on political orientation are used in the text.", "part of the text": ""}, 
+"Orientamento religioso": {"bias": 0, "explanation": "No language or expressions implying discrimination based on religious orientation are used in the text.", "part of the text": ""}, 
+"Sensazionalismo": {"bias": 1, "explanation": "The use of excessive exclamation marks and sensational language can be seen in the text.", "part of the text": "Le nuove norme sulle scuole"}, 
+"Advertising bias": {"bias": 0, "explanation": "No specific bias towards positive events or news is present in the text.", "part of the text": ""}}

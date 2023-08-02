@@ -1,0 +1,45 @@
+- BERGOGLIO SFRATTA BIMBI ITALIANI PER OSPITARE PROFUGHI	https://voxnews.info/2017/07/20/bergoglio-sfratta-bimbi-italiani-per-ospitare-profughi/
+
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo: parole o espressioni linguistiche che esprimono odio o incoraggiano la violenza nei confronti di una persona o di un gruppo di persone sulla base della loro razza ed etnia
+2 - Gender bias: parole o espressioni linguistiche pregiudizievoli basati sulla percezione di genere che le donne non sono uguali agli uomini in termini di diritti e dignità.
+3 - Orientamento politico: parole o espressioni linguistiche che implicano l'inclinazione o l'alterazione delle informazioni per far sembrare più attraente una posizione politica o un candidato politico.
+4 - Orientamento religioso: parole o espressioni linguistiche pregiudizievoli basate sull'appartenenza di una persona a un gruppo religioso, piuttosto che sui suoi meriti individuali.
+5 - Sensazionalismo: la tendenza di alcuni giornali o periodici a pubblicare e diffondere certe notizie conferendo loro un risalto eccessivo e presentandole come sensazionali tramite l'utilizzo di parole o espressioni linguistiche per alimentare lo scandalo e l'indignazione dei lettori.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+<Title: BERGOGLIO SFRATTA BIMBI ITALIANI PER OSPITARE PROFUGHI
+
+Body: ORA BERGOGLIO SFRATTA ANCHE I BAMBINI PER FARE POSTO AI CLANDESTINI
+
+Accade nella zona di Gregorio VII, nel quartiere Aurelio di Roma, si parla di due asili e un teatro. Sono i servizi che cesseranno di esistere perché il Vicariato (VATICANO) ha chiesto indietro i locali a chi li gestiva così da usarli per l’accoglienza dei cosiddetti profughi. Il Vicariato, contattato, si è rifiutato di confermare la notizia perché la portavoce non è autorizzata a parlarne.
+
+«È nella facoltà del Vicariato chiederci indietro i locali. Ci avevano dato tempo fino al 2018, ma noi non è che a metà del prossimo anno scolastico possiamo dire alle mamme “scusate, ora dobbiamo spostarci tutti” e poi comunque abbiamo bisogno di tempo per riorganizzarci», spiega uno dei titolari, che non spende una parola né contro il Vicariato né contro gli eventuali profughi che arriveranno e che, anzi, cerca di smorzare i toni. «Certo – si limita a dire – spiace, dopo tanti anni… E poi da questa struttura usciva pure uno dei nostri stipendi. Per fortuna, non abbiamo solo questo e io poi nelle altre strutture faccio di tutto, dal giardinaggio all’accoglienza». L’asilo è stato messo su da una famiglia che nel tempo è riuscita ad aprire anche altri nidi, restando però in una dimensione di impresa a gestione familiare in cui tutti si danno da fare. L’asilo in questione dava lavoro a una decina di persone tra maestre fisse, maestre saltuarie e maestri delle attività integrative, oltre naturalmente al reddito dei titolari. Le famiglie servite a prezzi un po’ calmierati, probabilmente proprio perché i locali erano in affitto nella chiesa, erano tra le 20 e le 30 a seconda degli anni. La chiusura pone un problema di occupazione e di impoverimento dei servizi del territorio che, se – come sembra – dovesse essere spalmato a livello cittadino, all’inizio del prossimo anno scolastico provocherà un grave disagio sociale. Il clima che si respira è di grande sconforto.
+
+
+VATICANO DIFENDE NAVI ONG: “ACCUSE VERGOGNOSE”, INCASSA 127 MILIONI DI EURO PER ACCOGLIERE PROFUGHI
+
+
+
+Voi capite. Il Vaticano, attraverso le sue filiali italiane è una delle organizzazione che incassa di più con il business dei sedicenti profughi. E questo val bene cacciare dagli asili dei bambini italiani. Poi parlano di ‘famiglie’ e ‘natalità’. Schifosi.>
+
+
+
+
+
+
+{"Razzismo": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche che esprimono odio o incoraggiano la violenza sulla base della razza ed etnia.", "porzione di testo": ""}}, 
+"Gender bias": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche pregiudizievoli basati sulla percezione di genere.", "porzione di testo": ""}}, 
+"Orientamento politico": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche che implicano l'inclinazione o l'alterazione delle informazioni per far sembrare più attraente una posizione politica o un candidato politico.", "porzione di testo": ""}}, 
+"Orientamento religioso": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche pregiudizievoli basate sull'appartenenza religiosa.", "porzione di testo": ""}}, 
+"Sensazionalismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzate parole e espressioni linguistiche sensazionalistiche per alimentare lo scandalo e l'indignazione dei lettori.", "porzione di testo": "BERGOGLIO SFRATTA BIMBI ITALIANI PER OSPITARE PROFUGHI\n\nBody: ORA BERGOGLIO SFRATTA ANCHE I BAMBINI PER FARE POSTO AI CLANDESTINI\n\nAccade nella zona di Gregorio VII, nel quartiere Aurelio di Roma, si parla di due asili e un teatro. Sono i servizi che cesseranno di esistere perché il Vicariato (VATICANO) ha chiesto indietro i locali a chi li gestiva così da usarli per l’accoglienza dei cosiddetti profughi. Il Vicariato, contattato, si è rifiutato di confermare la notizia perché la portavoce non è autorizzata a parlarne.\n\n«È nella facoltà del Vicariato chiederci indietro i locali. Ci avevano dato tempo fino al 2018, ma noi non è che a metà del prossimo anno scolastico possiamo dire alle mamme “scusate, ora dobbiamo spostarci tutti” e poi comunque abbiamo bisogno di tempo per riorganizzarci», spiega uno dei titolari, che non spende una parola né contro il Vicariato né contro gli eventuali profughi che arriveranno e che, anzi, cerca di smorzare i toni. «Certo – si limita a dire – spiace, dopo tanti anni… E poi da questa struttura usciva pure uno dei nostri stipendi. Per fortuna, non abbiamo solo questo e io poi nelle altre strutture faccio di tutto, dal giardinaggio all’accoglienza». L’asilo è stato messo su da una famiglia che nel tempo è riuscita ad aprire anche altri nidi, restando però in una dimensione di impresa a gestione familiare in cui tutti si danno da fare. L’asilo in questione dava lavoro a una decina di persone tra maestre fisse, maestre saltuarie e maestri delle attività integrative, oltre naturalmente al reddito dei titolari. Le famiglie servite a prezzi un po’ calmierati, probabilmente proprio perché i locali erano in affitto nella chiesa, erano tra le 20 e le 30 a seconda degli anni. La chiusura pone un problema di occupazione e di impoverimento dei servizi del territorio che, se – come sembra – dovesse essere spalmato a livello cittadino, all’inizio del prossimo anno scolastico provocherà un grave disagio sociale. Il clima che si respira è di grande sconforto.\n\n\nVATICANO DIFENDE NAVI ONG: “ACCUSE VERGOGNOSE”, INCASSA 127 MILIONI DI EURO PER ACCOGLIERE PROFUGHI\n\n\nVoi capite. Il Vaticano, attraverso le sue filiali italiane è una delle organizzazione che incassa di più con il business dei sedicenti profughi. E questo val bene cacciare dagli asili dei bambini italiani. Poi parlano di ‘famiglie’ e ‘natalità’. Schifosi."}}

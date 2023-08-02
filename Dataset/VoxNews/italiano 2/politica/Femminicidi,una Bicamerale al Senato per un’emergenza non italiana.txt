@@ -1,0 +1,49 @@
+- Femminicidi,una Bicamerale al Senato per un’emergenza non italiana 🤡	https://voxnews.info/2022/11/24/femminidiuna-bicamerale-al-senato-per-unemergenza-non-italiana-%f0%9f%a4%a1/
+
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo: parole o espressioni linguistiche che esprimono odio o incoraggiano la violenza nei confronti di una persona o di un gruppo di persone sulla base della loro razza ed etnia
+2 - Gender bias: parole o espressioni linguistiche pregiudizievoli basati sulla percezione di genere che le donne non sono uguali agli uomini in termini di diritti e dignità.
+3 - Orientamento politico: parole o espressioni linguistiche che implicano l'inclinazione o l'alterazione delle informazioni per far sembrare più attraente una posizione politica o un candidato politico.
+4 - Orientamento religioso: parole o espressioni linguistiche pregiudizievoli basate sull'appartenenza di una persona a un gruppo religioso, piuttosto che sui suoi meriti individuali.
+5 - Sensazionalismo: la tendenza di alcuni giornali o periodici a pubblicare e diffondere certe notizie conferendo loro un risalto eccessivo e presentandole come sensazionali tramite l'utilizzo di parole o espressioni linguistiche per alimentare lo scandalo e l'indignazione dei lettori.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+<Title: Femminicidi,una Bicamerale al Senato per un’emergenza non italiana
+
+Body: Non c’è nulla da fare, sono culturalmente succubi della sinistra. Fino ad inventare un problema inesistente. Speriamo si rendano conto, ‘studiandolo’, che c’è una sproporzione di immigrati a commettere questo reato rispetto agli italiani. L’Italia è il Paese europeo con il più basso tasso di ‘femminicidi’. In testa la Svezia: mix di liberalismo ed immigrazione afroislamica.
+
+L’aula del Senato ha approvato all’una-
+nimità il disegno di legge per l’isti-
+tuzione di una commissione bicamerale
+di inchiesta sui femminicidi e su ogni
+forma di violenza di genere. Applauso
+all’annuncio dell’esito del voto.
+La decisione dimostra la volontà di ar-
+ginare il problema, ha detto il presi-
+dente La Russa. “Sbaglia chi pensa” che
+il femminicidio “sia una questione di
+donne, è essenzialmente una questione
+di uomini”.”E’ una grave violazione dei
+diritti umani”, un fenomeno che spesso
+nasce da ignoranza e intolleranza”.
+>
+
+
+
+
+
+{"Razzismo": {"bias": 1, "motivazione": "Nel testo vengono utilizzati termini razzisti come 'immigrazione afroislamica' per generalizzare e associare un gruppo etnico a un reato.", "porzione di testo": "Fino ad inventare un problema inesistente. Speriamo si rendano conto, ‘studiandolo’, che c’è una sproporzione di immigrati a commettere questo reato rispetto agli italiani. L’Italia è il Paese europeo con il più basso tasso di ‘femminicidi’. In testa la Svezia: mix di liberalismo ed immigrazione afroislamica."}}
+{"Gender bias": {"bias": 1, "motivazione": "Nel testo si afferma che il femminicidio non è una questione di donne, ma di uomini, implicando che le donne non sono uguali agli uomini in termini di diritti e dignità.", "porzione di testo": ""Sbaglia chi pensa” che il femminicidio “sia una questione di donne, è essenzialmente una questione di uomini”."}}
+{"Orientamento politico": {"bias": 0, "motivazione": "Non sono presenti espressioni linguistiche che implicano l'inclinazione o l'alterazione delle informazioni per far sembrare più attraente una posizione politica o un candidato politico."}}
+{"Orientamento religioso": {"bias": 0, "motivazione": "Non sono presenti espressioni linguistiche pregiudizievoli basate sull'appartenenza di una persona a un gruppo religioso."}}
+{"Sensazionalismo": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche sensazionalistiche per alimentare lo scandalo e l'indignazione dei lettori."}}

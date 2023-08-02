@@ -1,0 +1,39 @@
+- BERGOGLIO SFRATTA BIMBI ITALIANI PER OSPITARE PROFUGHI	https://voxnews.info/2017/07/20/bergoglio-sfratta-bimbi-italiani-per-ospitare-profughi/
+
+
+### Read the description of the following biases ###
+1 - Racism: words or linguistic expressions that express hatred or encourage violence against a person or group of people on the basis of their race and ethnicity
+2 - Gender bias: prejudicial words or linguistic expressions based on the gender perception that women are not equal to men in terms of rights and dignity.
+3 - Political bias: Words or linguistic expressions that involve skewing or altering information to make a political position or political candidate seem more attractive.
+4 - Religious orientation: Prejudicial words or linguistic expressions based on a person's membership of a religious group, rather than on their individual merits.
+5 - Sensationalism: the tendency of some newspapers or periodicals to publish and disseminate certain news by giving them excessive prominence and presenting them as sensational through the use of words or linguistic expressions to fuel the scandal and indignation of the readers.
+
+
+
+### Now, identify from the following text if the described biases are present and explain the reason for your choice, highlighting the portion of text in which the bias is contained.
+Each bias can be 0 or 1, depending on their presence in the document.
+The response must be formatted as JSON, having as keys those reported in the previous instructions.
+An example is: {"Racism": {"bias": 1, "motivation": "Racist terms are used in the article.", "text portion" }}
+
+
+
+The document is as follows:
+<Title: BERGOGLIO SFRATTA BIMBI ITALIANI PER OSPITARE PROFUGHI
+
+Body: ORA BERGOGLIO SFRATTA ANCHE I BAMBINI PER FARE POSTO AI CLANDESTINI
+
+Accade nella zona di Gregorio VII, nel quartiere Aurelio di Roma, si parla di due asili e un teatro. Sono i servizi che cesseranno di esistere perché il Vicariato (VATICANO) ha chiesto indietro i locali a chi li gestiva così da usarli per l’accoglienza dei cosiddetti profughi. Il Vicariato, contattato, si è rifiutato di confermare la notizia perché la portavoce non è autorizzata a parlarne.
+
+«È nella facoltà del Vicariato chiederci indietro i locali. Ci avevano dato tempo fino al 2018, ma noi non è che a metà del prossimo anno scolastico possiamo dire alle mamme “scusate, ora dobbiamo spostarci tutti” e poi comunque abbiamo bisogno di tempo per riorganizzarci», spiega uno dei titolari, che non spende una parola né contro il Vicariato né contro gli eventuali profughi che arriveranno e che, anzi, cerca di smorzare i toni. «Certo – si limita a dire – spiace, dopo tanti anni… E poi da questa struttura usciva pure uno dei nostri stipendi. Per fortuna, non abbiamo solo questo e io poi nelle altre strutture faccio di tutto, dal giardinaggio all’accoglienza». L’asilo è stato messo su da una famiglia che nel tempo è riuscita ad aprire anche altri nidi, restando però in una dimensione di impresa a gestione familiare in cui tutti si danno da fare. L’asilo in questione dava lavoro a una decina di persone tra maestre fisse, maestre saltuarie e maestri delle attività integrative, oltre naturalmente al reddito dei titolari. Le famiglie servite a prezzi un po’ calmierati, probabilmente proprio perché i locali erano in affitto nella chiesa, erano tra le 20 e le 30 a seconda degli anni. La chiusura pone un problema di occupazione e di impoverimento dei servizi del territorio che, se – come sembra – dovesse essere spalmato a livello cittadino, all’inizio del prossimo anno scolastico provocherà un grave disagio sociale. Il clima che si respira è di grande sconforto.
+
+
+VATICANO DIFENDE NAVI ONG: “ACCUSE VERGOGNOSE”, INCASSA 127 MILIONI DI EURO PER ACCOGLIERE PROFUGHI
+
+
+
+Voi capite. Il Vaticano, attraverso le sue filiali italiane è una delle organizzazione che incassa di più con il business dei sedicenti profughi. E questo val bene cacciare dagli asili dei bambini italiani. Poi parlano di ‘famiglie’ e ‘natalità’. Schifosi.>
+
+
+
+
+{"Racism": {"bias": 0, "motivation": "", "text portion": ""}, "Gender bias": {"bias": 0, "motivation": "", "text portion": ""}, "Political bias": {"bias": 0, "motivation": "", "text portion": ""}, "Religious orientation": {"bias": 0, "motivation": "", "text portion": ""}, "Sensationalism": {"bias": 1, "motivation": "The use of words like 'sfratta' (evict) and 'clandestini' (clandestine) to describe refugees can be seen as sensationalizing the issue.", "text portion": "ORA BERGOGLIO SFRATTA ANCHE I BAMBINI PER FARE POSTO AI CLANDESTINI"}}

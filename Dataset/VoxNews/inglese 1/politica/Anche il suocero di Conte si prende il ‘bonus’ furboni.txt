@@ -1,0 +1,29 @@
+- Anche il suocero di Conte si prende il ‘bonus’: furboni	https://voxnews.info/2020/08/10/anche-il-suocero-di-conte-si-prende-il-bonus-furboni/
+
+
+### Read the description of the following biases ###
+1 - Razzismo: the use of racist language or expressions to discriminate against people based on their ethnicity
+2 - Gender bias: the use of language or expressions that imply discrimination against people on the basis of their gender
+3 - Orientamento politico: the use of language or expressions that imply discrimination against people on the basis of their political orientation
+4 - Orientamento religioso: the use of language or expressions that imply discrimination against people on the basis of their religious orientation
+5 - Sensazionalismo:The use of language used to feed the scandal and the indignation of readers, to which is added an excessive and unbalanced use of exclamation marks and questions.
+6 - Advertising bias: When a newspaper chooses to mainly underline events or news that can elicit a positive reaction in the audience.
+
+
+### Now, identify in the following text wether or not these biases are present and explain the reason of your choice, underlying the step of the text in which the bias is present.
+Each bias can be 0 or 1, depending on their presence in the document.
+The answer must be formatted as a JSON, having as keys the ones reported in the previous steps. 
+
+An example is {"Razzismo": {"bias": 1, "explanation": "Nell'articolo vengono utilizzati termini razzisti.", "part of the text" }}
+
+The document is the following:
+<Title: Anche il suocero di Conte si prende il ‘bonus’ furboni
+
+Body: A denunciare per primo la marchetta di Giuseppe Conte era stato Nicola Porro. C’è infatti un piccolo regalo per il ‘suocero’ nel cosiddetto decreto Rilancio.
+
+“La troviamo a metà strada, quasi, all’articolo 180. Se non abbiamo interpretato male (può sempre succedere in questi casi) essa prevede una particolare depenalizzazione per coloro che gestiscono gli alberghi. Diciamo subito che per chi scrive si tratta di cosa buona e giusta”, scrive Porro sul suo blog. Cosa prevede l’articolo? ” Nel passato se un albergatore si fosse intascato la tassa di soggiorno che è obbligato ad esigere ogni giorno ai propri ospiti, sarebbe finito in galera. A leggere il terzo e il quarto comma dell’articolo 180 del nuovo decreto, da oggi ciò non è più reato: l’albergatore dovrà pagare una sanzione amministrativa”. Questa la novità.
+Per Porro, come detto, si tratta di una “norma di buon senso”. E però fa notare anche come la questione del mancato versamento della tassa di soggiorno da parte di chi gestisce un hotel al comune di Roma è un caso che lo scorso anno aveva “clamorosamente interessato” il “suocero” di Conte, Cesare Paladino, padre della sua compagna Olivia, proprietario di un hotel in centro a Roma. Stando ai pm, Cesare Paladino avrebbe intascato tra il 2014 e il 2018 circa due milioni di euro dai propri clienti senza girarli all’amministrazione di Virginia Raggi. Fu indagato e condannato, “o meglio – ricorda Porro – patteggiò la pena a poco più di un anno”.>
+
+
+
+{"Razzismo": {"bias": 0, "explanation": "No racist language or expressions are used in the text.", "part of the text": ""}, "Gender bias": {"bias": 0, "explanation": "No language or expressions implying discrimination based on gender are used in the text.", "part of the text": ""}, "Orientamento politico": {"bias": 0, "explanation": "No language or expressions implying discrimination based on political orientation are used in the text.", "part of the text": ""}, "Orientamento religioso": {"bias": 0, "explanation": "No language or expressions implying discrimination based on religious orientation are used in the text.", "part of the text": ""}, "Sensazionalismo": {"bias": 0, "explanation": "The language used in the text is not sensationalistic, there is no excessive use of exclamation marks or questions.", "part of the text": ""}, "Advertising bias": {"bias": 1, "explanation": "The text mainly focuses on a positive event or news, which is the 'bonus' received by Giuseppe Conte's father-in-law.", "part of the text": "Title: Anche il suocero di Conte si prende il ‘bonus’ furboni\n\nBody: A denunciare per primo la marchetta di Giuseppe Conte era stato Nicola Porro. C’è infatti un piccolo regalo per il ‘suocero’ nel cosiddetto decreto Rilancio."}}

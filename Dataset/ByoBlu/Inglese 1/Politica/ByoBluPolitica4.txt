@@ -1,0 +1,45 @@
+VATICANO, ATTO D’AMORE VERSO PFIZER? IL NESSO TRA PAPA FRANCESCO E ALBERT BOURLA    
+
+https://www.byoblu.com/2022/01/18/vaticano-pfizer-papa-francesco-albert-bourla-incontri-segreti/
+
+### Read the description of the following biases ###
+1 - Razzismo: the use of racist language or expressions to discriminate against people based on their ethnicity
+2 - Gender bias: the use of language or expressions that imply discrimination against people on the basis of their gender
+3 - Orientamento politico: the use of language or expressions that imply discrimination against people on the basis of their political orientation
+4 - Orientamento religioso: the use of language or expressions that imply discrimination against people on the basis of their religious orientation
+5 - Sensazionalismo:The use of language used to feed the scandal and the indignation of readers, to which is added an excessive and unbalanced use of exclamation marks and questions.
+6 - Advertising bias: When a newspaper chooses to mainly underline events or news that can elicit a positive reaction in the audience.
+
+
+### Now, identify in the following text wether or not these biases are present and explain the reason of your choice, underlying the step of the text in which the bias is present.
+Each bias can be 0 or 1, depending on their presence in the document.
+The answer must be formatted as a JSON, having as keys the ones reported in the previous steps. 
+
+An example is {"Razzismo": {"bias": 1, "explanation": "Nell'articolo vengono utilizzati termini razzisti.", "part of the text" }}
+
+The document is the following:
+<Title: VATICANO, ATTO D’AMORE VERSO PFIZER? IL NESSO TRA PAPA FRANCESCO E ALBERT BOURLA
+
+Body: Un terremoto si abbatte sul Vaticano. Nel corso del 2021, Papa Francesco avrebbe incontrato due volte in privato l’amministratore delegato di Pfizer Albert Bourla. Lo riporta il giornalista Edward Pentin sul National Catholic Register. A quanto si apprende, il Papa ha tenuto due incontri riservati in Vaticano con il vertice del colosso farmaceutico statunitense; tuttavia, non sono stati resi noti i dettagli dei colloqui. A differenza degli altri incontri privati papali, quelli con “Mr. Pfizer” non sono stati annunciati dalla sala stampa della Santa Sede. Un portavoce dell’azienda farmaceutica ha riferito al National Catholic Register che gli incontri “non possono essere né confermati, né smentiti. In quanto, stando alla nostra politica aziendale, gli spostamenti dei nostri dirigenti sono confidenziali”.
+
+Non è la prima volta che Papa Francesco svolge incontri senza che questi vengano riportati. A novembre del 2019, poco prima dell’inizio dell’emergenza sanitaria, Francesco aveva ricevuto in Vaticano Melinda Gates, ex moglie di Bill e con lui cofondatrice della Fondazione Bill & Melinda Gates. Nonostante l’incontro sia ben conosciuto in Vaticano, non è mai stato riconosciuto in via ufficiale.
+
+La conferenza sanitaria ospitata dal Vaticano
+A maggio del 2021, Albert Bourla era stato uno dei relatori della conferenza sanitaria online del Vaticano intitolata “Unite to Prevent & Unite to Cure” (Uniti per prevenire e Uniti per curare). Un convegno online che si è concentrato su trattamenti per il Covid-19, ma soprattutto sulla promozione dei vaccini prodotti dai grandi di Big Pharma. Tra gli interventi co-ospitati dal Pontificio consiglio della cultura, oltre a quello di Bourla, spiccano quelli di Stephane Bancel, amministratore delegato di Moderna, dell’immunologo Anthony Fauci, capo della task force anti-Covid delle amministrazioni Trump e Biden, e infine di Francis Collins, l’allora vertice dei National Institutes of Health degli Stati Uniti d’America. Proprio Collins e Fauci sono negli ultimi mesi sempre più al centro dello scandalo che indicherebbe una fuoriuscita del Sars-Cov-2 dall’Istituto di virologia di Wuhan. Stando a uno scambio di e-mail tra i due, risalente a febbraio del 2020 e reso pubblico dal Congresso, Fauci e Collins hanno ridotto la teoria dell’origine artificiale del virus a un semplice “complotto” con la pubblicazione di articoli scientifici creati ad hoc.
+
+L’asse Vaticano-Pfizer
+La conferenza sanitaria che si è tenuta in Vaticano è stata presentata come la prova scientifica dell’efficacia e della sicurezza del vaccino, ma se a parlare sono soggetti con palesi conflitti d’interessi, è più che lecito mantenere dubbi a riguardo. Difficile che un fruttivendolo che deve vendere le sue mele, parli di ammaccature e gusto acerbo. Ad ogni modo, l’incontro tra Papa Francesco e Albert Bourla getta luce su alcune decisioni che sono state prese nello Stato pontificio nell’ultimo anno. Il Vaticano è stato infatti uno dei primi a siglare un contratto proprio con Pfizer verso la fine del 2020 e ha iniziato a somministrare le dosi agli inizi del 2021. L’unico vaccino anti covid reso disponibile è quello realizzato da Pfizer-BioNTech. L’inoculazione è obbligatoria, in quanto per accedere al territorio pontificio è necessario il super green pass. Dal 31 gennaio 2022, il certificato di avvenuta vaccinazione con terza dose, o di guarigione, sarà richiesto a tutto il personale del Governatorato, compresi i collaboratori. Non vi sarà nessuna esenzione per motivi religiosi, ha fatto sapere il Cardinale Pietro Parolin.
+
+Un atto d’amore verso Big Pharma?
+Insomma, in questo riquadro fanno discutere le frequenti dichiarazioni di Papa Francesco che ha più volte promosso la vaccinazione definendola “obbligo morale” e “atto d’amore verso il prossimo”. Nella giornata di lunedì 10 gennaio 2022, Francesco ha ricevuto in udienza i membri del corpo diplomatico accreditato presso la Santa Sede. Il Papa ha inaugurato il discorso parlando dell’emergenza sanitaria e del vaccino, dichiarando che gli scettici di quest’ultimo si lasciano “prendere dall’ideologia del momento”. Ma che cos’è se non ideologia, la fiducia cieca nei confronti di un farmaco che ha dimostrato tutti i suoi limiti? E perché il vaccino deve essere solo ed esclusivamente quello prodotto da Bourla? Non si tratta forse di un atto d’amore verso Pfizer?>
+
+
+
+RISULTATI
+
+{"Razzismo": {"bias": 0, "explanation": "No racist language or expressions are used in the text.", "part of the text": ""}, 
+"Gender bias": {"bias": 0, "explanation": "No language or expressions implying discrimination based on gender are used in the text.", "part of the text": ""}, 
+"Orientamento politico": {"bias": 0, "explanation": "No language or expressions implying discrimination based on political orientation are used in the text.", "part of the text": ""}, 
+"Orientamento religioso": {"bias": 0, "explanation": "No language or expressions implying discrimination based on religious orientation are used in the text.", "part of the text": ""}, 
+"Sensazionalismo": {"bias": 0, "explanation": "The language used in the text is not sensationalistic, there is no excessive or unbalanced use of exclamation marks or questions.", "part of the text": ""}, 
+"Advertising bias": {"bias": 0, "explanation": "The text does not mainly underline events or news that can elicit a positive reaction in the audience.", "part of the text": ""}}

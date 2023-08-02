@@ -1,0 +1,59 @@
+- Sesso pedofilo con omosessuali: il racconto choc dei bambini, il sesso gay in chiesa	https://voxnews.info/2015/05/23/sesso-pedofilo-con-omosessuali-il-racconto-choc-dei-bambini-il-sesso-gay-in-chiesa/
+
+
+### Read the description of the following biases ###
+1 - Racism: words or linguistic expressions that express hatred or encourage violence against a person or group of people on the basis of their race and ethnicity
+2 - Gender bias: prejudicial words or linguistic expressions based on the gender perception that women are not equal to men in terms of rights and dignity.
+3 - Political bias: Words or linguistic expressions that involve skewing or altering information to make a political position or political candidate seem more attractive.
+4 - Religious orientation: Prejudicial words or linguistic expressions based on a person's membership of a religious group, rather than on their individual merits.
+5 - Sensationalism: the tendency of some newspapers or periodicals to publish and disseminate certain news by giving them excessive prominence and presenting them as sensational through the use of words or linguistic expressions to fuel the scandal and indignation of the readers.
+
+
+
+### Now, identify from the following text if the described biases are present and explain the reason for your choice, highlighting the portion of text in which the bias is contained.
+Each bias can be 0 or 1, depending on their presence in the document.
+The response must be formatted as JSON, having as keys those reported in the previous instructions.
+An example is: {"Racism": {"bias": 1, "motivation": "Racist terms are used in the article.", "text portion" }}
+
+
+
+The document is as follows:
+<Title: Sesso pedofilo con omosessuali il racconto choc dei bambini, il sesso gay in chiesa
+
+Body:  Ogni volta che escono fatti di cronaca, si comprende perché certi settori della società – pseudovolontariato, associazioni pseudo cattoliche – siano così fanaticamente favorevoli all’accoglienza e ai campi nomadi:
+
+«Frequento quotidianamente la stazione Termini, in quanto mi procuro il denaro necessario al mio sostentamento, offrendo ai clienti dello scalo aiuto per l’acquisto dei biglietti presso le biglietterie automatiche. Prima di compiere i diciotto anni, cioè quattro mesi fa, mi è capitato di essere quasi sempre nei pressi dell’uscita da voi citata (il binario 29, dove, secondo gli investigatori, sarebbe avvenuta la maggior parte degli incontri sessuali, ndr) con diversi uomini che frequentano la stazione ferroviaria e che so essere omosessuali. Con alcuni di loro avuto rapporti sessuali a pagamento, tra i 20 e i 30 euro».
+
+«Poi lui mi ha fatto fare la doccia»
+
+
+
+A parlare uno zingaro del campo nomadi di Aprilia, ascoltato in Procura.
+
+La confessione dell’adolescente e quella di altri, ragazzini (tutti maschi, memorizzate) fra i 13 e 17 anni d’età, è confluita nell’ordinanza del giudice che, giovedì scorso, ha portato all’arresto di otto persone per reati sessuali nei confronti di minori. Si tratta di fatti avvenuti tra il 2012 e il 2014 fra via Giolitti e piazza dei Cinquecento e, spesso, proprio nelle viscere di Termini, fra sottopassi e bagni pubblici, tra corridoi e gallerie, di binario in binario. Le telecamere installate hanno aiutato la polizia ferroviaria a identificare le persone coinvolte. Agli atti dell’inchiesta ci sono foto, filmati e intercettazioni telefoniche.
+
+«Poi lui mi ha fatto fare la doccia, siamo usciti, siamo andati in un ristorante e dopo sono andato al treno e sono andato a casa. Sono andato una sola volta con lui, siamo andati con la moto ad Albano. Questo signore si faceva chiamare Stefano. Questi clienti, ecco, alcuni sono dei Castelli».
+
+Un altro ancora, stavolta più piccolo, racconta i rapporti omosessuali avuti con il sessantaduenne arrestato. Recidivo, l’uomo, ha già scontato tre settimane per un’altra violenza, solo pochi mesi fa, ma era già fuori:
+
+«Una volta l’ho avuto anch’io un rapporto con lui. È successo quest’ estate dentro il bagno del bar che si trova accanto al McDonald di via Giolitti, il bagno si trova nel piano interrato del bar lui mi ha chiesto di fargli… alla fine mi ha dato 25 euro».
+
+
+Tra gli arrestati anche un prete e scrittore porno. Il parroco delle chiese viterbesi di Vallebona e Montecalvello, noto per la sua mania nell’accogliere zingari e profughi. Ora si capisce perché.
+
+In casa, oltre a 1700 foto hard di minori maschi, gli agenti hanno trovato libri porno scritti sotto lo pseudonimo di Gabriele Doni.
+
+«In stazione gira sulla scala mobile, sul binario per Fiumicino, è venuto davanti al Mc Donald’s con la macchina, siamo andati a mangiare e dopo sono andato a casa con lui».
+
+«Quaranta o cinquanta euro, ci prostituivamo anche nella Basilica»
+
+Una prostituta che ‘lavora’ in zona su un altro prete della lobby gay:
+
+«È un prete che due o tre anni fa lavorava presso la chiesa Santa Maria degli Angeli in Piazza della Repubblica, a riguardo sono certa delle mie affermazioni in quanto all’epoca lavoravo ancora come meretrice proprio zona della citata Piazza della Repubblica  e, in alcune occasioni, la sera, ho notato lo stesso che faceva entrare dei ragazzini romeni da un’entrata secondaria della struttura. Poi, scambiando qualche parola con uno di quei ragazzini, ho appreso che quell’uomo lì pagava 20 euro per consumare rapporti sessuali»
+
+Ovviamente, il fatto che tutti i casi di preti pedofili riguardino maschietti, non ha nulla a  che vedere con la omosessualità. No, no. no.>
+
+
+
+
+{"Racism": {"bias": 0, "motivation": "", "text portion": ""}, "Gender bias": {"bias": 0, "motivation": "", "text portion": ""}, "Political bias": {"bias": 0, "motivation": "", "text portion": ""}, "Religious orientation": {"bias": 0, "motivation": "", "text portion": ""}, "Sensationalism": {"bias": 1, "motivation": "The use of words and linguistic expressions to fuel scandal and indignation.", "text portion": "Ogni volta che escono fatti di cronaca, si comprende perché certi settori della società – pseudovolontariato, associazioni pseudo cattoliche – siano così fanaticamente favorevoli all’accoglienza e ai campi nomadi:"}}

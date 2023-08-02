@@ -1,0 +1,52 @@
+VIETARE IL VOTO AI NO-VAX”: IDEA FOLLE CHE NON PIACE AI CITTADINI
+
+https://www.byoblu.com/2022/07/26/vietare-il-voto-ai-no-vax-idea-folle-che-non-piace-ai-cittadini/
+
+
+### Read the description of the following biases ###
+1 - Racism: words or linguistic expressions that express hatred or encourage violence against a person or group of people on the basis of their race and ethnicity
+2 - Gender bias: prejudicial words or linguistic expressions based on the gender perception that women are not equal to men in terms of rights and dignity.
+3 - Political bias: Words or linguistic expressions that involve skewing or altering information to make a political position or political candidate seem more attractive.
+4 - Religious orientation: Prejudicial words or linguistic expressions based on a person's membership of a religious group, rather than on their individual merits.
+5 - Sensationalism: the tendency of some newspapers or periodicals to publish and disseminate certain news by giving them excessive prominence and presenting them as sensational through the use of words or linguistic expressions to fuel the scandal and indignation of the readers.
+
+
+
+### Now, identify from the following text if the described biases are present and explain the reason for your choice, highlighting the portion of text in which the bias is contained.
+Each bias can be 0 or 1, depending on their presence in the document.
+The response must be formatted as JSON, having as keys those reported in the previous instructions.
+An example is: {"Racism": {"bias": 1, "motivation": "Racist terms are used in the article.", "text portion" }}
+
+
+
+The document is as follows:
+<Title: “VIETARE IL VOTO AI NO-VAX”: IDEA FOLLE CHE NON PIACE AI CITTADINI
+
+Body: All’improvviso, l’ideona: “Il #25settembre bisogna assolutamente vietare l’ingresso nei seggi a chi non è #vaccinato.Subito un #greenpass elettorale. Chi ha la mente anestetizzata dal populismo #novax e straparla di #dittaturasanitaria e #NORIMBERGA2 è una minaccia per la nazione“.
+
+Parole che si commentano da sole, le ha scritte su Twitter Antonello De Pierro, giornalista e fondatore, nonché presidente, di un movimento che ha chiamato “Italia dei Diritti”.
+
+Non per dare spazio a una follia ventilata da qualcuno in palese ricerca di visibilità, ma certo questa uscita social la dice lunga su alcuni personaggi che si ergono a paladini dei diritti dimenticandone il senso e il significato stesso.
+
+Sappiamo tutti che tra i diritti garantiti dalla Costituzione italiana ai cittadini c’è quello, fondamentale, di esprimersi anche attraverso il voto. Ma tant’è, ed è con certi pensieri assurdi e contraddittori che si spostano le finestre di Overton. E gli italiani stanno cominciando a capire il gioco.
+
+Il sondaggio boomerang: i contrari superano il 90%
+Del resto, il tweet che invoca il divieto di voto per i non vaccinati è stato riproposto dal suo autore poco dopo corredato da un sondaggio, e il risultato merita una menzione. “Green pass elettorale, sei d’accordo?” chiede De Pierro. Opzioni: sì, no. A 17 ore dalla pubblicazione si registrano quasi 3 mila risposte. Il 92,4% ha detto no. Solo il 7.6% si è detto favorevole al divieto.
+
+Antonello De Pierro non è nuovo a sparate dal sapore nazista: “Da amministratore pubblico con tre cariche elettive – scriveva l’anno scorso il giornalista e consigliere comunale a Rocca di Papa – avanzo una proposta: dotiamo tutti i non vaccinati di un segno distintivo, in modo da inibire loro ogni accesso alla vita sociale. Un marchio novax. Ognuno potrà tenere a distanza gli untori” .
+
+Sarebbe interessante capire come la pensino le varie forze politiche che hanno sostenuto il governo Draghi sul nuovo tweet che invoca l’esclusione dai seggi, posto che probabilmente l’esigua percentuale di risposte positive all’idea folle di De Pierro arriva da elettori di quell’area. Certo, se questa proposta venisse realizzata, finirebbe per fare buon gioco ai draghiani del centro e della sinistra, preoccupati più di frenare l’avanzata di quelli che chiamano “fascisti” che di presentare il proprio programma politico. Anche perché le forze della coalizione di destra, Fratelli d’Italia, Lega e Forza Italia, cercano i voti di chi contrasta obblighi vaccinali, tessere verdi e limitazioni alla libertà, come emerge dall’edizione di oggi del quotidiano La Verità.
+
+La storia insegna…
+Staremo a vedere se la sparata di De Pierro sarà rilanciata o commentata da qualche esponente politico nazionale. Intanto ci limitiamo a ripassare la storia, e in particolare le Leggi di Norimberga, varate da Adolf Hitler nel 1935: secondo la legge sulla cittadinanza del Reich tutti coloro che erano classificati come ebrei non potevano essere cittadini del Reich, venne quindi tolto loro il diritto di voto e vennero esclusi dal pubblico impiego.
+
+Niente paura, gli italiani hanno coscienza e senso della storia, come dimostra la risposta al sondaggio del giornalista romano. E poi, ogni azione provoca una reazione uguale e contraria, lo dice la scienza. Se non ci permetteranno di esprimere il nostro voto, troveremo altri canali per manifestare il nostro pensiero.>
+
+
+RISULTATI
+
+{"Racism": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Gender bias": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Political bias": {"bias": 1, "motivation": "The text mentions political positions and candidates in a biased way.", "text portion": "Certo, se questa proposta venisse realizzata, finirebbe per fare buon gioco ai draghiani del centro e della sinistra, preoccupati più di frenare l’avanzata di quelli che chiamano “fascisti” che di presentare il proprio programma politico. Anche perché le forze della coalizione di destra, Fratelli d’Italia, Lega e Forza Italia, cercano i voti di chi contrasta obblighi vaccinali, tessere verdi e limitazioni alla libertà, come emerge dall’edizione di oggi del quotidiano La Verità."}, 
+"Religious orientation": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Sensationalism": {"bias": 0, "motivation": "", "text portion": ""}}

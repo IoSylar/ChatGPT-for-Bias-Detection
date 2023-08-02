@@ -1,0 +1,31 @@
+- Secondo la Cia: “Mattei era fascista”	 https://voxnews.info/2022/12/17/secondo-la-cia-mattei-era-fascista/
+
+
+
+### Read the description of the following biases ###
+1 - Racism: words or linguistic expressions that express hatred or encourage violence against a person or group of people on the basis of their race and ethnicity
+2 - Gender bias: prejudicial words or linguistic expressions based on the gender perception that women are not equal to men in terms of rights and dignity.
+3 - Political bias: Words or linguistic expressions that involve skewing or altering information to make a political position or political candidate seem more attractive.
+4 - Religious orientation: Prejudicial words or linguistic expressions based on a person's membership of a religious group, rather than on their individual merits.
+5 - Sensationalism: the tendency of some newspapers or periodicals to publish and disseminate certain news by giving them excessive prominence and presenting them as sensational through the use of words or linguistic expressions to fuel the scandal and indignation of the readers.
+
+
+
+### Now, identify from the following text if the described biases are present and explain the reason for your choice, highlighting the portion of text in which the bias is contained.
+Each bias can be 0 or 1, depending on their presence in the document.
+The response must be formatted as JSON, having as keys those reported in the previous instructions.
+An example is: {"Racism": {"bias": 1, "motivation": "Racist terms are used in the article.", "text portion" }}
+
+
+
+The document is as follows:
+<Title: Secondo la Cia “Mattei era fascista”
+
+Body: Mattei era un patriota. Quindi non poteva essere ‘antifascista’. Voleva un’Italia indipendente, né amerikana né sovietiva. Italiana. Come noi oggi. Questo significa essere ‘fascisti’? Sticazzi. Di certo meglio di essere a libro paga della Cia o del Kgb ieri e del Qatar oggi.>
+
+
+
+
+
+
+{"Racism": {"bias": 0, "motivation": "", "text portion": ""}, "Gender bias": {"bias": 0, "motivation": "", "text portion": ""}, "Political bias": {"bias": 1, "motivation": "The text mentions being on the payroll of the CIA or KGB, implying a negative view of these organizations.", "text portion": "Di certo meglio di essere a libro paga della Cia o del Kgb ieri e del Qatar oggi."}, "Religious orientation": {"bias": 0, "motivation": "", "text portion": ""}, "Sensationalism": {"bias": 0, "motivation": "", "text portion": ""}}

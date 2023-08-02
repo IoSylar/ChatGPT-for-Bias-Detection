@@ -1,0 +1,46 @@
+TRIBUNALE DI NAPOLI AZZERA I VERTICI DEL M5S, È LA FINE DI GIUSEPPE CONTE?
+
+https://www.byoblu.com/2022/02/08/tribunale-di-napoli-azzera-i-vertici-del-m5s-e-la-fine-di-giuseppe-conte/
+
+
+### Read the description of the following biases ###
+1 - Racism: words or linguistic expressions that express hatred or encourage violence against a person or group of people on the basis of their race and ethnicity
+2 - Gender bias: prejudicial words or linguistic expressions based on the gender perception that women are not equal to men in terms of rights and dignity.
+3 - Political bias: Words or linguistic expressions that involve skewing or altering information to make a political position or political candidate seem more attractive.
+4 - Religious orientation: Prejudicial words or linguistic expressions based on a person's membership of a religious group, rather than on their individual merits.
+5 - Sensationalism: the tendency of some newspapers or periodicals to publish and disseminate certain news by giving them excessive prominence and presenting them as sensational through the use of words or linguistic expressions to fuel the scandal and indignation of the readers.
+
+
+
+### Now, identify from the following text if the described biases are present and explain the reason for your choice, highlighting the portion of text in which the bias is contained.
+Each bias can be 0 or 1, depending on their presence in the document.
+The response must be formatted as JSON, having as keys those reported in the previous instructions.
+An example is: {"Racism": {"bias": 1, "motivation": "Racist terms are used in the article.", "text portion" }}
+
+
+
+The document is as follows:
+<Title: TRIBUNALE DI NAPOLI AZZERA I VERTICI DEL M5S, È LA FINE DI GIUSEPPE CONTE?
+
+Body: Da anonimo professore di diritto a “avvocato degli italiani” e capo del primo governo gialloverde, sotto la guardinga tutela di Salvini e Di Maio. Nel giro di un torrido agosto aveva poi dismesso vestito i panni del truce sovranista per indossare quelli del raffinato europeista e dar vita all’esecutivo PD, 5Stelle. Verrà probabilmente ricordato per i suoi DPCM, capolavori giuridici illustrati nelle dirette streaming in prima serata sotto la salda guida di Rocco Casalino: si potrà fare una passeggiata ma solo con il cane al guinzaglio, non ci si potrà allontanare a più di trecento metri da casa, si potrà uscire insieme ma solo con i congiunti, e via elencando. E poi, quando sembrava che nessuno avrebbe potuto impedirgli di irrompere nei libri di storia con il titolo di statista, il disarcionamento da Palazzo Chigi in favore di Mario Draghi.
+
+Ma l’anonimo professore si era ormai trasformato in politico e si accingeva ad essere designato capo del Movimento 5 Stelle 2.0, ovvero di quel partito nato con lo scopo di ripulire la politica da egoismi e interessi di bottega, da privilegi e brame di potere e trasformatosi in un’agenzia di collocamento per aspiranti parlamentari in cerca di vitalizio.
+
+Qualcuno doveva pur metterci la faccia sulla trasformazione del Movimento da forza antisistema a sistema, e la faccia doveva essere la sua: rassicurante, affascinante (vantava anche un fan club femminile) e disinvoltamente incline alla cavillosa eloquenza, altrimenti detta supercazzola.
+
+Da fine giurista aveva riscritto lo statuto del Movimento, ricevendo la sacra investitura: i click degli iscritti. Da allora ha tentato l’improbabile impresa di dirigere un partito in fase di avanzata erosione, di dare un’impronta politica a un gruppo parlamentare il cui unico scopo era diventato quello di veder apparire il bonifico del mese successivo e di tirare a campare perlomeno fino a settembre, mese in cui matureranno i prima odiati e poi tanto sospirati vitalizi.
+
+Il tentativo di somigliare nei modi e nei toni a Enrico Letta, non era bastato a fargli spuntare la partita sul Quirinale, quando pensava di aver portato a casa l’accordo sul “presidente donna”, nel giro di una notte Di Maio gli aveva sfilato di mano il controllo degli elettori, puntando sul segno della continuità: più conservatore di un Gattopardo, che almeno poteva dire: “bisogna che tutto cambi affinché nulla cambi”. Il bibitaro del San Paolo approdato alla Farnesina non si prende più nemmeno il disturbo di cambiare le forme.
+
+E infine ieri la sentenza di ieri, arrivata da un tribunale di Napoli, che ha azzerato i vertici del Movimento, per via di alcuni cavilli giuridici sul nuovo statuto, scritto proprio dall’avvocato Giuseppe Conte. Le votazioni della scorsa estate non sono più valide: “gravi vizi nel processo decisionale”, ha scritto il tribunale. I vertici dunque sono azzerati, Conte non è più il capo. E sembra passato da un secolo da quel 4 marzo 2018 , giorno delle ultime elezioni, dal ‘governo del cambiamento’, dall”impeachment a Mattarella’ minacciato da Di Maio, dalla commissione sulle banche, la nazionalizzazione di Autostrade, dal ‘mai col Partito di Bibbiano’, e poi dalle distopiche conferenze stampa di Conte, che chiudeva solennemente in casa gli italiani.
+
+Cosa ne sarà di un Movimento che aveva promesso di sbullonare il sistema e alla fine ci si è blindato dentro più sfacciatamente di qualsiasi altro? E cosa ne sarà di quel professore di diritto che, come in una fiaba, si è visto trasformare in primo ministro e capo del partito più votato degli italiani e che ora sembra aver esaurito il potere dell’incantesimo?>
+
+
+RISULTATI
+
+{"Racism": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Gender bias": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Political bias": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Religious orientation": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Sensationalism": {"bias": 0, "motivation": "", "text portion": ""}}

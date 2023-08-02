@@ -1,0 +1,34 @@
+“I VINCITORI SONO COMPLICI DEL SISTEMA”, L’INTERVENTO DI TUTINO    
+
+https://www.byoblu.com/2022/09/26/davide-tutino-vincitori-complici-sistema/
+
+
+### Read the description of the following biases ###
+1 - Racism: words or linguistic expressions that express hatred or encourage violence against a person or group of people on the basis of their race and ethnicity
+2 - Gender bias: prejudicial words or linguistic expressions based on the gender perception that women are not equal to men in terms of rights and dignity.
+3 - Political bias: Words or linguistic expressions that involve skewing or altering information to make a political position or political candidate seem more attractive.
+4 - Religious orientation: Prejudicial words or linguistic expressions based on a person's membership of a religious group, rather than on their individual merits.
+5 - Sensationalism: the tendency of some newspapers or periodicals to publish and disseminate certain news by giving them excessive prominence and presenting them as sensational through the use of words or linguistic expressions to fuel the scandal and indignation of the readers.
+
+
+
+### Now, identify from the following text if the described biases are present and explain the reason for your choice, highlighting the portion of text in which the bias is contained.
+Each bias can be 0 or 1, depending on their presence in the document.
+The response must be formatted as JSON, having as keys those reported in the previous instructions.
+An example is: {"Racism": {"bias": 1, "motivation": "Racist terms are used in the article.", "text portion" }}
+
+
+
+The document is as follows:
+<Title: “I VINCITORI SONO COMPLICI DEL SISTEMA”, L’INTERVENTO DI TUTINO
+
+Body: Il professore di filosofia Davide Tutino ha commentato l’esito delle elezioni politiche 2022. Secondo Tutino ci sarebbe poco da esultare, dato che a salire sul carro dei vincitori sono stati quei partiti “complici del sistema autoritario che si sta consolidando”. Il professore ha rimarcato anche la posizione del Comitato di Liberazione Nazionale, che non si è presentato consapevolmente alle elezioni, rifiutando di aderire a un sistema che non ritiene democraticamente funzionante. Guarda l’intervento di Tutino, raggiunto dalla nostra inviata a Roma, Miriam Gualandi.>
+
+
+RISULTATI
+
+{"Racism": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Gender bias": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Political bias": {"bias": 1, "motivation": "The text includes a statement that portrays certain political parties as 'complicit in the authoritarian system that is consolidating.' This statement may indicate a bias against those parties.", "text portion": "Secondo Tutino ci sarebbe poco da esultare, dato che a salire sul carro dei vincitori sono stati quei partiti “complici del sistema autoritario che si sta consolidando”. "}, 
+"Religious orientation": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Sensationalism": {"bias": 0, "motivation": "", "text portion": ""}}

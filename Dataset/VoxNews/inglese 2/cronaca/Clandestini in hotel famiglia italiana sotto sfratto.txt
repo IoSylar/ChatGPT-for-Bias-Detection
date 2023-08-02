@@ -1,0 +1,38 @@
+- Clandestini in hotel: famiglia italiana sotto sfratto	https://voxnews.info/2015/01/20/clandestini-in-hotel-famiglia-italiana-sotto-sfratto/
+
+### Read the description of the following biases ###
+1 - Racism: words or linguistic expressions that express hatred or encourage violence against a person or group of people on the basis of their race and ethnicity
+2 - Gender bias: prejudicial words or linguistic expressions based on the gender perception that women are not equal to men in terms of rights and dignity.
+3 - Political bias: Words or linguistic expressions that involve skewing or altering information to make a political position or political candidate seem more attractive.
+4 - Religious orientation: Prejudicial words or linguistic expressions based on a person's membership of a religious group, rather than on their individual merits.
+5 - Sensationalism: the tendency of some newspapers or periodicals to publish and disseminate certain news by giving them excessive prominence and presenting them as sensational through the use of words or linguistic expressions to fuel the scandal and indignation of the readers.
+
+
+
+### Now, identify from the following text if the described biases are present and explain the reason for your choice, highlighting the portion of text in which the bias is contained.
+Each bias can be 0 or 1, depending on their presence in the document.
+The response must be formatted as JSON, having as keys those reported in the previous instructions.
+An example is: {"Racism": {"bias": 1, "motivation": "Racist terms are used in the article.", "text portion" }}
+
+
+
+The document is as follows:
+<Title: Clandestini in hotel famiglia italiana sotto sfratto
+
+Body: Casalgrande – Questa mattina i militanti di CasaPound hanno aiutato una famiglia italiana con un bimbo di 10 anni a carico, in grave crisi economica ed emergenza abitativa, a fermare lo sfratto esecutivo che pendeva nei loro confronti. Dopo che il Comune aveva risposto picche alle richieste di aiuto.
+
+E pensare, che poco più in là, ci sono degli hotel che ospitano clandestini africani.
+
+
+“Ci hanno contattato disperati settimane fa per chiederci aiuto -afferma Pier Paolo Mora, coordinatore regionale del movimento- perché non riuscivano più a pagare l’ affitto e poiché il comune li aveva completamente abbandonati, dopo aver proposto a madre e figlio una soluzione di due settimane in hotel senza nessuna garanzia per il futuro, e al padre di dormire in macchina sin da subito.”
+
+“Stiamo parlando di un padre di famiglia di 56 anni -Continua Mora- con 33 anni di contributi alle spalle e 2 alla pensione che attualmente trova solo lavoretti saltuari, di una madre disoccupata in cerca di lavoro e di un bambino di 10 anni, è inammissibile che dopo trent’anni di tasse pagate chi rappresenta lo stato li metta tutti in mezzo a una strada senza proporgli soluzioni alternative a medio-lungo termine, quando chi sbarca in Italia clandestinamente ha già garantiti tutta una serie di diritti che vanno dal vitto, all’ alloggio, all’ assistenzialismo delle cooperative che poi pescano proprio dai soldi pubblici i finanziamenti necessari al proprio mantenimento”
+
+“Chiediamo un incontro immediato al sindaco affinchè trovi una soluzione condivisa e accettabile sia per la famiglia sotto sfratto, sia per il proprietario della casa che giustamente rivuole il suo stabile. Questo -conclude Mora- è un altro tassello che va ad inserirsi nel grande lavoro che stiamo facendo in Emilia, così come in tutta Italia, dove già da tempo a Bologna, Parma Forlì aiutiamo famiglie in difficoltà e abbiamo intrapreso iniziative a sostegno dei diritti degli Italiani, chiamati in causa dallo stato solo quando devono pagare le tasse, e poi abbandonati nel momento del bisogno.”>
+
+
+
+
+
+{"Racism": {"bias": 1, "motivation": "Prejudicial words against African immigrants.", "text portion": "E pensare, che poco più in là, ci sono degli hotel che ospitano clandestini africani."}, "Gender bias": {"bias": 0, "motivation": "", "text portion": ""}, "Political bias": {"bias": 0, "motivation": "", "text portion": ""}, "Religious orientation": {"bias": 0, "motivation": "", "text portion": ""}, "Sensationalism": {"bias": 0, "motivation": "", "text portion": ""}}
+

@@ -1,0 +1,40 @@
+- Polizia croata caccia i parlamentari PD andati a prendere i clandestini: inseguiti e respinti – VIDEO	https://voxnews.info/2021/01/30/polizia-croata-caccia-i-parlamentari-pd-andati-a-prendere-i-clandestini-inseguiti-e-respinti/
+
+
+### Read the description of the following biases ###
+1 - Racism: words or linguistic expressions that express hatred or encourage violence against a person or group of people on the basis of their race and ethnicity
+2 - Gender bias: prejudicial words or linguistic expressions based on the gender perception that women are not equal to men in terms of rights and dignity.
+3 - Political bias: Words or linguistic expressions that involve skewing or altering information to make a political position or political candidate seem more attractive.
+4 - Religious orientation: Prejudicial words or linguistic expressions based on a person's membership of a religious group, rather than on their individual merits.
+5 - Sensationalism: the tendency of some newspapers or periodicals to publish and disseminate certain news by giving them excessive prominence and presenting them as sensational through the use of words or linguistic expressions to fuel the scandal and indignation of the readers.
+
+
+
+### Now, identify from the following text if the described biases are present and explain the reason for your choice, highlighting the portion of text in which the bias is contained.
+Each bias can be 0 or 1, depending on their presence in the document.
+The response must be formatted as JSON, having as keys those reported in the previous instructions.
+An example is: {"Racism": {"bias": 1, "motivation": "Racist terms are used in the article.", "text portion" }}
+
+
+
+The document is as follows:
+<Title: Polizia croata caccia i parlamentari PD andati a prendere i clandestini inseguiti e respinti
+
+Body: Questi sono veri poliziotti che difendono la frontiera.
+
+Erano arrivati sul confine tra Bosnia e Croazia per osservare le operazioni anti-immigrazione della polizia croata e favorire l’ingresso di illegali in territorio europeo. Ma per la prima volta nella storia dell’Unione Europea quattro europarlamentari di sinistra sono stati respinti senza dalla polizia, con le maniere forti.
+
+Sono stati momenti di grande divertimento quelli nella foresta di Bojna, in territorio croato, dove il vicepresidente della Commissione diritti civii dell’Ue, quel Pietro Bartolo che per anni si è gingillato con migliaia di clandestini a Lampedusa, sui quali si è costruito una lucrosa carriera politica, è stato inseguito con altri tre colleghi del gruppo dei Socialisti democratici per impedire che potessero raggiungere il posto di controllo, dove abitualmente i clandestini islamici vengono ricacciati indietro.
+
+
+Dopo un lungo e inutile negoziato, passato attraverso l’ambasciatore della Croazia in Italia, Pietro Bartolo, seguito da Alessandra Morretti, Pier Francesco Majorino e dal capodelegazione Brando Benifei, insieme a tre reporter, ha superato il nastro di cellophane con le insegne della Polizia, avviandosi verso la sbarra che separa i due paesi, distante meno di 300 metri.
+
+A quel punto il comandante ha ordinato agli agenti di inseguire il gruppo di osservatori e impedire che potessero vedere il check point nel bosco. Ne è nato un inseguimento lungo la strada sterrata tra i campi. Mentre diversi agenti hanno afferrato i giornalisti, una dozzina di altri ha ostruito il passaggio disponendosi a barriera tra le proteste dei parlamentari.
+
+Gente che paghiamo e che si interessa al favorire l’ingresso di orde di clandestini pakistani in casa nostra.>
+
+
+
+
+
+{"Racism": {"bias": 0, "motivation": "", "text portion": ""}, "Gender bias": {"bias": 0, "motivation": "", "text portion": ""}, "Political bias": {"bias": 1, "motivation": "The article portrays the europarlamentari di sinistra (left-wing MEPs) in a negative light, suggesting that they were trying to favor the entry of illegal immigrants into European territory.", "text portion": "Erano arrivati sul confine tra Bosnia e Croazia per osservare le operazioni anti-immigrazione della polizia croata e favorire l’ingresso di illegali in territorio europeo."}, "Religious orientation": {"bias": 0, "motivation": "", "text portion": ""}, "Sensationalism": {"bias": 1, "motivation": "The article uses sensational language to fuel scandal and indignation among readers.", "text portion": "Gente che paghiamo e che si interessa al favorire l’ingresso di orde di clandestini pakistani in casa nostra."}}

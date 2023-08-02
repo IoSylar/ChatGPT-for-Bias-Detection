@@ -1,0 +1,36 @@
+- Secondo la Cia: “Mattei era fascista”	 https://voxnews.info/2022/12/17/secondo-la-cia-mattei-era-fascista/
+
+
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo: parole o espressioni linguistiche che esprimono odio o incoraggiano la violenza nei confronti di una persona o di un gruppo di persone sulla base della loro razza ed etnia
+2 - Gender bias: parole o espressioni linguistiche pregiudizievoli basati sulla percezione di genere che le donne non sono uguali agli uomini in termini di diritti e dignità.
+3 - Orientamento politico: parole o espressioni linguistiche che implicano l'inclinazione o l'alterazione delle informazioni per far sembrare più attraente una posizione politica o un candidato politico.
+4 - Orientamento religioso: parole o espressioni linguistiche pregiudizievoli basate sull'appartenenza di una persona a un gruppo religioso, piuttosto che sui suoi meriti individuali.
+5 - Sensazionalismo: la tendenza di alcuni giornali o periodici a pubblicare e diffondere certe notizie conferendo loro un risalto eccessivo e presentandole come sensazionali tramite l'utilizzo di parole o espressioni linguistiche per alimentare lo scandalo e l'indignazione dei lettori.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+<Title: Secondo la Cia “Mattei era fascista”
+
+Body: Mattei era un patriota. Quindi non poteva essere ‘antifascista’. Voleva un’Italia indipendente, né amerikana né sovietiva. Italiana. Come noi oggi. Questo significa essere ‘fascisti’? Sticazzi. Di certo meglio di essere a libro paga della Cia o del Kgb ieri e del Qatar oggi.
+
+>
+
+
+
+
+
+{"Razzismo": {"bias": 0, "motivazione": "Nessuna espressione di odio o violenza basata sulla razza o etnia."},
+"Gender bias": {"bias": 0, "motivazione": "Nessuna espressione pregiudizievole basata sul genere."},
+"Orientamento politico": {"bias": 1, "motivazione": "Viene espressa una preferenza politica e si fa riferimento a organizzazioni politiche specifiche come la Cia e il Kgb."},
+"Orientamento religioso": {"bias": 0, "motivazione": "Nessuna espressione pregiudizievole basata sull'appartenenza religiosa."},
+"Sensazionalismo": {"bias": 1, "motivazione": "Viene utilizzato un linguaggio sensazionalistico per suscitare scandalo e indignazione nei confronti della Cia, del Kgb e del Qatar."}}

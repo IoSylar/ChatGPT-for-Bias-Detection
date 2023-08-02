@@ -1,0 +1,35 @@
+- Nigeriana incinta esige di passare frontiera alpina, morta	https://voxnews.info/2018/03/23/nigeriana-incinta-esige-di-passare-frontiera-alpina-morta/
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo: parole o espressioni linguistiche che esprimono odio o incoraggiano la violenza nei confronti di una persona o di un gruppo di persone sulla base della loro razza ed etnia
+2 - Gender bias: parole o espressioni linguistiche pregiudizievoli basati sulla percezione di genere che le donne non sono uguali agli uomini in termini di diritti e dignità.
+3 - Orientamento politico: parole o espressioni linguistiche che implicano l'inclinazione o l'alterazione delle informazioni per far sembrare più attraente una posizione politica o un candidato politico.
+4 - Orientamento religioso: parole o espressioni linguistiche pregiudizievoli basate sull'appartenenza di una persona a un gruppo religioso, piuttosto che sui suoi meriti individuali.
+5 - Sensazionalismo: la tendenza di alcuni giornali o periodici a pubblicare e diffondere certe notizie conferendo loro un risalto eccessivo e presentandole come sensazionali tramite l'utilizzo di parole o espressioni linguistiche per alimentare lo scandalo e l'indignazione dei lettori.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+<Title: Nigeriana incinta esige di passare frontiera alpina, morta
+
+Body: Incinta di poche settimane e con un grave linfoma, è stata respinta alla frontiera di Bardonecchia dalle autorità francesi e, dopo il parto cesareo, è morta all’ospedale Sant’Anna di Torino. B.S., nigeriana di 31 anni, era stata soccorsa dai volontari di Rainbow4Africa. “Le autorità francesi sembrano avere dimenticato l’umanità”, dice all’ANSA Paolo Narcisi, presidente dell’associazione che da dicembre ha aiutato un migliaio di migranti. La nascita del bimbo, appena 700 grammi, è stata un miracolo dei medici del Sant’Anna ed è gara di solidarietà per aiutarlo.
+
+
+Secondo Narcisi, respingere alla frontiera una donna incinta e malata “è un atto grave che va contro tutte le convenzioni internazionali e al buon senso come criminalizzare chi soccorre”. E’ dei giorni scorsi la notizia di una guida alpina francese che rischia una condanna fino a cinque per avere soccorso una migrante incinta.
+Quanto è razzista questa de-responsabilizzazione degli africani. Vengono trattati come bambini scemi. Una nigeriana – nigeriana, non siriana – incinta esige di passare un confine di montagna, probabilmente per andare a battere in Francia agli ordini di qualche maman, ma se muore è ‘colpa’ dei francesi, non sua. Dietro il buonismo si nasconde, spesso, l’idea malcelata che gli africani siano esseri inferiori incapaci di intendere e di volere.
+
+
+Uno dei responsabili di questa morte è proprio l’associazione di cui sopra che organizza i viaggi. Esattamente come le ong dei trafficanti umanitari lo sono in Libia. Sobillano questa gente a partire dalla Nigeria, pagando migliaia di dollari, per venire qui a fare, nell’80 per cento dei casi, gli spacciatori e le prostitute.
+
+Viviamo un’epoca decadente nella quale domina il vittimismo: chi piagnucola più forte vince. Le guerre non si vincono più con le armi, ma con la vittima più credibile.>
+
+
+
+{"Razzismo": {"bias": 1, "motivazione": "Viene utilizzata un'espressione pregiudizievole basata sull'appartenenza etnica della persona.", "porzione di testo": "Quanto è razzista questa de-responsabilizzazione degli africani. Vengono trattati come bambini scemi. Una nigeriana – nigeriana, non siriana – incinta esige di passare un confine di montagna, probabilmente per andare a battere in Francia agli ordini di qualche maman, ma se muore è ‘colpa’ dei francesi, non sua. Dietro il buonismo si nasconde, spesso, l’idea malcelata che gli africani siano esseri inferiori incapaci di intendere e di volere."}, "Gender bias": {"bias": 0, "motivazione": "Non sono presenti espressioni pregiudizievoli basate sul genere.", "porzione di testo": ""}, "Orientamento politico": {"bias": 0, "motivazione": "Non sono presenti espressioni che implicano l'inclinazione o l'alterazione delle informazioni per fini politici.", "porzione di testo": ""}, "Orientamento religioso": {"bias": 0, "motivazione": "Non sono presenti espressioni pregiudizievoli basate sull'appartenenza religiosa.", "porzione di testo": ""}, "Sensazionalismo": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche sensazionalistiche.", "porzione di testo": ""}}

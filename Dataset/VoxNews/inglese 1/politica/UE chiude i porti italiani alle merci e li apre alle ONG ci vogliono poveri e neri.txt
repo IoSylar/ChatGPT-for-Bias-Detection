@@ -1,0 +1,26 @@
+- UE chiude i porti italiani alle merci e li apre alle ONG: ci vogliono poveri e neri	https://voxnews.info/2022/11/26/ue-chiude-i-porti-italiani-alle-merci-e-li-apre-alle-ong-ci-vogliono-poveri-e-neri/
+
+
+### Read the description of the following biases ###
+1 - Razzismo: the use of racist language or expressions to discriminate against people based on their ethnicity
+2 - Gender bias: the use of language or expressions that imply discrimination against people on the basis of their gender
+3 - Orientamento politico: the use of language or expressions that imply discrimination against people on the basis of their political orientation
+4 - Orientamento religioso: the use of language or expressions that imply discrimination against people on the basis of their religious orientation
+5 - Sensazionalismo:The use of language used to feed the scandal and the indignation of readers, to which is added an excessive and unbalanced use of exclamation marks and questions.
+6 - Advertising bias: When a newspaper chooses to mainly underline events or news that can elicit a positive reaction in the audience.
+
+
+### Now, identify in the following text wether or not these biases are present and explain the reason of your choice, underlying the step of the text in which the bias is present.
+Each bias can be 0 or 1, depending on their presence in the document.
+The answer must be formatted as a JSON, having as keys the ones reported in the previous steps. 
+
+An example is {"Razzismo": {"bias": 1, "explanation": "Nell'articolo vengono utilizzati termini razzisti.", "part of the text" }}
+
+The document is the following:
+<Title: UE chiude i porti italiani alle merci e li apre alle ONG ci vogliono poveri e neri
+
+Body: La Ue chiude i porti italiani alle merci e li apre alle ong. E’ evidente che vogliono trasformare l’Italia in un enorme centro di accoglienza e hub di ingresso per l’invasione.>
+
+
+
+{"Razzismo": {"bias": 1, "explanation": "Nell'articolo vengono utilizzati termini razzisti.", "part of the text": "ci vogliono poveri e neri"}}

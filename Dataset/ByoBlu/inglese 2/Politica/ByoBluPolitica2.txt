@@ -1,0 +1,49 @@
+USA, A DRAGHI IL PREMIO “CORNA DELL’ANNO”    
+
+
+https://www.byoblu.com/2022/09/21/usa-a-draghi-il-premio-corna-dellanno
+
+
+### Read the description of the following biases ###
+1 - Racism: words or linguistic expressions that express hatred or encourage violence against a person or group of people on the basis of their race and ethnicity
+2 - Gender bias: prejudicial words or linguistic expressions based on the gender perception that women are not equal to men in terms of rights and dignity.
+3 - Political bias: Words or linguistic expressions that involve skewing or altering information to make a political position or political candidate seem more attractive.
+4 - Religious orientation: Prejudicial words or linguistic expressions based on a person's membership of a religious group, rather than on their individual merits.
+5 - Sensationalism: the tendency of some newspapers or periodicals to publish and disseminate certain news by giving them excessive prominence and presenting them as sensational through the use of words or linguistic expressions to fuel the scandal and indignation of the readers.
+
+
+
+### Now, identify from the following text if the described biases are present and explain the reason for your choice, highlighting the portion of text in which the bias is contained.
+Each bias can be 0 or 1, depending on their presence in the document.
+The response must be formatted as JSON, having as keys those reported in the previous instructions.
+An example is: {"Racism": {"bias": 1, "motivation": "Racist terms are used in the article.", "text portion" }}
+
+
+
+The document is as follows:
+<Title: USA, A DRAGHI IL PREMIO “CORNA DELL’ANNO”
+
+Body: In occasione della cinquantasettesima edizione dell’Annual Awards Dinner della “Appeal of Conscience Foundation“, il presidente del Consiglio Mario Draghi ha ricevuto il premio di “statista dell’anno”. Fondata nel 1965 dal rabbino sopravvissuto all’Olocausto, Arthur Schneier, la fondazione è una partnership interreligiosa di leader corporativi e spirituali. La serata di gala si è tenuta al Pierre Hotel di New York, con Draghi che è stato premiato da Schneier, in seguito a una Laudatio dell’ex Segretario di Stato Usa, Henry Kissinger.
+
+Kissinger su Draghi: “Sopra le istituzioni”
+Il riconoscimento è stato assegnato per la sua “lunga leadership poliedrica nella finanza e nel pubblico servizio di cui hanno beneficiato l’Italia e l’Unione europea e che ha aiutato la cooperazione internazionale”, ha detto il rabbino Schneier. “Ho sempre avuto fiducia in Mario Draghi e nella sua straordinaria capacità di analisi intellettuale”, le parole di Kissinger che ha così analizzato l’ingresso di Draghi a Palazzo Chigi un anno e mezzo fa: “È diventato primo ministro quando il Presidente italiano ha deciso che aveva bisogno di un leader che, pur essendo al di sopra delle istituzioni, fosse rispettato dai partiti”.
+
+Draghi: “Nuova epoca di polarizzazione”
+Tema focale del discorso di Draghi è stato il conflitto in Ucraina che rischia, secondo il “nonno delle istituzioni”, di avviare una “nuova epoca di polarizzazione che non vedevamo dalla fine della Guerra Fredda”. Secondo il presidente del Consiglio, sarebbe fondamentale contrastare le “autocrazie”. Per farlo, Draghi ha ricordato i “valori fondanti delle nostre società”, ovvero “la democrazia, lo stato di diritto, il rispetto dei diritti umani e l’impegno di una solidarietà globale”.
+
+Ci sono autocrazie e autocrazie
+“Quando tracciamo una linea rossa, dobbiamo rinforzarla – ha continuato Draghi -. Quando facciamo una promessa, dobbiamo onorarla. Le autocrazie sfruttano la nostra esitazione”. Insomma, una rappresentazione a dir poco fantasiosa quella del presidente del Consiglio che, nel corso dell’emergenza sanitaria, ha instaurato uno dei regimi più stringenti e discriminatori a livello internazionale. La nuova “epoca di polarizzazione” citata da Draghi, è stata infatti inaugurata con l’introduzione del green pass e una strategia di comunicazione mirata a spaccare i popoli.
+
+La polarizzazione instaurata da Draghi in Italia
+Era novembre 2021, quando Draghi espresse l’auspicio che i non vaccinati potessero “tornare a far parte della società con tutti noi”. Parole di una gravità inaudita, che il pupillo di Goldman Sachs aveva enunciato nel corso della presentazione del Super Green Pass, introdotto per “salvare il Natale”. Uno dei tanti aforismi dell’era Draghi, che l’ancora presidente del Consiglio non ha mai dovuto ritrattare, complice l’inquietante accondiscendenza di una classe giornalistica addomesticata.
+
+Un bel paio di corna per il presidente
+Nel frattempo, le imprese italiane iniziano a chiudere per i costi insostenibili dell’energia, coadiuvati da sanzioni autolesive. E mentre le famiglie italiane rischiano di passare l’inverno al freddo, con divieti di utilizzo di camini e stufe, continuano a fioccare armi in Ucraina, in palese violazione con l’articolo 11 della nostra Costituzione. Dopo aver contribuito alla devastazione dell’economia nazionale, prima nel nome del diritto alla salute e poi per un conflitto bellico ideologico, Draghi riceve un premio a dir poco opportuno: un bel paio di corna.>
+
+RISULTATI
+
+{"Racism": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Gender bias": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Political bias": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Religious orientation": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Sensationalism": {"bias": 0, "motivation": "", "text portion": ""}}

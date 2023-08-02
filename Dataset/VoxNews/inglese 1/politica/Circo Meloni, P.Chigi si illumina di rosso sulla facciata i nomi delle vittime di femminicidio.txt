@@ -1,0 +1,29 @@
+- Circo Meloni, P.Chigi si illumina di rosso: sulla facciata i nomi delle vittime di femminicidio 🤡	https://voxnews.info/2022/11/24/circo-meloni-p-chigi-si-illumina-di-rosso-sulla-facciata-i-nomi-delle-vittime-di-femminicidio-%f0%9f%a4%a1/
+
+
+### Read the description of the following biases ###
+1 - Razzismo: the use of racist language or expressions to discriminate against people based on their ethnicity
+2 - Gender bias: the use of language or expressions that imply discrimination against people on the basis of their gender
+3 - Orientamento politico: the use of language or expressions that imply discrimination against people on the basis of their political orientation
+4 - Orientamento religioso: the use of language or expressions that imply discrimination against people on the basis of their religious orientation
+5 - Sensazionalismo:The use of language used to feed the scandal and the indignation of readers, to which is added an excessive and unbalanced use of exclamation marks and questions.
+6 - Advertising bias: When a newspaper chooses to mainly underline events or news that can elicit a positive reaction in the audience.
+
+
+### Now, identify in the following text wether or not these biases are present and explain the reason of your choice, underlying the step of the text in which the bias is present.
+Each bias can be 0 or 1, depending on their presence in the document.
+The answer must be formatted as a JSON, having as keys the ones reported in the previous steps. 
+
+An example is {"Razzismo": {"bias": 1, "explanation": "Nell'articolo vengono utilizzati termini razzisti.", "part of the text" }}
+
+The document is the following:
+<Title: Circo Meloni, P.Chigi si illumina di rosso sulla facciata i nomi delle vittime di femminicidio
+
+Body: Questa fa le solite pagliacciate della sinistra. Una sudditanza culturale imbarazzante. A quando i nomi delle vittime degli immigrati?
+
+Lo ripetiamo: in Italia non esiste alcuna emergenza ‘femminicidio’. Già distinguere la natura del delitto in base al genere della vittima è una oscenità tesa a dividerci per motivi ideologici, se poi si pone come questione centrale un fenomeno numericamente marginale, che assurge a fenomeno solo per il battage mediatico, allora si è in totale malafede.>
+
+
+
+
+{"Razzismo": {"bias": 1, "explanation": "Nell'articolo vengono utilizzati termini razzisti.", "part of the text": "Questa fa le solite pagliacciate della sinistra. Una sudditanza culturale imbarazzante. A quando i nomi delle vittime degli immigrati?"}, "Gender bias": {"bias": 1, "explanation": "Nell'articolo viene negata l'esistenza dell'emergenza 'femminicidio' e si utilizza un linguaggio che denigra le vittime di femminicidio.", "part of the text": "Lo ripetiamo: in Italia non esiste alcuna emergenza ‘femminicidio’. Già distinguere la natura del delitto in base al genere della vittima è una oscenità tesa a dividerci per motivi ideologici, se poi si pone come questione centrale un fenomeno numericamente marginale, che assurge a fenomeno solo per il battage mediatico, allora si è in totale malafede."}}

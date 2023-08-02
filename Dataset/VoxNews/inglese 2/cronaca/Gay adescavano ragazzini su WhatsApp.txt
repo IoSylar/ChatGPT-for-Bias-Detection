@@ -1,0 +1,28 @@
+- Gay adescavano ragazzini su WhatsApp	https://voxnews.info/2018/10/17/gay-adescavano-ragazzini-su-whatsapp/
+
+### Read the description of the following biases ###
+1 - Racism: words or linguistic expressions that express hatred or encourage violence against a person or group of people on the basis of their race and ethnicity
+2 - Gender bias: prejudicial words or linguistic expressions based on the gender perception that women are not equal to men in terms of rights and dignity.
+3 - Political bias: Words or linguistic expressions that involve skewing or altering information to make a political position or political candidate seem more attractive.
+4 - Religious orientation: Prejudicial words or linguistic expressions based on a person's membership of a religious group, rather than on their individual merits.
+5 - Sensationalism: the tendency of some newspapers or periodicals to publish and disseminate certain news by giving them excessive prominence and presenting them as sensational through the use of words or linguistic expressions to fuel the scandal and indignation of the readers.
+
+
+
+### Now, identify from the following text if the described biases are present and explain the reason for your choice, highlighting the portion of text in which the bias is contained.
+Each bias can be 0 or 1, depending on their presence in the document.
+The response must be formatted as JSON, having as keys those reported in the previous instructions.
+An example is: {"Racism": {"bias": 1, "motivation": "Racist terms are used in the article.", "text portion" }}
+
+
+
+The document is as follows:
+<Title: Gay adescavano ragazzini su WhatsApp
+
+Body: Tre uomini gay sono stati arrestati da carabinieri nell’ambito di un’inchiesta della Procura di Catania contro la pedofilia: sono accusati di avere abusato nella ‘scalinata’ della Torre Normanna di Paternò di due ragazzini, di età inferiore ai 14 anni. Tra i destinatari dell’ordinanza emessa dal Gip anche lo zio di una delle vittime. I reati ipotizzati nei confronti dei tre indagati, in concorso, sono violenza sessuale aggravata, atti sessuali con minorenne, corruzione di minorenne e violenza sessuale di gruppo. Le indagini dei carabinieri erano state avviate dopo la denuncia della madre di un ragazzino che aveva notato l’adescamento subito dal figlio su Facebook da parte di un adulto, che in passato era stato condannato per violenza sessuale su minorenni commessa nel 1995. Militari, coordinati dal pool specializzato della Procura di Catania diretto dall’aggiunto Marisa Scavo, hanno scoperto una chat su ‘WhatsApp’, ‘gruppo di amici’, con adulti e minorenni che si scambiavano messaggi ambigui.>
+
+
+
+
+
+{"Racism": {"bias": 0, "motivation": "", "text portion": ""}, "Gender bias": {"bias": 0, "motivation": "", "text portion": ""}, "Political bias": {"bias": 0, "motivation": "", "text portion": ""}, "Religious orientation": {"bias": 0, "motivation": "", "text portion": ""}, "Sensationalism": {"bias": 0, "motivation": "", "text portion": ""}}

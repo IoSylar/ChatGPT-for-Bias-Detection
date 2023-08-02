@@ -1,0 +1,32 @@
+- Circo Meloni, P.Chigi si illumina di rosso: sulla facciata i nomi delle vittime di femminicidio 🤡	https://voxnews.info/2022/11/24/circo-meloni-p-chigi-si-illumina-di-rosso-sulla-facciata-i-nomi-delle-vittime-di-femminicidio-%f0%9f%a4%a1/
+
+
+### Read the description of the following biases ###
+1 - Racism: words or linguistic expressions that express hatred or encourage violence against a person or group of people on the basis of their race and ethnicity
+2 - Gender bias: prejudicial words or linguistic expressions based on the gender perception that women are not equal to men in terms of rights and dignity.
+3 - Political bias: Words or linguistic expressions that involve skewing or altering information to make a political position or political candidate seem more attractive.
+4 - Religious orientation: Prejudicial words or linguistic expressions based on a person's membership of a religious group, rather than on their individual merits.
+5 - Sensationalism: the tendency of some newspapers or periodicals to publish and disseminate certain news by giving them excessive prominence and presenting them as sensational through the use of words or linguistic expressions to fuel the scandal and indignation of the readers.
+
+
+
+### Now, identify from the following text if the described biases are present and explain the reason for your choice, highlighting the portion of text in which the bias is contained.
+Each bias can be 0 or 1, depending on their presence in the document.
+The response must be formatted as JSON, having as keys those reported in the previous instructions.
+An example is: {"Racism": {"bias": 1, "motivation": "Racist terms are used in the article.", "text portion" }}
+
+
+
+The document is as follows:
+<Title: Circo Meloni, P.Chigi si illumina di rosso sulla facciata i nomi delle vittime di femminicidio
+
+Body: Questa fa le solite pagliacciate della sinistra. Una sudditanza culturale imbarazzante. A quando i nomi delle vittime degli immigrati?
+
+Lo ripetiamo: in Italia non esiste alcuna emergenza ‘femminicidio’. Già distinguere la natura del delitto in base al genere della vittima è una oscenità tesa a dividerci per motivi ideologici, se poi si pone come questione centrale un fenomeno numericamente marginale, che assurge a fenomeno solo per il battage mediatico, allora si è in totale malafede.>
+
+
+
+
+
+
+{"Racism": {"bias": 0, "motivation": "", "text portion": ""}, "Gender bias": {"bias": 1, "motivation": "Prejudicial words are used to undermine the issue of femicide and question the existence of an emergency.", "text portion": "Questa fa le solite pagliacciate della sinistra. Una sudditanza culturale imbarazzante. A quando i nomi delle vittime degli immigrati?\n\nLo ripetiamo: in Italia non esiste alcuna emergenza ‘femminicidio’. Già distinguere la natura del delitto in base al genere della vittima è una oscenità tesa a dividerci per motivi ideologici, se poi si pone come questione centrale un fenomeno numericamente marginale, che assurge a fenomeno solo per il battage mediatico, allora si è in totale malafede."}, "Political bias": {"bias": 0, "motivation": "", "text portion": ""}, "Religious orientation": {"bias": 0, "motivation": "", "text portion": ""}, "Sensationalism": {"bias": 0, "motivation": "", "text portion": ""}}

@@ -1,0 +1,33 @@
+- Meloni idolo clandestini: con lei sbarcati più di 25mila in 2 mesi	https://voxnews.info/2022/12/14/meloni-idolo-clandestini-con-lei-sbarcati-piu-di-25mila-in-2-mesi/
+
+
+### Read the description of the following biases ###
+1 - Racism: words or linguistic expressions that express hatred or encourage violence against a person or group of people on the basis of their race and ethnicity
+2 - Gender bias: prejudicial words or linguistic expressions based on the gender perception that women are not equal to men in terms of rights and dignity.
+3 - Political bias: Words or linguistic expressions that involve skewing or altering information to make a political position or political candidate seem more attractive.
+4 - Religious orientation: Prejudicial words or linguistic expressions based on a person's membership of a religious group, rather than on their individual merits.
+5 - Sensationalism: the tendency of some newspapers or periodicals to publish and disseminate certain news by giving them excessive prominence and presenting them as sensational through the use of words or linguistic expressions to fuel the scandal and indignation of the readers.
+
+
+
+### Now, identify from the following text if the described biases are present and explain the reason for your choice, highlighting the portion of text in which the bias is contained.
+Each bias can be 0 or 1, depending on their presence in the document.
+The response must be formatted as JSON, having as keys those reported in the previous instructions.
+An example is: {"Racism": {"bias": 1, "motivation": "Racist terms are used in the article.", "text portion" }}
+
+
+
+The document is as follows:
+<Title: Meloni idolo clandestini con lei sbarcati più di 25mila in 2 mesi
+
+Body: Meloni in un paio di mesi è diventata la bambolina dell’oligarchia. La sua resistenza agli sbarchi delle ong è durata meno di un pensiero logico nella testa di Crosetto.
+
+Ragazzi, questa ha fatto sbarcare in due mesi una città di più di venticinquemila abitanti. Non solo non ha chiuso i porti, li ha completamente spalancati: i suoi clandestini ci costano 1 milione di euro al giorno. Ai quali vanno aggiunti gli oltre centomila nei centri di accoglienza che la signorina buonanotte non ha intenzione di svuotare.
+
+Le scuse che accampate sono pietose: ha avuto due mesi di tempo per approvare un decreto che impedisse alle ong di operare. ‘Furbo’ sarebbe dare mandato ai Servizi di mettere fuori uso le navi, non farle sbarcare a Salerno e Bari. Un giorno di navigazione in più cambia molto poco. Ci sono intanto altre ong in arrivo. Devono essere smantellate. E non si può aspettare la sedicente ‘Europa’.>
+
+
+
+
+
+{"Racism": {"bias": 0, "motivation": "", "text portion": ""}, "Gender bias": {"bias": 0, "motivation": "", "text portion": ""}, "Political bias": {"bias": 1, "motivation": "The text criticizes Meloni's actions and portrays her as being controlled by the oligarchy.", "text portion": "Meloni in un paio di mesi è diventata la bambolina dell’oligarchia."}, "Religious orientation": {"bias": 0, "motivation": "", "text portion": ""}, "Sensationalism": {"bias": 1, "motivation": "The text uses sensational language to fuel scandal and indignation.", "text portion": "Ragazzi, questa ha fatto sbarcare in due mesi una città di più di venticinquemila abitanti. Non solo non ha chiuso i porti, li ha completamente spalancati: i suoi clandestini ci costano 1 milione di euro al giorno."}}

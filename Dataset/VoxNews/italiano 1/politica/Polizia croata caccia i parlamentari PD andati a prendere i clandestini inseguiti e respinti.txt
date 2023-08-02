@@ -1,0 +1,39 @@
+- Polizia croata caccia i parlamentari PD andati a prendere i clandestini: inseguiti e respinti – VIDEO	https://voxnews.info/2021/01/30/polizia-croata-caccia-i-parlamentari-pd-andati-a-prendere-i-clandestini-inseguiti-e-respinti/
+
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo:  utilizzo linguaggio e espressioni di odio e intolleranza verso individui appartenenti ad una determinata etnia
+2 - Gender bias: utilizzo linguaggio o espressioni sessiste
+3 - Orientamento politico: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata opinione politica
+4 - Orientamento religioso: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata fede religiosa
+5 - Sensazionalismo: utilizzo di linguaggio o espressioni per alimentare lo scandalo e l'indignazione dei lettori, oltre ad un uso eccessivo di domande ed esclamazioni.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+<Title: Polizia croata caccia i parlamentari PD andati a prendere i clandestini inseguiti e respinti
+
+Body: Questi sono veri poliziotti che difendono la frontiera.
+
+Erano arrivati sul confine tra Bosnia e Croazia per osservare le operazioni anti-immigrazione della polizia croata e favorire l’ingresso di illegali in territorio europeo. Ma per la prima volta nella storia dell’Unione Europea quattro europarlamentari di sinistra sono stati respinti senza dalla polizia, con le maniere forti.
+
+Sono stati momenti di grande divertimento quelli nella foresta di Bojna, in territorio croato, dove il vicepresidente della Commissione diritti civii dell’Ue, quel Pietro Bartolo che per anni si è gingillato con migliaia di clandestini a Lampedusa, sui quali si è costruito una lucrosa carriera politica, è stato inseguito con altri tre colleghi del gruppo dei Socialisti democratici per impedire che potessero raggiungere il posto di controllo, dove abitualmente i clandestini islamici vengono ricacciati indietro.
+
+
+Dopo un lungo e inutile negoziato, passato attraverso l’ambasciatore della Croazia in Italia, Pietro Bartolo, seguito da Alessandra Morretti, Pier Francesco Majorino e dal capodelegazione Brando Benifei, insieme a tre reporter, ha superato il nastro di cellophane con le insegne della Polizia, avviandosi verso la sbarra che separa i due paesi, distante meno di 300 metri.
+
+A quel punto il comandante ha ordinato agli agenti di inseguire il gruppo di osservatori e impedire che potessero vedere il check point nel bosco. Ne è nato un inseguimento lungo la strada sterrata tra i campi. Mentre diversi agenti hanno afferrato i giornalisti, una dozzina di altri ha ostruito il passaggio disponendosi a barriera tra le proteste dei parlamentari.
+
+Gente che paghiamo e che si interessa al favorire l’ingresso di orde di clandestini pakistani in casa nostra.>
+
+
+
+
+{"Razzismo": {"bias": 0, "motivazione": "Non sono presenti espressioni di odio o intolleranza verso individui di una determinata etnia."}, "Gender bias": {"bias": 0, "motivazione": "Non sono presenti espressioni sessiste."}, "Orientamento politico": {"bias": 1Viene espressa, "motivazione": " una discriminazione verso gruppi o individui di sinistra.", "porzione di testo": "Ma per la prima volta nella storia dell’Unione Europea quattro europarlamentari di sinistra sono stati respinti senza dalla polizia, con le maniere forti."}, "Orientamento religioso": {"bias": 0, "motivazione": "Non sono presenti espressioni che implicano una discriminazione verso gruppi o individui con una determinata fede religiosa."}, "Sensazionalismo": {"bias": 1, "motivazione": "Viene utilizzato un linguaggio sensazionalistico per alimentare lo scandalo e l'indignazione dei lettori.", "porzione di testo": "Questi sono veri poliziotti che difendono la frontiera.\n\nErano arrivati sul confine tra Bosnia e Croazia per osservare le operazioni anti-immigrazione della polizia croata e favorire l’ingresso di illegali in territorio europeo. Ma per la prima volta nella storia dell’Unione Europea quattro europarlamentari di sinistra sono stati respinti senza dalla polizia, con le maniere forti.\n\nSono stati momenti di grande divertimento quelli nella foresta di Bojna, in territorio croato, dove il vicepresidente della Commissione diritti civii dell’Ue, quel Pietro Bartolo che per anni si è gingillato con migliaia di clandestini a Lampedusa, sui quali si è costruito una lucrosa carriera politica, è stato inseguito con altri tre colleghi del gruppo dei Socialisti democratici per impedire che potessero raggiungere il posto di controllo, dove abitualmente i clandestini islamici vengono ricacciati indietro.\n\nDopo un lungo e inutile negoziato, passato attraverso l’ambasciatore della Croazia in Italia, Pietro Bartolo, seguito da Alessandra Morretti, Pier Francesco Majorino e dal capodelegazione Brando Benifei, insieme a tre reporter, ha superato il nastro di cellophane con le insegne della Polizia, avviandosi verso la sbarra che separa i due paesi, distante meno di 300 metri.\n\nA quel punto il comandante ha ordinato agli agenti di inseguire il gruppo di osservatori e impedire che potessero vedere il check point nel bosco. Ne è nato un inseguimento lungo la strada sterrata tra i campi. Mentre diversi agenti hanno afferrato i giornalisti, una dozzina di altri ha ostruito il passaggio disponendosi a barriera tra le proteste dei parlamentari.\n\nGente che paghiamo e che si interessa al favorire l’ingresso di orde di clandestini pakistani in casa nostra."}}

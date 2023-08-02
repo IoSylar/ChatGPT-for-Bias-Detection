@@ -1,0 +1,42 @@
+LE FAKE NEWS SULL’UCRAINA: FOTO FUORI CONTESTO E IMMAGINI DI VIDEOGIOCHI NEI SITI MAINSTREAM
+
+https://www.byoblu.com/2022/02/25/le-fake-news-sullucraina-foto-fuori-contesto-e-immagini-di-videogiochi-nei-siti-mainstream/
+
+
+### Read the description of the following biases ###
+1 - Racism: words or linguistic expressions that express hatred or encourage violence against a person or group of people on the basis of their race and ethnicity
+2 - Gender bias: prejudicial words or linguistic expressions based on the gender perception that women are not equal to men in terms of rights and dignity.
+3 - Political bias: Words or linguistic expressions that involve skewing or altering information to make a political position or political candidate seem more attractive.
+4 - Religious orientation: Prejudicial words or linguistic expressions based on a person's membership of a religious group, rather than on their individual merits.
+5 - Sensationalism: the tendency of some newspapers or periodicals to publish and disseminate certain news by giving them excessive prominence and presenting them as sensational through the use of words or linguistic expressions to fuel the scandal and indignation of the readers.
+
+
+
+### Now, identify from the following text if the described biases are present and explain the reason for your choice, highlighting the portion of text in which the bias is contained.
+Each bias can be 0 or 1, depending on their presence in the document.
+The response must be formatted as JSON, having as keys those reported in the previous instructions.
+An example is: {"Racism": {"bias": 1, "motivation": "Racist terms are used in the article.", "text portion" }}
+
+
+
+The document is as follows:
+<Title: LE FAKE NEWS SULL’UCRAINA: FOTO FUORI CONTESTO E IMMAGINI DI VIDEOGIOCHI NEI SITI MAINSTREAM
+
+Body: Le immagini sono elemento fondamentale per la pubblicazione di una notizia, soprattutto in situazioni come quelle della guerra in Ucraina, in cui regna l’incertezza e il rischio di manipolazione, da una parte e dall’altra, è molto elevato. Eppure alcune testate italiane non hanno data la giusta attenzione alle foto e i video mandati in onda nelle edizioni dei tg o inseriti nei loro articoli.
+
+Un caso clamoroso è stato quello del Tg2 che in ben due edizioni, quella delle 8:30 e quella delle 17:30 del giorno 24 febbraio, ha utilizzato le immagini di un videogioco di guerra spacciandole come riprese esclusive dell’attacco in corso in Ucraina. Un caso che ricorda quello del Tg di La7 del gennaio 2021, quando il direttore Enrico Mentana mostrò delle immagini del film Project X presentandole come riprese dell’assalto a Capitol Hill.
+
+Ma non è finita qui. Huffington Post è uscito con un articolo dal titolo: “A Kiev le mamme mettono degli adesici sui loro figli, col gruppo sanguigno”. Nell’articolo si legge che alcune mamme starebbero discutendo su Facebook sulla possibilità di segnalare il gruppo sanguigno dei propri figli con degli adesivi da tenere in mostra. A corredo della notizia una foto con tre donne in lacrime. Come è facile verificare dall’archivio dell’agenzia Getty Image, la foto non proviene da Kiev ma dalla parte opposta della guerra: dalla città di Donetsk; è stata scattata ben 7 anni fa in occasione dei funerali di un soldato autonomista ucciso dagli ucraini.
+
+C’è stato poi il caso del Sole 24 Ore, che oggi ha pubblicato un articolo sull’edizione online sovrastato dal titolo: “Ucraina, la Russia bombarda Kiev“. Peccato che le immagini si riferissero a una parata aerea russa e non dunque non avevano nulla a che fare con il conflitto in corso. Il quotidiano ha ammesso l’errore e ha rimosso il video, scusandosi con i lettori.
+
+Il momento è complicato e nella frenesia nel rincorrere gli avvenimenti può spingere a fare degli errori. Forse però un po’ di attenzione in più non guasterebbe, dei professionisti non dovrebbero confondere le immagini di un videogioco con delle riprese reali.>
+
+
+RISULTATI
+
+{"Racism": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Gender bias": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Political bias": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Religious orientation": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Sensationalism": {"bias": 0, "motivation": "", "text portion": ""}}

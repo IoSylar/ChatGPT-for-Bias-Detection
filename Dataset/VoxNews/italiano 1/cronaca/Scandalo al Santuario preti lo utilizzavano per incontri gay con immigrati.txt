@@ -1,0 +1,46 @@
+- Scandalo al Santuario: preti lo utilizzavano per incontri gay con immigrati	https://voxnews.info/2014/07/04/scandalo-al-santuario-preti-lo-utilizzavano-per-incontri-gay-con-immigrati/
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo:  utilizzo linguaggio e espressioni di odio e intolleranza verso individui appartenenti ad una determinata etnia
+2 - Gender bias: utilizzo linguaggio o espressioni sessiste
+3 - Orientamento politico: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata opinione politica
+4 - Orientamento religioso: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata fede religiosa
+5 - Sensazionalismo: utilizzo di linguaggio o espressioni per alimentare lo scandalo e l'indignazione dei lettori, oltre ad un uso eccessivo di domande ed esclamazioni.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+<Title: Scandalo al Santuario preti lo utilizzavano per incontri gay con immigrati
+
+Body: GARLASCO – «Mi sentivo minacciato, temevo per la mia vita. Insomma, avevo in mano materiale che scottava. Per questo ho chiesto i soldi, volevo solo tornare in Romania». Comincia così la deposizione di uno degli immigrati, durante l’interrogatorio di garanzia.
+
+Lui è Flavius Savu, il 33enne arrestato insieme al suo complice, Florin Tanasie, di 23 anni.
+
+E lo ha ribadito anche al suo legale, Roberto Grittini, che ieri è andato a trovarlo a casa, dove il 33enne si trova agli arresti domiciliari. Il legale è pronto, a questo punto, a chiedere un altro interrogatorio davanti al magistrato.
+
+Una deposizione che potrebbe consentire agli inquirenti di approfondire l’estorsione di 250mila euro ai danni della Curia per non divulgare registrazioni audio di telefonate compromettenti.
+
+
+Una vicenda che, da quello che sta emergendo in queste ore,  inizia a coinvolgere anche altri religiosi.  Sacerdoti omosessuali di altre parrocchie della diocesi, che potrebbero avere avuto incontri a sfondo sessuale, sempre al santuario della Bozzola, con immigrati.
+
+Prestazioni sessuali a pagamento o in cambio di favori, come quello di ottenere documenti ‘grazie’ alla intermediazione della Caritas.
+
+Su questo dovrà fare luce la procura di Pavia.
+
+A fare i nomi di altri religiosi è lo stesso padre Gregorio Vitali parlando al telefono con uno degli indagati, inconsapevole di essere registrato.
+
+Ecco a cosa servono gli immigrati alla Caritas e alle varie associazioni ‘caritatevoli’.
+
+E’ tempo di ripulire la Chiesa da questi masochisti fanatici dell’accoglienza.>
+
+
+
+
+{"Razzismo": {"bias": 0, "motivazione": "Non sono presenti espressioni di odio o intolleranza verso individui di una determinata etnia."}, "Gender bias": {"bias": 0, "motivazione": "Non sono presenti espressioni sessiste."}, "Orientamento politico": {"bias": 0, "motivazione": "Non sono presenti espressioni che implicano una discriminazione verso gruppi o individui con una determinata opinione politica."}, "Orientamento religioso": {"bias": 0, "motivazione": "Non sono presenti espressioni che implicano una discriminazione verso gruppi o individui con una determinata fede religiosa."}, "Sensazionalismo": {"bias": 1, "motivazione": "Viene utilizzato un linguaggio sensazionalistico per alimentare lo scandalo e l'indignazione dei lettori.", "porzione di testo": "Scandalo al Santuario preti lo utilizzavano per incontri gay con immigrati"}}

@@ -1,0 +1,31 @@
+- Circo Meloni, P.Chigi si illumina di rosso: sulla facciata i nomi delle vittime di femminicidio 🤡	https://voxnews.info/2022/11/24/circo-meloni-p-chigi-si-illumina-di-rosso-sulla-facciata-i-nomi-delle-vittime-di-femminicidio-%f0%9f%a4%a1/
+
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo:  utilizzo linguaggio e espressioni di odio e intolleranza verso individui appartenenti ad una determinata etnia
+2 - Gender bias: utilizzo linguaggio o espressioni sessiste
+3 - Orientamento politico: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata opinione politica
+4 - Orientamento religioso: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata fede religiosa
+5 - Sensazionalismo: utilizzo di linguaggio o espressioni per alimentare lo scandalo e l'indignazione dei lettori, oltre ad un uso eccessivo di domande ed esclamazioni.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+<Title: Circo Meloni, P.Chigi si illumina di rosso sulla facciata i nomi delle vittime di femminicidio
+
+Body: Questa fa le solite pagliacciate della sinistra. Una sudditanza culturale imbarazzante. A quando i nomi delle vittime degli immigrati?
+
+Lo ripetiamo: in Italia non esiste alcuna emergenza ‘femminicidio’. Già distinguere la natura del delitto in base al genere della vittima è una oscenità tesa a dividerci per motivi ideologici, se poi si pone come questione centrale un fenomeno numericamente marginale, che assurge a fenomeno solo per il battage mediatico, allora si è in totale malafede.>
+
+
+
+
+
+{"Razzismo": {"bias": 0, "motivazione": "Nessun utilizzo di linguaggio o espressioni di odio o intolleranza verso individui di una determinata etnia.", "porzione di testo": ""}, "Gender bias": {"bias": 0, "motivazione": "Nessun utilizzo di linguaggio o espressioni sessiste.", "porzione di testo": ""}, "Orientamento politico": {"bias": 0, "motivazione": "Nessun utilizzo di linguaggio o espressioni che implicano una discriminazione verso gruppi o individui con una determinata opinione politica.", "porzione di testo": ""}, "Orientamento religioso": {"bias": 0, "motivazione": "Nessun utilizzo di linguaggio o espressioni che implicano una discriminazione verso gruppi o individui con una determinata fede religiosa.", "porzione di testo": ""}, "Sensazionalismo": {"bias": 1, "motivazione": "Utilizzo di linguaggio e espressioni per alimentare lo scandalo e l'indignazione dei lettori, oltre a un uso eccessivo di domande ed esclamazioni.", "porzione di testo": "Questa fa le solite pagliacciate della sinistra. A quando i nomi delle vittime degli immigrati?\n\nLo ripetiamo: in Italia non esiste alcuna emergenza ‘femminicidio’. Già distinguere la natura del delitto in base al genere della vittima è una oscenità tesa a dividerci per motivi ideologici, se poi si pone come questione centrale un fenomeno numericamente marginale, che assurge a fenomeno solo per il battage mediatico, allora si è in totale malafede."}}

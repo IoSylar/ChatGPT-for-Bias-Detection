@@ -1,0 +1,44 @@
+- Ius Scholae, Letta vuole dare la cittadinanza italiana agli stupratori di Peschiera	https://voxnews.info/2022/06/29/ius-scholae-letta-vuole-dare-la-cittadinanza-italiana-agli-stupratori-di-peschiera/
+
+
+### Read the description of the following biases ###
+1 - Razzismo: the use of racist language or expressions to discriminate against people based on their ethnicity
+2 - Gender bias: the use of language or expressions that imply discrimination against people on the basis of their gender
+3 - Orientamento politico: the use of language or expressions that imply discrimination against people on the basis of their political orientation
+4 - Orientamento religioso: the use of language or expressions that imply discrimination against people on the basis of their religious orientation
+5 - Sensazionalismo:The use of language used to feed the scandal and the indignation of readers, to which is added an excessive and unbalanced use of exclamation marks and questions.
+6 - Advertising bias: When a newspaper chooses to mainly underline events or news that can elicit a positive reaction in the audience.
+
+
+### Now, identify in the following text wether or not these biases are present and explain the reason of your choice, underlying the step of the text in which the bias is present.
+Each bias can be 0 or 1, depending on their presence in the document.
+The answer must be formatted as a JSON, having as keys the ones reported in the previous steps. 
+
+An example is {"Razzismo": {"bias": 1, "explanation": "Nell'articolo vengono utilizzati termini razzisti.", "part of the text" }}
+
+The document is the following:
+<Title: Ius Scholae, Letta vuole dare la cittadinanza italiana agli stupratori di Peschiera
+
+Body: Nella sciagurata ipotesi che il famigerato ddl venisse approvato in entrambi i rami del Parlamento, gli stupratori e i saccheggiatori di Peschiera del Garda diventerebbero tutti italiani. Come il 90 per cento dei miliziani stranieri delle baby gang. E’ una legge eversiva.
+
+Quello che non ci piace della comunque essenziale opposizione di Lega e FdI alle folli proposte del Pd sullo ius soli, è che tradiscono, comunque, una delirante sudditanza culturale.
+
+Non negano alla radice, ma parlano di ‘altre urgenze’: quando, invece, l’urgenza sarebbe rivedere l’attuale legge in senso restrittivo con uno ius sanguinis attuale.
+
+Già con l’attuale legge, a 18 anni gli stupratori di Peschiera saranno tutti italiani se nati in Italia. Oppure lo diventeranno per residenza. E’ per questo urgente, non solo fermare le oscenità sullo ius soli, ma anche, col prossimo Parlamento, tornare allo ius sanguinis integrale.
+
+
+Perché, con l’attuale legge, il redde rationem è solo rimandato di una decina di anni: poi si infiltreranno nell’esercito, nelle forze dell’ordine, nella politica. Nelle istituzioni. Le mafie etniche diventeranno interlocutori politici.
+
+Sinistra e grillini non hanno solo problemi di priorità ma anche di tempismo. Dopo la rissa tra due mega-gang di stranieri che hanno messo a ferro e fuoco Peschiera del Garda, anziché accendersi un dibattito, serio, sulla sicurezza, si è colta di nuovo la palla al balzo per riproporre le vecchie battaglie sull’elargizione della cittadinanza italiana.
+
+Come se la criminalità fosse un fatto di passaporto, le scioccanti frasi pronunciate da alcuni dei ragazzi coinvolti nelle risse e nelle molestie sono state utilizzate dal mondo progressista per ribaltare la realtà: per loro, più crimini vuol dire più empatia. Immancabili allora le proposte sullo ius soli che, se dovesse riuscire prima o poi a passare, per sfinimento, non sarebbe certo utile a prevenire il fenomeno delle gang, bensì concederebbe solo lo status di cittadino non a chi lo merita e in fin dei conti nemmeno lo vuole, vista l’ostilità dimostrata nei confronti del nostro Paese.
+Se un marziano all’oscuro di tutto leggesse Repubblica di oggi, infatti, non potrebbe non avere la sensazione che i fatti di Peschiera siano totalmente capovolti, con i facinorosi in realtà “vittime” di rabbia, isolamento sociale, emarginazione. Ecco allora, come rimedio, la riforma della cittadinanza, tornata tra le priorità assolute della sinistra, anche se nel dibattito lo ius soli sembra aver lasciato spazio allo ius scholae. Giuseppe Conte ha ribadito che si tratta di un caposaldo della loro agenda e, dopo che il 9 marzo la Commissione Affari Costituzionali alla Camera ha dato parere favorevole al testo presentato dal pentastellato Giuseppe Brescia, arriverà in discussione alla Camera il 24 giugno.
+
+Lo ius scholae prevede che possa fare richiesta per la cittadinanza chi sia arrivato in Italia prima del compimento dei 12 anni di età e che porti a termine con successo un percorso scolastico di 5 anni. Una nuova proposta che per la verità raccoglie il favore anche di altri partiti e che sarebbe finalizzata a permettere a tanti bambini nati e cresciuti in Italia di ottenere la cittadinanza con più facilità rispetto all’attuale trafila burocratica. Il testo che arriverà in Parlamento (e che inizierà un iter lunghissimo che come visto col Ddl Zan potrebbe concludersi anche con un nulla di fatto) andrebbe a sostituire le leggi che attualmente regolano il diritto alla cittadinanza e che dipendono principalmente dal cosiddetto ius sanguinis. Se uno dei due genitori è già cittadino italiano, i loro figli possono acquisire il diritto alla cittadinanza se risiedono legalmente ed ininterrottamente fino ai 18 anni in Italia, a condizione che la richiesta venga presentata entro un anno dal compimento della maggiore et>
+
+
+
+
+
+{"Razzismo": {"bias": 0, "explanation": "No racist language or expressions are used in the text.", "part of the text": ""}, "Gender bias": {"bias": 0, "explanation": "No language or expressions implying discrimination based on gender are used in the text.", "part of the text": ""}, "Orientamento politico": {"bias": 0, "explanation": "No language or expressions implying discrimination based on political orientation are used in the text.", "part of the text": ""}, "Orientamento religioso": {"bias": 0, "explanation": "No language or expressions implying discrimination based on religious orientation are used in the text.", "part of the text": ""}, "Sensazionalismo": {"bias": 1, "explanation": "The use of sensational language can be observed in the text, such as 'sciagurata ipotesi', 'folli proposte', 'oscenità', 'scioccanti frasi', 'totally capovolti'.", "part of the text": "Nella sciagurata ipotesi che il famigerato ddl venisse approvato in entrambi i rami del Parlamento, gli stupratori e i saccheggiatori di Peschiera del Garda diventerebbero tutti italiani. Come il 90 per cento dei miliziani stranieri delle baby gang. E’ una legge eversiva."}, "Advertising bias": {"bias": 1, "explanation": "The text mainly focuses on events or news that can elicit a negative reaction in the audience, such as the crimes committed by foreigners and the negative consequences of the proposed law.", "part of the text": "Quello che non ci piace della comunque essenziale opposizione di Lega e FdI alle folli proposte del Pd sullo ius soli, è che tradiscono, comunque, una delirante sudditanza culturale."}}

@@ -1,0 +1,40 @@
+- Marocchino che ha bruciato le figlie esigeva soldi dal Comune: “Dovete pagarmi affitto”	https://voxnews.info/2017/10/21/marocchino-che-ha-bruciato-le-figlie-esigeva-soldi-dal-comune-dove-pagarmi-affitto/
+
+
+### Read the description of the following biases ###
+1 - Racism: words or linguistic expressions that express hatred or encourage violence against a person or group of people on the basis of their race and ethnicity
+2 - Gender bias: prejudicial words or linguistic expressions based on the gender perception that women are not equal to men in terms of rights and dignity.
+3 - Political bias: Words or linguistic expressions that involve skewing or altering information to make a political position or political candidate seem more attractive.
+4 - Religious orientation: Prejudicial words or linguistic expressions based on a person's membership of a religious group, rather than on their individual merits.
+5 - Sensationalism: the tendency of some newspapers or periodicals to publish and disseminate certain news by giving them excessive prominence and presenting them as sensational through the use of words or linguistic expressions to fuel the scandal and indignation of the readers.
+
+
+
+### Now, identify from the following text if the described biases are present and explain the reason for your choice, highlighting the portion of text in which the bias is contained.
+Each bias can be 0 or 1, depending on their presence in the document.
+The response must be formatted as JSON, having as keys those reported in the previous instructions.
+An example is: {"Racism": {"bias": 1, "motivation": "Racist terms are used in the article.", "text portion" }}
+
+
+
+The document is as follows:
+<Title: Marocchino che ha bruciato le figlie esigeva soldi dal Comune “Dovete pagarmi affitto”
+
+Body: Faycal Haitot, l’immigrato marocchino che ieri a Como ha dato fuoco a moglie e quattro figlie incendiando l’appartamento, un mese fa aveva scritto a La provincia di Como una lettera in cui esigeva i soldi degli italiani: “Ho chiesto l’aiuto economico e l’assistente: zero. Ho scritto al dirigente e diceva che il Comune paga l’affitto. Come fanno a mangiare questi bimbi, forse sono troppi. La scuola è gia cominciata e il primo giorno sono andato dai carabinieri per non prendere una denuncia, noi siamo a casa“.
+
+
+Poi lamentava di non avere mai ricevuto “nessuna visita a casa dei servizi sociali per controllare la vita quotidiana dei bambini. Non vado via per paura del servizio sociale. Se ci sono problemi tra me e loro, cosa c’entrano i bambini?”. Da parte sua il Comune di Como già ieri aveva specificato quali erano state le iniziative prese a sostegno della famiglia Haitot: housing sociale dal 2014, supporti all’assistenza scolastica, mensa gratuita, diurnato pomeridiano.
+
+Perché dobbiamo mantenere i marocchini? Perché devono stare qui se non sono in grado di mantenersi? Se fossero stati rimandati in Marocco non alla prima richiesta di soldi, sintomo che in Italia non potevano stare, ora quelle bambine sarebbero ancora vive.
+Le poche risorse pubbliche servono alle famiglie italiane. Chi non ha la possibilità di lavorare deve tornare a casa, non riprodursi in modo incontrollato e poi bruciare delle povere bambine.
+>
+
+
+
+
+{"Racism": {"bias": 1, "motivation": "The text contains prejudicial words against a person of Moroccan origin.", "text portion": "Perché dobbiamo mantenere i marocchini? Perché devono stare qui se non sono in grado di mantenersi? Se fossero stati rimandati in Marocco non alla prima richiesta di soldi, sintomo che in Italia non potevano stare, ora quelle bambine sarebbero ancora vive."}}
+{"Gender bias": {"bias": 0, "motivation": "", "text portion": ""}}
+{"Political bias": {"bias": 0, "motivation": "", "text portion": ""}}
+{"Religious orientation": {"bias": 0, "motivation": "", "text portion": ""}}
+{"Sensationalism": {"bias": 0, "motivation": "", "text portion": ""}}
+

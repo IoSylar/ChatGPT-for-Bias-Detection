@@ -1,0 +1,32 @@
+- Circo Meloni, P.Chigi si illumina di rosso: sulla facciata i nomi delle vittime di femminicidio 🤡	https://voxnews.info/2022/11/24/circo-meloni-p-chigi-si-illumina-di-rosso-sulla-facciata-i-nomi-delle-vittime-di-femminicidio-%f0%9f%a4%a1/
+
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo: parole o espressioni linguistiche che esprimono odio o incoraggiano la violenza nei confronti di una persona o di un gruppo di persone sulla base della loro razza ed etnia
+2 - Gender bias: parole o espressioni linguistiche pregiudizievoli basati sulla percezione di genere che le donne non sono uguali agli uomini in termini di diritti e dignità.
+3 - Orientamento politico: parole o espressioni linguistiche che implicano l'inclinazione o l'alterazione delle informazioni per far sembrare più attraente una posizione politica o un candidato politico.
+4 - Orientamento religioso: parole o espressioni linguistiche pregiudizievoli basate sull'appartenenza di una persona a un gruppo religioso, piuttosto che sui suoi meriti individuali.
+5 - Sensazionalismo: la tendenza di alcuni giornali o periodici a pubblicare e diffondere certe notizie conferendo loro un risalto eccessivo e presentandole come sensazionali tramite l'utilizzo di parole o espressioni linguistiche per alimentare lo scandalo e l'indignazione dei lettori.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+<Title: Circo Meloni, P.Chigi si illumina di rosso sulla facciata i nomi delle vittime di femminicidio
+
+Body: Questa fa le solite pagliacciate della sinistra. Una sudditanza culturale imbarazzante. A quando i nomi delle vittime degli immigrati?
+
+Lo ripetiamo: in Italia non esiste alcuna emergenza ‘femminicidio’. Già distinguere la natura del delitto in base al genere della vittima è una oscenità tesa a dividerci per motivi ideologici, se poi si pone come questione centrale un fenomeno numericamente marginale, che assurge a fenomeno solo per il battage mediatico, allora si è in totale malafede.>
+
+
+
+
+
+
+{"Razzismo": {"bias": 0, "motivazione": "Nessuna espressione di odio o violenza basata sulla razza o etnia."}, "Gender bias": {"bias": 1, "motivazione": "Nell'articolo viene espressa una percezione pregiudizievole sulle donne, sostenendo che non esista alcuna emergenza 'femminicidio' e definendo l'attenzione mediatica su questo fenomeno come 'battage mediatico'."}, "Orientamento politico": {"bias": 0, "motivazione": "Nessuna inclinazione o alterazione delle informazioni per favorire una posizione politica o un candidato politico."}, "Orientamento religioso": {"bias": 0, "motivazione": "Nessun pregiudizio basato sull'appartenenza religiosa."}, "Sensazionalismo": {"bias": 1, "motivazione": "Nell'articolo viene utilizzato un linguaggio sensazionalistico per alimentare lo scandalo e l'indignazione dei lettori, ad esempio definendo le azioni della sinistra come 'pagliacciate' e 'sudditanza culturale imbarazzante'."}}

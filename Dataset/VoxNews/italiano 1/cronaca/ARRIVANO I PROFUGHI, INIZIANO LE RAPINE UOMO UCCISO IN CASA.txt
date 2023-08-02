@@ -1,0 +1,37 @@
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo:  utilizzo linguaggio e espressioni di odio e intolleranza verso individui appartenenti ad una determinata etnia
+2 - Gender bias: utilizzo linguaggio o espressioni sessiste
+3 - Orientamento politico: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata opinione politica
+4 - Orientamento religioso: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata fede religiosa
+5 - Sensazionalismo: utilizzo di linguaggio o espressioni per alimentare lo scandalo e l'indignazione dei lettori, oltre ad un uso eccessivo di domande ed esclamazioni.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+<Title: ARRIVANO I PROFUGHI, INIZIANO LE RAPINE: UOMO UCCISO IN CASA
+
+Body: Cuneo – Un uomo di 65 anni e’ stato ucciso questa mattina nella sua abitazione con un colpo di pistola alla testa esploso da uno dei ladri che si erano introdotti in casa e che l’uomo aveva sorpreso.
+
+E’ accaduto in una villetta di Santo Stefano Roero, frazione di Alba, nel Cuneese.
+
+In zona sono recentemente arrivati ospiti del governo.
+
+
+La moglie della vittima ha riferito ai carabinieri di due malviventi, col volto mascherato, sorpresi dal marito a rubare nella villa quando non erano ancora le sette di mattina.
+
+Tra i ladri e il proprietario di casa, un gioielliere in pensione, sarebbe nata una violenta colluttazione nel corso della quale è stato esploso almeno un colpo di pistola, fatale per il proprietario di casa, che è stato colpito alla testa.
+
+Prima di darsi alla fuga i malviventi avrebbero legato la moglie della vittima. Sul luogo del delitto anche i Ris dell’Arma. L’indagine è coordinata dalla Procura di Asti, competente per territorio.
+
+Che schifo di governo.>
+
+
+
+{"Razzismo": {"bias": 0, "motivazione": "Non sono presenti espressioni di odio o intolleranza verso individui di una determinata etnia."}, "Gender bias": {"bias": 0, "motivazione": "Non sono presenti espressioni sessiste."}, "Orientamento politico": {"bias": 0, "motivazione": "Non sono presenti espressioni che implicano una discriminazione verso gruppi o individui con una determinata opinione politica."}, "Orientamento religioso": {"bias": 0, "motivazione": "Non sono presenti espressioni che implicano una discriminazione verso gruppi o individui con una determinata fede religiosa."}, "Sensazionalismo": {"bias": 1, "motivazione": "Il titolo dell'articolo utilizza un linguaggio sensazionalistico per attirare l'attenzione dei lettori.", "porzione di testo": "ARRIVANO I PROFUGHI, INIZIANO LE RAPINE: UOMO UCCISO IN CASA"}}

@@ -1,0 +1,66 @@
+IN 10 CONTRO UNA DONNA: LA MULTANO PER LA MASCHERINA ABBASSATA	
+
+https://www.byoblu.com/2022/01/17/in-10-contro-una-donna-per-mascherina-abbasata/
+
+
+### Read the description of the following biases ###
+1 - Razzismo: the use of racist language or expressions to discriminate against people based on their ethnicity
+2 - Gender bias: the use of language or expressions that imply discrimination against people on the basis of their gender
+3 - Orientamento politico: the use of language or expressions that imply discrimination against people on the basis of their political orientation
+4 - Orientamento religioso: the use of language or expressions that imply discrimination against people on the basis of their religious orientation
+5 - Sensazionalismo:The use of language used to feed the scandal and the indignation of readers, to which is added an excessive and unbalanced use of exclamation marks and questions.
+6 - Advertising bias: When a newspaper chooses to mainly underline events or news that can elicit a positive reaction in the audience.
+
+
+### Now, identify in the following text wether or not these biases are present and explain the reason of your choice, underlying the step of the text in which the bias is present.
+Each bias can be 0 or 1, depending on their presence in the document.
+The answer must be formatted as a JSON, having as keys the ones reported in the previous steps. 
+
+An example is {"Razzismo": {"bias": 1, "explanation": "Nell'articolo vengono utilizzati termini razzisti.", "part of the text" }}
+
+The document is the following:
+<Title: IN 10 CONTRO UNA DONNA: LA MULTANO PER LA MASCHERINA ABBASSATA
+
+Body: Un abitante: “Quando chiamiamo noi i vigili non arrivano mai”
+
+Non c’è un bel clima nel Paese. Quell’unità di intenti per contrastare la pandemia, di cui tanto ha parlato il Presidente della Repubblica Sergio Mattarella, sembra già svanita.
+
+“Erano 8, forse 10 vigili”, ci spiega uno dei passanti, “il video è abbastanza eloquente. In 10 contro una donna per multarla per la mascherina abbassata? Ma si può?”.
+
+È la sera del 15 gennaio scorso, siamo a Torino: la polizia municipale incrocia una donna che avrebbe la mascherina abbassata mentre è a spasso con il proprio cagnolino e la ferma per multarla. Ma la scena viene ripresa da un passante e si trasforma subito in un caso. L’uomo interviene e comincia ad inveire contro gli agenti: “Ma dove c…. siete quando uno ha bisogno? Vergognatevi, la povera gente state venendo a prendere, non dovreste essere fieri”, urla inferocito mentre riprende col telefonino.
+
+Le regole si rispettano, certo. Ma le nuove direttive del governo, che tra le altre cose impongono di tenere la mascherina anche all’aperto, mentre si passeggia soli, hanno senso? Stona un po’ la disparità di trattamento tra il contrasto dei reati e delle situazioni di degrado in cui sono costrette a vivere le persone nelle periferie italiane e un dispiegamento di forze tale per un caso che potrebbe essere risolto semplicemente con un pizzico di buon senso.
+
+La donna multata calma l’uomo che continua a riprendere. Intanto i passanti si fermano incuriositi. Qualcun altro riprende la scena. Si crea un piccolo capannello. Un’altra donna, da lontano, urla: “Abbiamo un ministro che non ha neanche la laurea in medicina (il riferimento è a Speranza, ministero della Sanità)”. Si sente poi la voce di un altro passante: “Stasera quando vengono a spacciare non ne vedi uno (riferendosi ai vigili, ndr)”.
+
+“Chi vi vede mai?”, inveisce l’uomo che ancora sta riprendendo, “ma guardate quanti siete”.
+
+L’autore del filmato non si calma. Anzi, continua a chiedersi che senso abbia impiegare un tale dispiegamento di forze pagato della collettività per multare una signora con la mascherina abbassata, quando la città ha così tanti problemi. “Sono io”, dice riprendendosi in viso (ha la mascherina che glielo copre, ndr), “venite, 36 anni di contributi e non ho nessun problema con la legge e pago tutto, tutto… e venite a perseguitare chi paga?”.
+
+Qualcuno deride i vigili. Sembra di non essere in Italia oppure di essere tornati indietro agli anni ‘70, quando le periferie dei grandi agglomerati urbani erano contesti ostili alle Forze dell’Ordine.
+
+Un altro effetto della divisione sociale creata dal governo tra buoni, ovvero quelli ligi alle direttive, anche strampalate, dell’Esecutivo e cattivi, non conformi. Con le Forze dell’Ordine mandate a fare rispettare regole che spesso mancano del minimo buon senso.
+
+La discussione continua. A dire di un passante, la donna aveva la mascherina sul volto ma semplicemente la indossava in modo scorretto, con parte del naso scoperta. Un agente consegna la multa alla donna mentre l’uomo inveisce ancora.
+
+L’ammenda diventa in pochissimo tempo un caso sul web.
+
+Il video rimbalza sulle chat e su Twitter. I commenti si moltiplicano tra frasi indicibili e considerazioni amare.
+
+“Ho fatto lo sbirro 25 anni in mezzo alla strada, con la gente”, scrive Luca, “quando tu eri con loro, loro contavano su di te e al bar si prendeva il caffè insieme… Che vergogna, che schifo che è diventato”.
+
+“Sai quante volte li ho chiamati per varie situazioni e non si sono mai visti?”, spiega Alfonso. E poi altri commenti irripetibili.
+
+Di casi simili se ne raccontano tanti. Questo è il clima nel Paese.
+
+Ieri sera ho caricato il video sulla mia pagina Youtube. Ma in mattinata lo ho trovato bloccato perché il contenuto è stato ritenuto “inappropriato”. Nel filmato, come evidente, non ci sono violenze o azioni di chissà che rilievo: c’è solo la documentazione della realtà, la protesta di gente comune che in Italia si sente ingiustamente colpita da provvedimenti discutibili.>
+
+
+RISULTATI
+
+{"Razzismo": {"bias": 0, "explanation": "No racist language or expressions are used in the text.", "part of the text": ""}, 
+"Gender bias": {"bias": 0, "explanation": "No language or expressions implying discrimination based on gender are used in the text.", "part of the text": ""}, 
+"Orientamento politico": {"bias": 0, "explanation": "No language or expressions implying discrimination based on political orientation are used in the text.", "part of the text": ""}, 
+"Orientamento religioso": {"bias": 0, "explanation": "No language or expressions implying discrimination based on religious orientation are used in the text.", "part of the text": ""}, 
+"Sensazionalismo": {"bias": 0, "explanation": "The text does not use excessive exclamation marks or questions to feed scandal or indignation.", "part of the text": ""}, 
+"Advertising bias": {"bias": 0, "explanation": "The text does not mainly underline events or news that can elicit a positive reaction in the audience.", "part of the text": ""}}

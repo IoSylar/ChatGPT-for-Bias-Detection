@@ -1,0 +1,35 @@
+- Femminicidio:  Immigrati lo fanno 3 volte più di Italiani	https://voxnews.info/2017/11/22/femminicidio-immigrati-lo-fanno-3-volte-piu-di-italiani/
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo: parole o espressioni linguistiche che esprimono odio o incoraggiano la violenza nei confronti di una persona o di un gruppo di persone sulla base della loro razza ed etnia
+2 - Gender bias: parole o espressioni linguistiche pregiudizievoli basati sulla percezione di genere che le donne non sono uguali agli uomini in termini di diritti e dignità.
+3 - Orientamento politico: parole o espressioni linguistiche che implicano l'inclinazione o l'alterazione delle informazioni per far sembrare più attraente una posizione politica o un candidato politico.
+4 - Orientamento religioso: parole o espressioni linguistiche pregiudizievoli basate sull'appartenenza di una persona a un gruppo religioso, piuttosto che sui suoi meriti individuali.
+5 - Sensazionalismo: la tendenza di alcuni giornali o periodici a pubblicare e diffondere certe notizie conferendo loro un risalto eccessivo e presentandole come sensazionali tramite l'utilizzo di parole o espressioni linguistiche per alimentare lo scandalo e l'indignazione dei lettori.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+<Title: Femminicidio  Immigrati lo fanno 3 volte più di Italiani
+
+Body: Da un monitoraggio effettuato dal ministero della Giustizia, partendo dall’esame di 417 sentenze rappresentative del 60% dei casi di violenza sulle donne, tra il 2012 e il 2016, emerge che l’85% dei casi (355 su 417) sono classificabili come omicidio. Nel 98% dei casi l’autore del reato è un uomo e la nazionalità dell’autore conferma la prevalenza di immigrati visto che gli italiani (92% della popolazione) rappresentano il 74,5% di chi commette questo reato. Ovviamente gli Zingari e i ‘nuovi italiani’ sono inclusi come ‘italiani’.
+
+Significa che l’8 per cento della popolazione, commette il 25,5% di questo tipo di reato. Ovvero 3 volte il normale. Tradotto: ci sono bastardi italiani, ma i bastardi, tra gli immigrati, sono 3 volte di più.
+
+
+Nel 55,8% dei casi tra autore e vittima esiste una relazione sentimentale. Lo ha detto il ministro della Giustizia, Andrea Orlando, sentito dalla commissione parlamentare sull’inesistente fenomeno del femminicidio: 417 casi in 4 anni sono circa 100 casi l’anno. Ci sono più persone colpite dai fulmini.
+
+Riguardo alla relazione sentimentale che lega vittima e autore, la percentuale del 55,8% è così distribuita: nel 63,8% dei casi si registra un rapporto di coniugio o convivenza; nel 12% una relazione sentimentale in atto; per il restante 24% tra le due parti vi era stata una relazione sentimentale terminata prima dell’omicidio. L’arma prevalentemente utilizzata è il coltello, che spesso risulta il mezzo di più agevole disponibilità.
+Ovviamente, i media di distrazione di massa, diffonderanno la fake news che si “conferma la prevalenza di soggetti italiani”. E i più analfabeti stile Fedeli ci crederanno.>
+
+
+
+
+{"Razzismo": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche che esprimono odio o incoraggiano la violenza sulla base della razza ed etnia.", "porzione di testo": ""}, "Gender bias": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche pregiudizievoli basati sulla percezione di genere.", "porzione di testo": ""}, "Orientamento politico": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche che implicano l'inclinazione o l'alterazione delle informazioni per far sembrare più attraente una posizione politica o un candidato politico.", "porzione di testo": ""}, "Orientamento religioso": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche pregiudizievoli basate sull'appartenenza religiosa.", "porzione di testo": ""}, "Sensazionalismo": {"bias": 1, "motivazione": "Nel testo viene utilizzato il sensazionalismo per alimentare lo scandalo e l'indignazione dei lettori.", "porzione di testo": "Ovviamente, i media di distrazione di massa, diffonderanno la fake news che si “conferma la prevalenza di soggetti italiani”. E i più analfabeti stile Fedeli ci crederanno."}}

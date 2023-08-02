@@ -1,0 +1,42 @@
+- Immigrati pisciano contro vetrine negozi: folla tenta linciaggio	https://voxnews.info/2015/11/06/immigrati-pisciano-contro-vetrine-negozi-folla-tenta-linciaggio/
+
+
+### Read the description of the following biases ###
+1 - Racism: words or linguistic expressions that express hatred or encourage violence against a person or group of people on the basis of their race and ethnicity
+2 - Gender bias: prejudicial words or linguistic expressions based on the gender perception that women are not equal to men in terms of rights and dignity.
+3 - Political bias: Words or linguistic expressions that involve skewing or altering information to make a political position or political candidate seem more attractive.
+4 - Religious orientation: Prejudicial words or linguistic expressions based on a person's membership of a religious group, rather than on their individual merits.
+5 - Sensationalism: the tendency of some newspapers or periodicals to publish and disseminate certain news by giving them excessive prominence and presenting them as sensational through the use of words or linguistic expressions to fuel the scandal and indignation of the readers.
+
+
+
+### Now, identify from the following text if the described biases are present and explain the reason for your choice, highlighting the portion of text in which the bias is contained.
+Each bias can be 0 or 1, depending on their presence in the document.
+The response must be formatted as JSON, having as keys those reported in the previous instructions.
+An example is: {"Racism": {"bias": 1, "motivation": "Racist terms are used in the article.", "text portion" }}
+
+
+
+The document is as follows:
+<Title: Immigrati pisciano contro vetrine negozi folla tenta linciaggio
+
+Body: Immigrati ubriachi urinano sulle serrande di alcuni negozi e molestano i passanti. La storia si ripete a Poggiomarino, dove appena dieci giorni fa si scatenò una violenta rissa con due romeni pestati dalla folla ormai stufa.
+
+I fatti si sono svolti intorno alle 21,30 di martedì, quando i negozi avevano appena abbassato le saracinesche. I due stranieri, entrambi intorno ai trentacinque anni, ubriachi, hanno iniziato a molestare i passanti, ad urlare E poi urla e offendere le persone affacciate ai balconi.
+
+Poi, si sono sbottonati i pantaloni pisciando contro le serrande delle attività commerciali della zona.
+
+
+A quel punto, molti residenti sono scesi in strada, purtroppo qualcuno ha avvisato i carabinieri che hanno sventato il linciaggio.
+
+Messi in salvo, i due immigrati sono stati portati in caserma.
+
+L’Italia è in balia degli immigrati, e lo Stato li difende.>
+
+
+
+
+
+
+
+{"Racism": {"bias": 0, "motivation": "", "text portion": ""}, "Gender bias": {"bias": 0, "motivation": "", "text portion": ""}, "Political bias": {"bias": 0, "motivation": "", "text portion": ""}, "Religious orientation": {"bias": 0, "motivation": "", "text portion": ""}, "Sensationalism": {"bias": 1, "motivation": "The use of words like 'ubriachi' (drunk), 'pestati' (beaten), 'stufa' (fed up), 'sventato il linciaggio' (prevented lynching), 'Messi in salvo' (saved), 'balia' (mercy) can be seen as sensational language.", "text portion": "I fatti si sono svolti intorno alle 21,30 di martedì, quando i negozi avevano appena abbassato le saracinesche. I due stranieri, entrambi intorno ai trentacinque anni, ubriachi, hanno iniziato a molestare i passanti, ad urlare E poi urla e offendere le persone affacciate ai balconi.\n\nPoi, si sono sbottonati i pantaloni pisciando contro le serrande delle attività commerciali della zona.\n\n\nA quel punto, molti residenti sono scesi in strada, purtroppo qualcuno ha avvisato i carabinieri che hanno sventato il linciaggio.\n\nMessi in salvo, i due immigrati sono stati portati in caserma.\n\nL’Italia è in balia degli immigrati, e lo Stato li difende."}}

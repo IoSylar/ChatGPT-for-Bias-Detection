@@ -1,0 +1,31 @@
+- Magistrati bizzarri: il cambio di sesso non inficia il matrimonio!	https://voxnews.info/2013/03/04/magistrati-bizzarri-il-cambio-di-sesso-non-inficia-il-matrimonio/
+
+
+### Read the description of the following biases ###
+1 - Razzismo: the use of racist language or expressions to discriminate against people based on their ethnicity
+2 - Gender bias: the use of language or expressions that imply discrimination against people on the basis of their gender
+3 - Orientamento politico: the use of language or expressions that imply discrimination against people on the basis of their political orientation
+4 - Orientamento religioso: the use of language or expressions that imply discrimination against people on the basis of their religious orientation
+5 - Sensazionalismo:The use of language used to feed the scandal and the indignation of readers, to which is added an excessive and unbalanced use of exclamation marks and questions.
+6 - Advertising bias: When a newspaper chooses to mainly underline events or news that can elicit a positive reaction in the audience.
+
+
+### Now, identify in the following text wether or not these biases are present and explain the reason of your choice, underlying the step of the text in which the bias is present.
+Each bias can be 0 or 1, depending on their presence in the document.
+The answer must be formatted as a JSON, having as keys the ones reported in the previous steps. 
+
+An example is {"Razzismo": {"bias": 1, "explanation": "Nell'articolo vengono utilizzati termini razzisti.", "part of the text" }}
+
+The document is the following:
+<Title: Magistrati bizzarri il cambio di sesso non inficia il matrimonio!
+
+Body: Ovvio matrimonio di convenienza, ma il magistrato salva l’immigrato. Come sempre.
+Il marito cambia sesso? Per il tribunale di Reggio Emilia il matrimonio è comunque valido. E’ quanto è stato stabilito con un’ordinanza del 9 febbraio: non si può estromettere un legame tra coniugi e di conseguenza la continuazione del matrimonio “solamente” – solo per la follia della magistratura italiana – perché il marito ha cambiato sesso, rimanendo all’anagrafe maschio. La sentenza è giunta in seguito al ricorso di un cittadino transessuale di origine brasiliana sposato, da circa sei anni, con una donna di cittadinanza italiana.
+
+Dopo le nozze l’uomo si è sottoposto alle operazioni per cambiare sesso e ha mutato i propri comportamenti, adottando delle sembianze femminili. La questura gli ha quindi negato il rinnovo del permesso di soggiorno per ricongiungimento familiare: il brasiliano avrebbe contratto un’unione artefatta e il cambiamento di sesso ne è, per tutti ma non per il tribunale di Reggio, la prova. Dopo l’espulsione, il 23 novembre 2012, il transessuale si è rivolto al tribunale dove il giudice Annamaria Casadonte ha accettato la sua richiesta dichiarando legittimo il permesso di soggiorno. Con una bizzarra tesi sociologica: “La non infrequente ipotesi di soggetti che pur identificandosi nel genere opposto mantengano orientamento sessuale nei confronti dello stesso genere opposto; è, cioè, appurato che (…) possano avere in alcuni casi orientamento sessuale diretto nei confronti delle persone appartenenti non al genere da cui provengono ma al genere col quale si identificano”. Tradotto dal legalese: si veste e comporta da donna ma scopa lo stesso le donne. Quindi il suo pseudo-matrimonio con una donna è valido.
+Quante se ne inventano i magistrati quando c’è da proteggere i loro amici immigrati.
+
+Il transessuale, inoltre, non ha mutato il genere sessuale sulla carta d’identità: quanto basta, secondo la sentenza, per ritenere ancora valido il matrimonio e per non sciogliere il vincolo familiare. Inoltre, secondo i testimoni, la convivenza tra i due consiste in un rapporto affettivo evidente ed intenso. Il menage quotidiano, conclude poi il giudice, non dovrebbe interessare troppo la questura perché “ogni ulteriore indagine sui sentimenti dei coniugi, sulla loro relazione, appare poco compatibile con la tutela che la Carta Costituzionale all’articolo 29 assicura ai coniugi nel matrimonio”. Tranne nel caso, esimio – eufemismo – magistrato, nel caso in cui tra i coniugi sia in atto un accordo criminoso per garantire ad uno dei due di violare la legge fingendo qualcosa che non esiste. In questo caso un matrimonio fasullo che consente al brasiliano/a di rimanere in Italia contra legem.>
+
+
+{"Razzismo": {"bias": 0, "explanation": "No racist language or expressions are used in the text.", "part of the text": ""}, "Gender bias": {"bias": 0, "explanation": "No language or expressions implying discrimination based on gender are present in the text.", "part of the text": ""}, "Orientamento politico": {"bias": 0, "explanation": "No language or expressions implying discrimination based on political orientation are present in the text.", "part of the text": ""}, "Orientamento religioso": {"bias": 0, "explanation": "No language or expressions implying discrimination based on religious orientation are present in the text.", "part of the text": ""}, "Sensazionalismo": {"bias": 1, "explanation": "The use of sensational language and excessive exclamation marks can be observed in the text.", "part of the text": "Quante se ne inventano i magistrati quando c’è da proteggere i loro amici immigrati."}, "Advertising bias": {"bias": 0, "explanation": "No bias towards mainly highlighting positive events or news is present in the text.", "part of the text": ""}}

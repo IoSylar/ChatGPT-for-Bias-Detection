@@ -1,0 +1,46 @@
+- II ricatto di Parigi “Devono sbarcare tutti in Italia”, Mattarella approva	https://voxnews.info/2022/11/26/ii-ricatto-di-parigi-devono-sbarcare-tutti-in-italia-mattarella-approva/
+
+
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo:  utilizzo linguaggio e espressioni di odio e intolleranza verso individui appartenenti ad una determinata etnia
+2 - Gender bias: utilizzo linguaggio o espressioni sessiste
+3 - Orientamento politico: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata opinione politica
+4 - Orientamento religioso: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata fede religiosa
+5 - Sensazionalismo: utilizzo di linguaggio o espressioni per alimentare lo scandalo e l'indignazione dei lettori, oltre ad un uso eccessivo di domande ed esclamazioni.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+<Title: II ricatto di Parigi “Devono sbarcare tutti in Italia”, Mattarella approva
+
+Body: “Francia e Italia hanno assunto un anno
+fa l’impegno solenne di operare ancor
+più strettamente insieme. Il trattato
+del Quirinale rilancia un’intensa e au-
+tentica amicizia tra i nostri popoli,
+che va alimentata nell’interesse comune
+dei due Paesi”, così il capo dello Sta-
+to Mattarella sul suo profilo Twitter.
+
+Il messaggio di Mattarella è una rispo-
+sta a un messaggio del presidente fran-
+cese Macron in cui ricordava l’impegno
+assunto col trattato del Quirinale: “In
+questo giorno invio un messaggio di
+profonda amicizia al popolo italiano”.
+
+In pratica, il suo superiore di loggia lo richiama all’ordine e lui risponde “agli ordini”.>
+
+
+
+
+
+{"Razzismo": {"bias": 0, "motivazione": "Nessun utilizzo di linguaggio o espressioni di odio o intolleranza verso individui di una determinata etnia."}, "Gender bias": {"bias": 0, "motivazione": "Nessun utilizzo di linguaggio o espressioni sessiste."}, "Orientamento politico": {"bias": 0, "motivazione": "Nessun utilizzo di linguaggio o espressioni che implicano una discriminazione verso gruppi o individui con una determinata opinione politica."}, "Orientamento religioso": {"bias": 0, "motivazione": "Nessun utilizzo di linguaggio o espressioni che implicano una discriminazione verso gruppi o individui con una determinata fede religiosa."}, "Sensazionalismo": {"bias": 0, "motivazione": "Nessun utilizzo di linguaggio o espressioni per alimentare lo scandalo e l'indignazione dei lettori, né un uso eccessivo di domande ed esclamazioni."}}

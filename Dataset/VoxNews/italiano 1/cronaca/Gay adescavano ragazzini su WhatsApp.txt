@@ -1,0 +1,26 @@
+- Gay adescavano ragazzini su WhatsApp	https://voxnews.info/2018/10/17/gay-adescavano-ragazzini-su-whatsapp/
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo:  utilizzo linguaggio e espressioni di odio e intolleranza verso individui appartenenti ad una determinata etnia
+2 - Gender bias: utilizzo linguaggio o espressioni sessiste
+3 - Orientamento politico: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata opinione politica
+4 - Orientamento religioso: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata fede religiosa
+5 - Sensazionalismo: utilizzo di linguaggio o espressioni per alimentare lo scandalo e l'indignazione dei lettori, oltre ad un uso eccessivo di domande ed esclamazioni.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+<Title: Gay adescavano ragazzini su WhatsApp
+
+Body: Tre uomini gay sono stati arrestati da carabinieri nell’ambito di un’inchiesta della Procura di Catania contro la pedofilia: sono accusati di avere abusato nella ‘scalinata’ della Torre Normanna di Paternò di due ragazzini, di età inferiore ai 14 anni. Tra i destinatari dell’ordinanza emessa dal Gip anche lo zio di una delle vittime. I reati ipotizzati nei confronti dei tre indagati, in concorso, sono violenza sessuale aggravata, atti sessuali con minorenne, corruzione di minorenne e violenza sessuale di gruppo. Le indagini dei carabinieri erano state avviate dopo la denuncia della madre di un ragazzino che aveva notato l’adescamento subito dal figlio su Facebook da parte di un adulto, che in passato era stato condannato per violenza sessuale su minorenni commessa nel 1995. Militari, coordinati dal pool specializzato della Procura di Catania diretto dall’aggiunto Marisa Scavo, hanno scoperto una chat su ‘WhatsApp’, ‘gruppo di amici’, con adulti e minorenni che si scambiavano messaggi ambigui.>
+
+
+
+{"Razzismo": {"bias": 0, "motivazione": "Non sono presenti espressioni di odio o intolleranza verso individui di una determinata etnia."}, "Gender bias": {"bias": 0, "motivazione": "Non sono presenti espressioni sessiste."}, "Orientamento politico": {"bias": 0, "motivazione": "Non sono presenti espressioni che implicano una discriminazione verso gruppi o individui con una determinata opinione politica."}, "Orientamento religioso": {"bias": 0, "motivazione": "Non sono presenti espressioni che implicano una discriminazione verso gruppi o individui con una determinata fede religiosa."}, "Sensazionalismo": {"bias": 1, "motivazione": "Nel titolo viene utilizzato un linguaggio sensazionalistico per attirare l'attenzione dei lettori.", "porzione di testo": "Gay adescavano ragazzini su WhatsApp"}}

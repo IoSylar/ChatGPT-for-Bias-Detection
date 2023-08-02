@@ -1,0 +1,54 @@
+- M5S denuncia emergenza epidemia a Pozzallo: Scabbia, Tubercolosi e Meningite	https://voxnews.info/2014/05/12/m5s-denuncia-emergenza-epidemia-a-pozzallo-scabbia-tubercolosi-e-meningite/
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo: parole o espressioni linguistiche che esprimono odio o incoraggiano la violenza nei confronti di una persona o di un gruppo di persone sulla base della loro razza ed etnia
+2 - Gender bias: parole o espressioni linguistiche pregiudizievoli basati sulla percezione di genere che le donne non sono uguali agli uomini in termini di diritti e dignità.
+3 - Orientamento politico: parole o espressioni linguistiche che implicano l'inclinazione o l'alterazione delle informazioni per far sembrare più attraente una posizione politica o un candidato politico.
+4 - Orientamento religioso: parole o espressioni linguistiche pregiudizievoli basate sull'appartenenza di una persona a un gruppo religioso, piuttosto che sui suoi meriti individuali.
+5 - Sensazionalismo: la tendenza di alcuni giornali o periodici a pubblicare e diffondere certe notizie conferendo loro un risalto eccessivo e presentandole come sensazionali tramite l'utilizzo di parole o espressioni linguistiche per alimentare lo scandalo e l'indignazione dei lettori.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+<Title: M5S denuncia emergenza epidemia a Pozzallo Scabbia, Tubercolosi e Meningite
+
+Body: Pozzallo da anni vive il fenomeno dell’immigrazione clandestina a causa della sua posizione geografica da avamposto d’Europa per i flussi migratori.
+
+Ma è dal 1° gennaio di quest’anno che la situazione è drasticamente peggiorata a causa dell’operazione “Mare Nostrum”.
+
+Infatti, il numero di sbarchi avvenuti nelle nostre coste si è moltiplicato; nel solo Porto di Pozzallo sono arrivate più di 6000 persone, numeri destinati senz’altro a salire considerando l’imminente arrivo della bella stagione e quindi di condizioni meteorologiche favorevoli per questi viaggi.
+Purtroppo, a preoccupare non è solo l’alta percentuale di arrivi, quanto i rischi sanitari che questi flussi massicci comportano, l’inadeguatezza delle strutture e degli enti territoriali a sostenere questo ruolo delicato.
+
+Le notizie di accertamenti di casi di scabbia, tubercolosi e meningite, denunciano dal M5S, hanno ingenerato una giustificata psicosi.
+
+
+E proprio alla luce di questa situazione ormai divenuta troppo critica, come una bomba ad orologeria pronta a scoppiare da un momento all’altro che CHIEDIAMO a tutte le Istituzioni coinvolte Comune, Prefettura, Forze dell’Ordine, Capitaneria di Porto, Asp e Organizzazioni Internazionali:
+
+di informare la cittadinanza circa le procedure di profilassi sanitaria;
+di quali siano i rischi per la popolazione e i metodi di contagio per malattie rare o addirittura debellate nei nostri paesi;
+se il personale medico,gli operatori del Centro,le Forze dell’Ordine e tutte le figure coinvolte nelle operazioni di soccorso siano messi nelle condizioni ottimali per evitare rischi di contagio e con quali precauzioni;
+se esistano piani di emergenza e di contenimento in caso di pandemia o epidemia e quali sono;
+di aumentare la presenza delle Forze dell’Ordine nei territori per garantire la sicurezza pubblica;
+che le strutture territoriali siano adeguatamente attrezzate per gestire i flussi e dare assistenza sanitaria;
+Non si può Pretendere da un paese di 19.000 abitanti con un CPSA a ridosso del centro abitato e una capienza di 186 persone,di accogliere migliaia di persone in pochi giorni e credere che tutto questo sia ordinaria amministrazione, facilmente gestibile e priva di rischi per migranti e popolazione!!
+Lo Stato e l’Europa non possono pretendere impegno e responsabilità per gestire un esodo chiaramente inarrestabile solo perché questa gestione è finanziata con 50 euro a migrante.
+
+Un business che tra l’altro non è condiviso in trasparenza con la comunità pozzallese.  Il nostro paese si è dimostrato maturo e ospitale nei confronti dei migranti,ma se accoglienza dobbiamo dare,deve essere: nella misura in cui siamo in grado di sostenerla o nelle condizioni tali per farlo!  Perciò il M5S Pozzallo sollecita un incontro pubblico con le Istituzioni e una presa di posizione forte da parte dell’Amministrazione e di tutte le forze politiche presenti nel territorio affinché vengano accolte tali istanze e che la voce di cittadini italiani e stranieri venga ascoltata e rispettata!!
+
+Forse, dico forse, se non aveste votato per abolire il reato di clandestinità, questo non sarebbe avvenuto, o sarebbe avvenuto in modo meno massiccio.
+E’ comunque un buon segno, che anche il M5S si sia reso conto dell’emergenza epidemie che l’immigrazione comporta, e del business (50€ a testa) che questa invasione regala ai soliti noti: altro che Expo.
+
+Comunque, la soluzione non è, attrezzarsi all’invasione, la soluzione è respingere l’invasione.
+
+>
+
+
+
+{"Razzismo": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche che esprimono odio o incoraggiano la violenza sulla base della razza ed etnia."}, "Gender bias": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche pregiudizievoli basate sulla percezione di genere."}, "Orientamento politico": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche che implicano l'inclinazione o l'alterazione delle informazioni per far sembrare più attraente una posizione politica o un candidato politico."}, "Orientamento religioso": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche pregiudizievoli basate sull'appartenenza religiosa."}, "Sensazionalismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzate parole e espressioni linguistiche per alimentare lo scandalo e l'indignazione dei lettori.", "porzione di testo": "Pozzallo da anni vive il fenomeno dell’immigrazione clandestina a causa della sua posizione geografica da avamposto d’Europa per i flussi migratori.\n\nMa è dal 1° gennaio di quest’anno che la situazione è drasticamente peggiorata a causa dell’operazione “Mare Nostrum”.\n\nInfatti, il numero di sbarchi avvenuti nelle nostre coste si è moltiplicato; nel solo Porto di Pozzallo sono arrivate più di 6000 persone, numeri destinati senz’altro a salire considerando l’imminente arrivo della bella stagione e quindi di condizioni meteorologiche favorevoli per questi viaggi.\nPurtroppo, a preoccupare non è solo l’alta percentuale di arrivi, quanto i rischi sanitari che questi flussi massicci comportano, l’inadeguatezza delle strutture e degli enti territoriali a sostenere questo ruolo delicato.\n\nLe notizie di accertamenti di casi di scabbia, tubercolosi e meningite, denunciano dal M5S, hanno ingenerato una giustificata psicosi.\n\n\nE proprio alla luce di questa situazione ormai divenuta troppo critica, come una bomba ad orologeria pronta a scoppiare da un momento all’altro che CHIEDIAMO a tutte le Istituzioni coinvolte Comune, Prefettura, Forze dell’Ordine, Capitaneria di Porto, Asp e Organizzazioni Internazionali:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n

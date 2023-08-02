@@ -1,0 +1,28 @@
+- Meloni ri-promette di chiudere i porti: 26mila sbarchi in 2 mesi    https://voxnews.info/2022/12/17/meloni-ri-promette-di-chiudere-i-porti-26mila-sbarchi-in-2-mesi/
+
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo:  utilizzo linguaggio e espressioni di odio e intolleranza verso individui appartenenti ad una determinata etnia
+2 - Gender bias: utilizzo linguaggio o espressioni sessiste
+3 - Orientamento politico: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata opinione politica
+4 - Orientamento religioso: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata fede religiosa
+5 - Sensazionalismo: utilizzo di linguaggio o espressioni per alimentare lo scandalo e l'indignazione dei lettori, oltre ad un uso eccessivo di domande ed esclamazioni.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+<Title: Meloni ri-promette di chiudere i porti 26mila sbarchi in 2 mesi 
+
+Body: Non pensavamo certo si risolvesse tutti in due mesi. Ma, intanto, si poteva evitare di mandare le crocerossine in divisa a prenderli in Africa e lo sbarco delle ong. E si poteva intanto sequestrare le navi ong con l’approvazione di un decreto ponte di emergenza prima di quello che state partorendo per ‘dopo le feste’.>
+
+
+
+
+{"Razzismo": {"bias": 0, "motivazione": "Nessun termine razzista presente nel testo.", "porzione di testo": ""}, "Gender bias": {"bias": 0, "motivazione": "Nessun termine sessista presente nel testo.", "porzione di testo": ""}, "Orientamento politico": {"bias": 0, "motivazione": "Nessuna discriminazione verso gruppi o individui con una determinata opinione politica presente nel testo.", "porzione di testo": ""}, "Orientamento religioso": {"bias": 0, "motivazione": "Nessuna discriminazione verso gruppi o individui con una determinata fede religiosa presente nel testo.", "porzione di testo": ""}, "Sensazionalismo": {"bias": 1, "motivazione": "Nel testo viene utilizzato un linguaggio sensazionalistico per alimentare lo scandalo e l'indignazione dei lettori.", "porzione di testo": "Non pensavamo certo si risolvesse tutti in due mesi. Ma, intanto, si poteva evitare di mandare le crocerossine in divisa a prenderli in Africa e lo sbarco delle ong. E si poteva intanto sequestrare le navi ong con l’approvazione di un decreto ponte di emergenza prima di quello che state partorendo per ‘dopo le feste’."}}

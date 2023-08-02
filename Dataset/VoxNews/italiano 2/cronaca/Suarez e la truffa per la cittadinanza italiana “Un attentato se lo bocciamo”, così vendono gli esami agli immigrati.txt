@@ -1,0 +1,43 @@
+- Suarez e la truffa per la cittadinanza italiana: “Un attentato se lo bocciamo”, così vendono gli esami agli immigrati	https://voxnews.info/2020/09/22/suarez-e-la-truffa-per-la-cittadinanza-italiana-un-attentato-se-lo-bocciamo-cosi-vendono-gli-esami-agli-immigrati/
+
+
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo: parole o espressioni linguistiche che esprimono odio o incoraggiano la violenza nei confronti di una persona o di un gruppo di persone sulla base della loro razza ed etnia
+2 - Gender bias: parole o espressioni linguistiche pregiudizievoli basati sulla percezione di genere che le donne non sono uguali agli uomini in termini di diritti e dignità.
+3 - Orientamento politico: parole o espressioni linguistiche che implicano l'inclinazione o l'alterazione delle informazioni per far sembrare più attraente una posizione politica o un candidato politico.
+4 - Orientamento religioso: parole o espressioni linguistiche pregiudizievoli basate sull'appartenenza di una persona a un gruppo religioso, piuttosto che sui suoi meriti individuali.
+5 - Sensazionalismo: la tendenza di alcuni giornali o periodici a pubblicare e diffondere certe notizie conferendo loro un risalto eccessivo e presentandole come sensazionali tramite l'utilizzo di parole o espressioni linguistiche per alimentare lo scandalo e l'indignazione dei lettori.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+<Title: Suarez e la truffa per la cittadinanza italiana “Un attentato se lo bocciamo”, così vendono gli esami agli immigrati
+
+Body: La vicenda Suarez porta fa emergere la grande truffa degli esami di italiano per gli immigrati: basta pagare, promuovono tutti.
+
+“Non coniuga i verbi” e “parla all’infinito” Così parla uno degli indagati nel caso delle irregolarità nell’esame di Italiano, svolto dal calciatore attaccante del Barcellona Luis Suarez all’università per stranieri di Perugia per ottenere la cittadinanza, in un’intercettazione nel decreto di sequestro probatorio emesso dalla procura di Perugia e visionato dall’Adnkronos.
+
+
+Nonostante sia stata riscontrata la conoscenza elementare della lingua italiana necessaria per passare l’esame. Anche il voto finale è stato comunicato in anticipo al candidato. Si legge nelle intercettazioni tra l’esaminatore Lorenzo Rocca e Stefania Spina, incaricata della preparazione del candidato e dell’organizzazione della sessione d’esame. “Comunque allora…tornando seri…hai una grande responsabilità perché se lo bocciate ci fanno gli attentati terroristici”. Così uno degli indagati che si rivolge a un altro indagato che risponde: “Ma te pare che lo bocciamo!” Un esame farsa dunque superato in una “seduta di esame ad hoc”. Lo sostiene la procura di Perugia nel decreto di perquisizione eseguito stamani. Negli atti si parla di “previa consegna” al calciatore dei contenuti della prova “in modo da blindare l’esito favorevole”.
+
+E ancora: “Per dirtela tutta – intercettazione tra Diodato e Spina -, oggi ho chiamato Lorenzo Rocca che gli ha detto la simulazione d’esame e abbiamo praticamente concordato quello che gli farà l’esame”: una mossa necessaria dato che, sempre secondo la Spina, “non spiccica una parola”. Un interlocutore non riconosciuto chiede “a che livello dovrebbe passare?”. La risposta di Spina è inequivocabile: “Non dovrebbe, deve, passerà, perché con 10 milioni a stagione di stipendio non glieli puoi far saltare perché non ha il B1”.
+
+I militari della Guardia di Finanza stanno proseguendo le indagini acquisendo documenti presso gli uffici dell’Università. Tra gli indagati Rettore Università per Stranieri di Perugia, Giuliana Grego Bolli, e il Direttore Generale dell’università, Simone Olivieri, ma non il calciatore. L’Università per Stranieri di Perugia in una nota in relazione a presunte irregolarità nella prova di certificazione della lingua italiana, svolta il 17 settembre scorso, dal calciatore uruguaiano ribadisce “la correttezza e la trasparenza delle procedure seguite”.
+Qui il problema non è Suarez, ma il fatto che come lui altre migliaia di finti italiani lo sono diventati grazie a queste truffe.>
+
+
+
+
+{"Razzismo": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche che esprimono odio o incoraggiano la violenza sulla base della razza ed etnia.", "porzione di testo": ""}}, 
+"Gender bias": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche pregiudizievoli basate sulla percezione di genere.", "porzione di testo": ""}}, 
+"Orientamento politico": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche che implicano l'inclinazione o l'alterazione delle informazioni per far sembrare più attraente una posizione politica o un candidato politico.", "porzione di testo": ""}}, 
+"Orientamento religioso": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche pregiudizievoli basate sull'appartenenza religiosa.", "porzione di testo": ""}}, 
+"Sensazionalismo": {"bias": 1, "motivazione": "Nel titolo dell'articolo viene utilizzato un linguaggio sensazionalistico per attirare l'attenzione dei lettori.", "porzione di testo": "<Title: Suarez e la truffa per la cittadinanza italiana “Un attentato se lo bocciamo”, così vendono gli esami agli immigrati"}}

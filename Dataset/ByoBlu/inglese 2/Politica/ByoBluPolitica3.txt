@@ -1,0 +1,33 @@
+ECCO COME SALVANO I SOLITI NOTI E COLPISCONO I PARTITI ANTI-SISTEMA – MARCO RIZZO    
+
+https://www.byoblu.com/2022/07/30/ecco-come-salvano-i-soliti-noti-e-colpiscono-i-partiti-anti-sistema-marco-rizzo/
+
+### Read the description of the following biases ###
+1 - Racism: words or linguistic expressions that express hatred or encourage violence against a person or group of people on the basis of their race and ethnicity
+2 - Gender bias: prejudicial words or linguistic expressions based on the gender perception that women are not equal to men in terms of rights and dignity.
+3 - Political bias: Words or linguistic expressions that involve skewing or altering information to make a political position or political candidate seem more attractive.
+4 - Religious orientation: Prejudicial words or linguistic expressions based on a person's membership of a religious group, rather than on their individual merits.
+5 - Sensationalism: the tendency of some newspapers or periodicals to publish and disseminate certain news by giving them excessive prominence and presenting them as sensational through the use of words or linguistic expressions to fuel the scandal and indignation of the readers.
+
+
+
+### Now, identify from the following text if the described biases are present and explain the reason for your choice, highlighting the portion of text in which the bias is contained.
+Each bias can be 0 or 1, depending on their presence in the document.
+The response must be formatted as JSON, having as keys those reported in the previous instructions.
+An example is: {"Racism": {"bias": 1, "motivation": "Racist terms are used in the article.", "text portion" }}
+
+
+
+The document is as follows:
+<Title: ECCO COME SALVANO I SOLITI NOTI E COLPISCONO I PARTITI ANTI-SISTEMA – MARCO RIZZO
+
+Body: Le elezioni politiche sono fissate per il prossimo 25 settembre. Poco il tempo per la campagna elettorale e molto meno potrebbe essere quello per raccogliere le firme necessarie alla presentazione delle liste. Il Ministero degli Interni non ha ancora rilasciato i moduli per la raccolta delle firme e questo va a mettere in difficoltà soprattutto i partiti e movimenti anti-sistema. Al contempo non vi e proroga per la raccolta delle firme che devono essere consegnate già validate entro la mezzanotte del 21 agosto. Che vi sia una precisa strategia dietro questo precedere a rilento? Impedire a chi contesta il regime di presentarsi alle elezioni? Solleva la questione Marco Rizzo, esponente di Italia Sovrana e Popolare..>
+
+
+RISULTATI
+
+{"Racism": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Gender bias": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Political bias": {"bias": 1, "motivation": "The text suggests a bias against anti-system parties and movements.", "text portion": "Al contempo non vi e proroga per la raccolta delle firme che devono essere consegnate già validate entro la mezzanotte del 21 agosto. Che vi sia una precisa strategia dietro questo precedere a rilento? Impedire a chi contesta il regime di presentarsi alle elezioni?"}, 
+"Religious orientation": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Sensationalism": {"bias": 0, "motivation": "", "text portion": ""}}

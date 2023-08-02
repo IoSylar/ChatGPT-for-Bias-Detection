@@ -1,0 +1,34 @@
+- Anche il suocero di Conte si prende il ‘bonus’: furboni	https://voxnews.info/2020/08/10/anche-il-suocero-di-conte-si-prende-il-bonus-furboni/
+
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo:  utilizzo linguaggio e espressioni di odio e intolleranza verso individui appartenenti ad una determinata etnia
+2 - Gender bias: utilizzo linguaggio o espressioni sessiste
+3 - Orientamento politico: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata opinione politica
+4 - Orientamento religioso: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata fede religiosa
+5 - Sensazionalismo: utilizzo di linguaggio o espressioni per alimentare lo scandalo e l'indignazione dei lettori, oltre ad un uso eccessivo di domande ed esclamazioni.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+<Title: Anche il suocero di Conte si prende il ‘bonus’ furboni
+
+Body: A denunciare per primo la marchetta di Giuseppe Conte era stato Nicola Porro. C’è infatti un piccolo regalo per il ‘suocero’ nel cosiddetto decreto Rilancio.
+
+“La troviamo a metà strada, quasi, all’articolo 180. Se non abbiamo interpretato male (può sempre succedere in questi casi) essa prevede una particolare depenalizzazione per coloro che gestiscono gli alberghi. Diciamo subito che per chi scrive si tratta di cosa buona e giusta”, scrive Porro sul suo blog. Cosa prevede l’articolo? ” Nel passato se un albergatore si fosse intascato la tassa di soggiorno che è obbligato ad esigere ogni giorno ai propri ospiti, sarebbe finito in galera. A leggere il terzo e il quarto comma dell’articolo 180 del nuovo decreto, da oggi ciò non è più reato: l’albergatore dovrà pagare una sanzione amministrativa”. Questa la novità.
+
+VERIFICA LA NOTIZIA
+
+Per Porro, come detto, si tratta di una “norma di buon senso”. E però fa notare anche come la questione del mancato versamento della tassa di soggiorno da parte di chi gestisce un hotel al comune di Roma è un caso che lo scorso anno aveva “clamorosamente interessato” il “suocero” di Conte, Cesare Paladino, padre della sua compagna Olivia, proprietario di un hotel in centro a Roma. Stando ai pm, Cesare Paladino avrebbe intascato tra il 2014 e il 2018 circa due milioni di euro dai propri clienti senza girarli all’amministrazione di Virginia Raggi. Fu indagato e condannato, “o meglio – ricorda Porro – patteggiò la pena a poco più di un anno”.>
+
+
+
+
+{"Razzismo": {"bias": 0, "motivazione": ""}, "Gender bias": {"bias": 0, "motivazione": ""}, "Orientamento politico": {"bias": 0, "motivazione": ""}, "Orientamento religioso": {"bias": 0, "motivazione": ""}, "Sensazionalismo": {"bias": 0, "motivazione": ""}}

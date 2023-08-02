@@ -1,0 +1,54 @@
+- Immigrato nato in Italia: “Vi ammazzo tutti, Allah vi punirà, noi dell’Isis vinceremo”	https://voxnews.info/2015/09/10/immigrato-nato-in-italia-vi-ammazzo-tutti-allah-vi-punira-noi-dellisis-vinceremo/
+
+### Read the description of the following biases ###
+1 - Razzismo: the use of racist language or expressions to discriminate against people based on their ethnicity
+2 - Gender bias: the use of language or expressions that imply discrimination against people on the basis of their gender
+3 - Orientamento politico: the use of language or expressions that imply discrimination against people on the basis of their political orientation
+4 - Orientamento religioso: the use of language or expressions that imply discrimination against people on the basis of their religious orientation
+5 - Sensazionalismo:The use of language used to feed the scandal and the indignation of readers, to which is added an excessive and unbalanced use of exclamation marks and questions.
+6 - Advertising bias: When a newspaper chooses to mainly underline events or news that can elicit a positive reaction in the audience.
+
+
+### Now, identify in the following text wether or not these biases are present and explain the reason of your choice, underlying the step of the text in which the bias is present.
+Each bias can be 0 or 1, depending on their presence in the document.
+The answer must be formatted as a JSON, having as keys the ones reported in the previous steps. 
+
+An example is {"Razzismo": {"bias": 1, "explanation": "Nell'articolo vengono utilizzati termini razzisti.", "part of the text" }}
+
+The document is the following:
+<Title: Immigrato nato in Italia: “Vi ammazzo tutti, Allah vi punirà, noi dell’Isis vinceremo”
+
+Body: Loano – Assume contorni inquietanti, quello che sembrava ‘solo’ l’ennesimo atto vandalico di un immigrato.
+
+«Vi ammazzo tutti, Allah vi punirà, noi dell’Isis vinceremo». Queste le frasi gridate ai presenti dal ventenne marocchino che, all’alba di mercoledì, si è reso protagonista di un raid vandalico a Loano ed è finito in manette. Ad essere danneggiati sono stati motocicli parcheggiati, auto e un dehors di un locale.
+
+Durante il processo per direttissima di questa mattina (in cui l’arresto è stato convalidato) il giovane ha tentato di negare, di avere inneggiato al terrorismo islamico e ad Isis, circostanza c confermata dai testimoni e dalle indagini dei carabinieri.
+
+Per ora rimane in carcere. Si chiama Sufienn D., marocchino di 20 anni. Uno dei tanti immigrati che ha risposto al ‘richiamo della foresta’.
+
+L’immigrato di seconda generazione (molto peggio delle prime), nato in Italia e residente a Borghetto Santo Spirito, é stato arrestato nella notte dai Carabinieri della Compagnia di Albenga.
+
+
+Nel tribunale si Savona ha continuato ad inveire e ad opporre resistenza ai pubblici ufficiali.
+
+Il giudice ha così convalidato l’arresto e disposto la misura cautela in carcere, mentre il processo per direttissima è stato rinviato al 23 settembre.
+
+Ecco di seguito la ricostruzione dell’accaduto, da parte di un giornale locale: si parla di ‘vandali’, non di ‘vandalo’. Quindi non era solo, il ‘nuovo italiano’. Si muovono in bande:
+
+I Carabinieri, all’alba, hanno ricevuto una chiamata che segnalava diversi danneggiamenti ai danni di mezzi parcheggiati su Corso Roma. Sul posto sono dunque confluiti una pattuglia dell’Arma di Pietra Ligure e della Radiomobile di Albenga. I militari hanno cosi constatato che erano stati danneggiati in totale quattro scooter e tre macchine. In particolare i mezzi a due ruote erano stati buttati a terra, mentre le vetture presentavano segni evidenti di calci sulla carrozzeria. A chiamare il 112 era stato il guardiano del residence Perelli, che attirato dai rumori era uscito in strada. L’uomo, nel tentativo di allontanare i vandali, è stato ferito ed è dovuto ricorrere alle cure del pronto Soccorso del Santa Corona.
+
+
+Nel frattempo i Carabinieri, dopo aver registrato le targhe, hanno individuato uno dei responsabili dei raid all’interno del bar Kiss sulla via Aurelia. Il 20enne, dopo essersi introdotto nel locale aperto tutta la notte, si è diretto al bancone del bar, dietro il quale si trovava il titolare. Dopo aver prelevato un grosso vaso di ceramica posizionato al di sopra è uscito e lo ha scagliato con violenza contro il vetro del dehor.
+
+Il ragazzo, dopo aver distrutto parte degli arredi esterni, ha iniziato a lanciare gli oggetti rinvenuti nel dehor, quali portatovaglioli e simili, contro le auto che in quel momento stavano transitando sulla via Aurelia. I Carabinieri sono dunque entrati e riusciti a bloccarlo non senza fatica. L’extracomunitario in forte stato di agitazione, conseguente forse all’assunzione di sostanze alteranti, ha aggredito anche uno dei militari, procurandogli diverse ferite.>
+
+
+
+
+
+{"Razzismo": {"bias": 1, "explanation": "The use of racist language is present in the phrase 'Vi ammazzo tutti, Allah vi punirà, noi dell’Isis vinceremo'", "part of the text": "«Vi ammazzo tutti, Allah vi punirà, noi dell’Isis vinceremo»."}}
+{"Gender bias": {"bias": 0, "explanation": "There is no language or expressions that imply discrimination based on gender.", "part of the text": ""}}
+{"Orientamento politico": {"bias": 0, "explanation": "There is no language or expressions that imply discrimination based on political orientation.", "part of the text": ""}}
+{"Orientamento religioso": {"bias": 1, "explanation": "The use of language implies discrimination against people based on their religious orientation, specifically Islam.", "part of the text": "«Vi ammazzo tutti, Allah vi punirà, noi dell’Isis vinceremo»."}}
+{"Sensazionalismo": {"bias": 1, "explanation": "The use of sensational language and excessive exclamation marks is present in the phrase 'Assume contorni inquietanti'", "part of the text": "Assume contorni inquietanti, quello che sembrava ‘solo’ l’ennesimo atto vandalico di un immigrato."}}
+{"Advertising bias": {"bias": 0, "explanation": "There is no indication that the newspaper is mainly highlighting events or news to elicit a positive reaction in the audience.", "part of the text": ""}}

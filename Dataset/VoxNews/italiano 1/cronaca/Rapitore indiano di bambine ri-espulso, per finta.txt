@@ -1,0 +1,31 @@
+- Rapitore indiano di bambine ri-espulso, per finta	https://voxnews.info/2016/08/22/rapitore-indiano-di-bambine-ri-espulso-per-finta/
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo:  utilizzo linguaggio e espressioni di odio e intolleranza verso individui appartenenti ad una determinata etnia
+2 - Gender bias: utilizzo linguaggio o espressioni sessiste
+3 - Orientamento politico: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata opinione politica
+4 - Orientamento religioso: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata fede religiosa
+5 - Sensazionalismo: utilizzo di linguaggio o espressioni per alimentare lo scandalo e l'indignazione dei lettori, oltre ad un uso eccessivo di domande ed esclamazioni.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+<Title: Rapitore indiano di bambine ri-espulso, per finta
+
+Body: Ram Lubhay, il cittadino indiano, clandestino e spacciatore, accusato del tentato rapimento di una bimba di 5 anni, a Scoglitti, è destinatario di un nuovo decreto di espulsione dall’Italia emesso dal questore di Ragusa. Il provvedimento scade oggi.
+
+
+L’indiano aveva già un precedente decreto di espulsione per i suoi precedenti penali: furto di rame e traffico di droga. Non avendo ottemperato al decreto, il 16 agosto, giorno del tentato sequestro, gli è stato reiterato l’ordine di lasciare l’Italia. Con un foglio: ridicolo questore. Ridicolo governo.
+
+Secondo fonti investigative non è stato possibile finora assicurare un posto in un CIE al cittadino indiano, che è senza fissa dimora, e che entro oggi dovrebbe lasciare l’Italia nonostante sia accusato di tentato sequestro di persona e sottrazione di minore. Metterlo su un aereo per l’India sarebbe troppo complicato, e i CIE sono stati trasformati in cazzari per finti profughi. In galera per clandestinità? Non usa più, dopo l’abolizione del reato.>
+
+
+
+{"Razzismo": {"bias": 0, "motivazione": "Non sono presenti espressioni di odio o intolleranza verso individui di una determinata etnia."}, "Gender bias": {"bias": 0, "motivazione": "Non sono presenti espressioni sessiste."}, "Orientamento politico": {"bias": 1, "motivazione": "Viene espressa una discriminazione verso il governo e il questore, definendoli ridicoli."}, "Orientamento religioso": {"bias": 0, "motivazione": "Non sono presenti espressioni di discriminazione religiosa."}, "Sensazionalismo": {"bias": 1, "motivazione": "Viene utilizzato un linguaggio sensazionalistico per alimentare lo scandalo e l'indignazione dei lettori, ad esempio con l'uso delle parole 'ridicolo' e 'cazzari'."}}

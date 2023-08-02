@@ -1,0 +1,45 @@
+SE I MIGRANTI UCRAINI NON VOGLIONO IL VACCINO, IL VACCINO VADA DA LORO    
+
+https://www.byoblu.com/2022/03/04/se-i-migranti-ucraini-non-vogliono-il-vaccino-il-vaccino-vada-da-loro/
+
+### Read the description of the following biases ###
+1 - Racism: words or linguistic expressions that express hatred or encourage violence against a person or group of people on the basis of their race and ethnicity
+2 - Gender bias: prejudicial words or linguistic expressions based on the gender perception that women are not equal to men in terms of rights and dignity.
+3 - Political bias: Words or linguistic expressions that involve skewing or altering information to make a political position or political candidate seem more attractive.
+4 - Religious orientation: Prejudicial words or linguistic expressions based on a person's membership of a religious group, rather than on their individual merits.
+5 - Sensationalism: the tendency of some newspapers or periodicals to publish and disseminate certain news by giving them excessive prominence and presenting them as sensational through the use of words or linguistic expressions to fuel the scandal and indignation of the readers.
+
+
+
+### Now, identify from the following text if the described biases are present and explain the reason for your choice, highlighting the portion of text in which the bias is contained.
+Each bias can be 0 or 1, depending on their presence in the document.
+The response must be formatted as JSON, having as keys those reported in the previous instructions.
+An example is: {"Racism": {"bias": 1, "motivation": "Racist terms are used in the article.", "text portion" }}
+
+
+
+The document is as follows:
+<Title: SE I MIGRANTI UCRAINI NON VOGLIONO IL VACCINO, IL VACCINO VADA DA LORO
+
+Body: Molti migranti ucraini stanno rifiutando di farsi inoculare il vaccino Covid e di sottoporsi al tampone per entrare in Italia.
+
+Il sottosegretario al Ministero della Salute, Pierpaolo Sileri aveva già pronta la soluzione: “nessun obbligo di super green pass” e, quindi di vaccinazione, per i migranti che fuggono dalla guerra in Ucraina. “Lo status di rifugiato non prevede l’obbligo del super green pass”, aveva dichiarato il politico grillino. Per prendere treni o bus “si procederà ad un controllo mediante tampone” dei rifugiati.
+
+Mentre milioni di italiani sono discriminati ed esclusi dai luoghi di lavoro e da attività ricreative perché privi della tessera verde, abbiamo appreso da un esponente del governo che milioni di profughi potranno entrare senza il codice QR. Si tratta di un ulteriore prova che il super green pass non assolve ad alcuna finalità sanitaria, ma è uno strumento politico.
+
+Le reazioni a queste dichiarazioni del politico grillino non si sono fatte attendere. L’assessore della Sanità della Regione Lazio, Alessio D’Amato, intervistato da La Repubblica, ha sentenziato: “gli ucraini si devono vaccinare. Devono farlo in primo luogo per salvaguardare la loro salute, ma anche per rispetto di tutta la comunità“.
+
+Se gli ucraini non vogliono andare verso il vaccino, sarà il vaccino ad andare verso di loro. La proposta avanzata da D’Amato è di inviare team di medici del Lazio ai confini, dove i profughi si raccolgono, tra Polonia, Romania e altri paesi limitrofi.
+
+Il punto è che gli ucraini sono una popolazione che le autorità italiane e i media mainstream definirebbero dispregiativamente come “no vax”. Stando ai dati ufficiali il 34,5% della popolazione è vaccinato con dose completa e soltanto l’1,7% ha fatto la terza dose.
+
+Non tutti i “no vax” sono però brutti, sporchi e cattivi. Quelli ucraini, in quanto migranti, frutteranno bei soldi a chi si occupa di accoglienza?>
+
+
+RISULTATI
+
+{"Racism": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Gender bias": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Political bias": {"bias": 1, "motivation": "The article presents a political bias by criticizing the government's decision regarding migrants and the green pass.", "text portion": "Mentre milioni di italiani sono discriminati ed esclusi dai luoghi di lavoro e da attività ricreative perché privi della tessera verde, abbiamo appreso da un esponente del governo che milioni di profughi potranno entrare senza il codice QR. Si tratta di un ulteriore prova che il super green pass non assolve ad alcuna finalità sanitaria, ma è uno strumento politico."}, 
+"Religious orientation": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Sensationalism": {"bias": 0, "motivation": "", "text portion": ""}}

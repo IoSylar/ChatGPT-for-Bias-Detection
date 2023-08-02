@@ -1,0 +1,29 @@
+- Meloni ri-promette di chiudere i porti: 26mila sbarchi in 2 mesi    https://voxnews.info/2022/12/17/meloni-ri-promette-di-chiudere-i-porti-26mila-sbarchi-in-2-mesi/
+
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo: parole o espressioni linguistiche che esprimono odio o incoraggiano la violenza nei confronti di una persona o di un gruppo di persone sulla base della loro razza ed etnia
+2 - Gender bias: parole o espressioni linguistiche pregiudizievoli basati sulla percezione di genere che le donne non sono uguali agli uomini in termini di diritti e dignità.
+3 - Orientamento politico: parole o espressioni linguistiche che implicano l'inclinazione o l'alterazione delle informazioni per far sembrare più attraente una posizione politica o un candidato politico.
+4 - Orientamento religioso: parole o espressioni linguistiche pregiudizievoli basate sull'appartenenza di una persona a un gruppo religioso, piuttosto che sui suoi meriti individuali.
+5 - Sensazionalismo: la tendenza di alcuni giornali o periodici a pubblicare e diffondere certe notizie conferendo loro un risalto eccessivo e presentandole come sensazionali tramite l'utilizzo di parole o espressioni linguistiche per alimentare lo scandalo e l'indignazione dei lettori.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+<Title: Meloni ri-promette di chiudere i porti 26mila sbarchi in 2 mesi 
+
+Body: Non pensavamo certo si risolvesse tutti in due mesi. Ma, intanto, si poteva evitare di mandare le crocerossine in divisa a prenderli in Africa e lo sbarco delle ong. E si poteva intanto sequestrare le navi ong con l’approvazione di un decreto ponte di emergenza prima di quello che state partorendo per ‘dopo le feste’.>
+
+
+
+
+
+{"Razzismo": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche che esprimono odio o incoraggiano la violenza nei confronti di una persona o di un gruppo di persone sulla base della loro razza ed etnia."}, "Gender bias": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche pregiudizievoli basati sulla percezione di genere che le donne non sono uguali agli uomini in termini di diritti e dignità."}, "Orientamento politico": {"bias": 1, "motivazione": "Nel testo viene espressa una posizione politica favorevole alla chiusura dei porti e alla sequestro delle navi delle ONG."}, "Orientamento religioso": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche pregiudizievoli basate sull'appartenenza di una persona a un gruppo religioso."}, "Sensazionalismo": {"bias": 1, "motivazione": "Nel testo viene utilizzato un linguaggio sensazionalistico per suscitare scandalo e indignazione riguardo all'approccio delle ONG e del governo riguardo agli sbarchi."}}

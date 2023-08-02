@@ -1,0 +1,42 @@
+LA BEFFA DELLE MASCHERINE (ANCORA) AL CINEMA. ESERCENTI CONTRO IL GOVERNO	
+
+https://www.byoblu.com/2022/05/05/la-beffa-delle-mascherine-ancora-al-cinema-esercenti-contro-il-governo/
+
+
+### Read the description of the following biases ###
+1 - Razzismo: the use of racist language or expressions to discriminate against people based on their ethnicity
+2 - Gender bias: the use of language or expressions that imply discrimination against people on the basis of their gender
+3 - Orientamento politico: the use of language or expressions that imply discrimination against people on the basis of their political orientation
+4 - Orientamento religioso: the use of language or expressions that imply discrimination against people on the basis of their religious orientation
+5 - Sensazionalismo:The use of language used to feed the scandal and the indignation of readers, to which is added an excessive and unbalanced use of exclamation marks and questions.
+6 - Advertising bias: When a newspaper chooses to mainly underline events or news that can elicit a positive reaction in the audience.
+
+
+### Now, identify in the following text wether or not these biases are present and explain the reason of your choice, underlying the step of the text in which the bias is present.
+Each bias can be 0 or 1, depending on their presence in the document.
+The answer must be formatted as a JSON, having as keys the ones reported in the previous steps. 
+
+An example is {"Razzismo": {"bias": 1, "explanation": "Nell'articolo vengono utilizzati termini razzisti.", "part of the text" }}
+
+The document is the following:
+<Title: CAOS LAMPEDUSA: LA BEFFA DELLE MASCHERINE (ANCORA) AL CINEMA. ESERCENTI CONTRO IL GOVERNO	
+
+Body: Tra restrizioni e strapotere delle piattaforme streaming, il mercato cinematografico italiano stenta a ripartire: anzi, è proprio in crisi nera. Rispetto al 2020, nel 2021 è stato registrato un calo del 7% degli incassi e del 12% degli spettatori percentuali. Il confronto con il 2019 non lascia spazio a dubbi, registrando un calo del 73% degli incassi e del 75% degli spettatori. E il mercato cinematografico italiano è l’unico in Europa a non essersi ripreso. 
+
+E secondo gli esercenti l’imposizione della mascherina FFP2 fino al 15 giugno non aiuta la ripresa. Simone Gialdini, direttore generale Associazione nazionale esercenti cinema, ha giudicato “incomprensibile e inammissibile” la misura imposta alle sale cinematografiche: la fruizione del cinema è statica, in ambienti vasti e ampiamente areati. L’Italia è inoltre l’unico paese ad aver mantenuto protocolli così rigidi: “una ulteriore penalizzazione che non è più accettabile e rischia di segnare la definitiva chiusura di molti cinema”. 
+
+Perché in un ristorante si può stare senza mascherina e in un cinema no? Cercare la risposta è inutile, si tratta semplicemente dell’ennesima norma contraddittoria. Dunque, 19 cinema, da Belluno a Messina, da La Spezia a Milano, hanno scelto una forma di protesta “gentile”: regalare lecca lecca a chi compra un biglietto, per permettere loro di tenere la mascherina abbassata.  
+
+Eppure bisogna chiedersi se sia davvero la mascherina a rappresentare un deterrente per la fruizione dei cinema. In questi ultimi giorni infatti, l’Italia si è dimostrato un Paese ampiamente ipocondriaco: basta fare una passeggiata per rendersi conto che la maggioranza degli italiani continua imperterrito a indossare la mascherina, al chiuso e all’aperto. E non sembrano intenzionati a liberarsene tanto presto. >
+
+
+
+
+RISULTATI: 
+
+{"Razzismo": {"bias": 0, "explanation": "No racist language or expressions are used in the text.", "part of the text": ""}, 
+"Gender bias": {"bias": 0, "explanation": "No language or expressions implying discrimination based on gender are used in the text.", "part of the text": ""}, 
+"Orientamento politico": {"bias": 0, "explanation": "No language or expressions implying discrimination based on political orientation are used in the text.", "part of the text": ""}, 
+"Orientamento religioso": {"bias": 0, "explanation": "No language or expressions implying discrimination based on religious orientation are used in the text.", "part of the text": ""}, 
+"Sensazionalismo": {"bias": 0, "explanation": "No sensational language or excessive use of exclamation marks or questions is present in the text.", "part of the text": ""}, 
+"Advertising bias": {"bias": 0, "explanation": "No selective emphasis on events or news that can elicit a positive reaction in the audience is present in the text.", "part of the text": ""}}

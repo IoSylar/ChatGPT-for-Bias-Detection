@@ -1,0 +1,44 @@
+- Femminicidi,una Bicamerale al Senato per un’emergenza non italiana 🤡	https://voxnews.info/2022/11/24/femminidiuna-bicamerale-al-senato-per-unemergenza-non-italiana-%f0%9f%a4%a1/
+
+### Read the description of the following biases ###
+1 - Racism: words or linguistic expressions that express hatred or encourage violence against a person or group of people on the basis of their race and ethnicity
+2 - Gender bias: prejudicial words or linguistic expressions based on the gender perception that women are not equal to men in terms of rights and dignity.
+3 - Political bias: Words or linguistic expressions that involve skewing or altering information to make a political position or political candidate seem more attractive.
+4 - Religious orientation: Prejudicial words or linguistic expressions based on a person's membership of a religious group, rather than on their individual merits.
+5 - Sensationalism: the tendency of some newspapers or periodicals to publish and disseminate certain news by giving them excessive prominence and presenting them as sensational through the use of words or linguistic expressions to fuel the scandal and indignation of the readers.
+
+
+
+### Now, identify from the following text if the described biases are present and explain the reason for your choice, highlighting the portion of text in which the bias is contained.
+Each bias can be 0 or 1, depending on their presence in the document.
+The response must be formatted as JSON, having as keys those reported in the previous instructions.
+An example is: {"Racism": {"bias": 1, "motivation": "Racist terms are used in the article.", "text portion" }}
+
+
+
+The document is as follows:
+<Title: Femminicidi,una Bicamerale al Senato per un’emergenza non italiana
+
+Body: Non c’è nulla da fare, sono culturalmente succubi della sinistra. Fino ad inventare un problema inesistente. Speriamo si rendano conto, ‘studiandolo’, che c’è una sproporzione di immigrati a commettere questo reato rispetto agli italiani. L’Italia è il Paese europeo con il più basso tasso di ‘femminicidi’. In testa la Svezia: mix di liberalismo ed immigrazione afroislamica.
+
+L’aula del Senato ha approvato all’una-
+nimità il disegno di legge per l’isti-
+tuzione di una commissione bicamerale
+di inchiesta sui femminicidi e su ogni
+forma di violenza di genere. Applauso
+all’annuncio dell’esito del voto.
+La decisione dimostra la volontà di ar-
+ginare il problema, ha detto il presi-
+dente La Russa. “Sbaglia chi pensa” che
+il femminicidio “sia una questione di
+donne, è essenzialmente una questione
+di uomini”.”E’ una grave violazione dei
+diritti umani”, un fenomeno che spesso
+nasce da ignoranza e intolleranza”.
+>
+
+
+
+{"Racism": {"bias": 1, "motivation": "Racist terms are used in the article.", "text portion": "Fino ad inventare un problema inesistente. Speriamo si rendano conto, ‘studiandolo’, che c’è una sproporzione di immigrati a commettere questo reato rispetto agli italiani. L’Italia è il Paese europeo con il più basso tasso di ‘femminicidi’. In testa la Svezia: mix di liberalismo ed immigrazione afroislamica."}, "Gender bias": {"bias": 1, "motivation": "Prejudicial words or linguistic expressions based on the gender perception that women are not equal to men in terms of rights and dignity.", "text portion": "La decisione dimostra la volontà di ar- ginare il problema, ha detto il presi- dente La Russa. “Sbaglia chi pensa” che il femminicidio “sia una questione di donne, è essenzialmente una questione di uomini”.”E’ una grave violazione dei diritti umani”, un fenomeno che spesso nasce da ignoranza e intolleranza”."}, "Political bias": {"bias": 1, "motivation": "Words or linguistic expressions that involve skewing or altering information to make a political position or political candidate seem more attractive.", "text portion": "Non c’è nulla da fare, sono culturalmente succubi della sinistra."}}
+
+

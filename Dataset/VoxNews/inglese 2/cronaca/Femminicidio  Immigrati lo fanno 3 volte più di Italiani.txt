@@ -1,0 +1,38 @@
+- Femminicidio:  Immigrati lo fanno 3 volte più di Italiani	https://voxnews.info/2017/11/22/femminicidio-immigrati-lo-fanno-3-volte-piu-di-italiani/
+
+### Read the description of the following biases ###
+1 - Racism: words or linguistic expressions that express hatred or encourage violence against a person or group of people on the basis of their race and ethnicity
+2 - Gender bias: prejudicial words or linguistic expressions based on the gender perception that women are not equal to men in terms of rights and dignity.
+3 - Political bias: Words or linguistic expressions that involve skewing or altering information to make a political position or political candidate seem more attractive.
+4 - Religious orientation: Prejudicial words or linguistic expressions based on a person's membership of a religious group, rather than on their individual merits.
+5 - Sensationalism: the tendency of some newspapers or periodicals to publish and disseminate certain news by giving them excessive prominence and presenting them as sensational through the use of words or linguistic expressions to fuel the scandal and indignation of the readers.
+
+
+
+### Now, identify from the following text if the described biases are present and explain the reason for your choice, highlighting the portion of text in which the bias is contained.
+Each bias can be 0 or 1, depending on their presence in the document.
+The response must be formatted as JSON, having as keys those reported in the previous instructions.
+An example is: {"Racism": {"bias": 1, "motivation": "Racist terms are used in the article.", "text portion" }}
+
+
+
+The document is as follows:
+<Title: Femminicidio  Immigrati lo fanno 3 volte più di Italiani
+
+Body: Da un monitoraggio effettuato dal ministero della Giustizia, partendo dall’esame di 417 sentenze rappresentative del 60% dei casi di violenza sulle donne, tra il 2012 e il 2016, emerge che l’85% dei casi (355 su 417) sono classificabili come omicidio. Nel 98% dei casi l’autore del reato è un uomo e la nazionalità dell’autore conferma la prevalenza di immigrati visto che gli italiani (92% della popolazione) rappresentano il 74,5% di chi commette questo reato. Ovviamente gli Zingari e i ‘nuovi italiani’ sono inclusi come ‘italiani’.
+
+Significa che l’8 per cento della popolazione, commette il 25,5% di questo tipo di reato. Ovvero 3 volte il normale. Tradotto: ci sono bastardi italiani, ma i bastardi, tra gli immigrati, sono 3 volte di più.
+
+
+Nel 55,8% dei casi tra autore e vittima esiste una relazione sentimentale. Lo ha detto il ministro della Giustizia, Andrea Orlando, sentito dalla commissione parlamentare sull’inesistente fenomeno del femminicidio: 417 casi in 4 anni sono circa 100 casi l’anno. Ci sono più persone colpite dai fulmini.
+
+Riguardo alla relazione sentimentale che lega vittima e autore, la percentuale del 55,8% è così distribuita: nel 63,8% dei casi si registra un rapporto di coniugio o convivenza; nel 12% una relazione sentimentale in atto; per il restante 24% tra le due parti vi era stata una relazione sentimentale terminata prima dell’omicidio. L’arma prevalentemente utilizzata è il coltello, che spesso risulta il mezzo di più agevole disponibilità.
+Ovviamente, i media di distrazione di massa, diffonderanno la fake news che si “conferma la prevalenza di soggetti italiani”. E i più analfabeti stile Fedeli ci crederanno.
+
+>
+
+
+
+
+{"Racism": {"bias": 0, "motivation": "", "text portion": ""}, "Gender bias": {"bias": 0, "motivation": "", "text portion": ""}, "Political bias": {"bias": 0, "motivation": "", "text portion": ""}, "Religious orientation": {"bias": 0, "motivation": "", "text portion": ""}, "Sensationalism": {"bias": 1, "motivation": "The use of words like 'bastardi' and 'analfabeti stile Fedeli' to fuel scandal and indignation.", "text portion": "Significa che l’8 per cento della popolazione, commette il 25,5% di questo tipo di reato. Ovvero 3 volte il normale. Tradotto: ci sono bastardi italiani, ma i bastardi, tra gli immigrati, sono 3 volte di più.\n\n\nNel 55,8% dei casi tra autore e vittima esiste una relazione sentimentale. Lo ha detto il ministro della Giustizia, Andrea Orlando, sentito dalla commissione parlamentare sull’inesistente fenomeno del femminicidio: 417 casi in 4 anni sono circa 100 casi l’anno. Ci sono più persone colpite dai fulmini.\n\nRiguardo alla relazione sentimentale che lega vittima e autore, la percentuale del 55,8% è così distribuita: nel 63,8% dei casi si registra un rapporto di coniugio o convivenza; nel 12% una relazione sentimentale in atto; per il restante 24% tra le due parti vi era stata una relazione sentimentale terminata prima dell’omicidio. L’arma prevalentemente utilizzata è il coltello, che spesso risulta il mezzo di più agevole disponibilità.\nOvviamente, i media di distrazione di massa, diffonderanno la fake news che si “conferma la prevalenza di soggetti italiani”. E i più analfabeti stile Fedeli ci crederanno."}}
+

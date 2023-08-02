@@ -1,0 +1,33 @@
+- A terrorista islamico pagavamo affitto casa, assegno sociale e corso per fabbricare bombe	https://voxnews.info/2015/12/05/al-terrorista-islamico-renzi-pagava-affitto-casa-assegno-sociale-e-corso-per-fabbricare-bombe/
+
+### Read the description of the following biases ###
+1 - Razzismo: the use of racist language or expressions to discriminate against people based on their ethnicity
+2 - Gender bias: the use of language or expressions that imply discrimination against people on the basis of their gender
+3 - Orientamento politico: the use of language or expressions that imply discrimination against people on the basis of their political orientation
+4 - Orientamento religioso: the use of language or expressions that imply discrimination against people on the basis of their religious orientation
+5 - Sensazionalismo:The use of language used to feed the scandal and the indignation of readers, to which is added an excessive and unbalanced use of exclamation marks and questions.
+6 - Advertising bias: When a newspaper chooses to mainly underline events or news that can elicit a positive reaction in the audience.
+
+
+### Now, identify in the following text wether or not these biases are present and explain the reason of your choice, underlying the step of the text in which the bias is present.
+Each bias can be 0 or 1, depending on their presence in the document.
+The answer must be formatted as a JSON, having as keys the ones reported in the previous steps. 
+
+An example is {"Razzismo": {"bias": 1, "explanation": "Nell'articolo vengono utilizzati termini razzisti.", "part of the text" }}
+
+The document is the following:
+<Title: A terrorista islamico pagavamo affitto casa, assegno sociale e corso per fabbricare bombe
+
+Body: Abdul Rahman Nauroz è stato arrestato venti giorni fa nel blitz antiterrorismo condotto dal Ros; era una delle figure più carismatiche della cellula guidata dal mullah Krekar. In Italia sette persone sono finite in manette, tutti membri della cellula terroristica, la cui guida spirituale e operativa è il mullah Krekar, in carcere in Norvegia.
+
+Tra gli arrestati a Merano spicca proprio la figura di Abdul Rahman Nauroz, incaricato di organizzare un comitato segreto destinato ad operare anche in Europa e che reclutava combattenti per il Kurdistan e il Medio Oriente. “L’uomo, grazie alla sua forte personalità” era in grado “di far abbracciare agli adepti la causa fino al martirio”.
+
+A QUESTO TERRORISTA IL GOVERNO HA DATO CASA, STIPENDIO E ASILO POLITICO
+Vox
+Ora emerge che, non solo il comune di Merano pagava l’affitto del monolocale usato come base logistica dagli islamici, il loro leader, che viveva grazie all’assegno sociale, frequentava il corso da fabbro della provincia di Bolzano ma, scrive il Ros, “precisa di aver aderito a tale iniziativa al solo fine di acquisire specifiche competenze meccaniche per costruire ordigni esplosivi artigianali”. Insomma, il governo Renzi addestra anche i terroristi. E li paga.
+
+Secondo il governo: “L’uomo era un richiedente asilo: come risultava dalla documentazione presentata (poi rivelatasi falsa) era perseguitato dagli estremisti islamici”.
+E chi meglio del capo di estremisti islamici, può fornire prove false di essere perseguitato da estremisti islamici?>
+
+
+{"Razzismo": {"bias": 0, "explanation": "No racist language or expressions are used in the text.", "part of the text": ""}, "Gender bias": {"bias": 0, "explanation": "No language or expressions implying discrimination based on gender are used in the text.", "part of the text": ""}, "Orientamento politico": {"bias": 0, "explanation": "No language or expressions implying discrimination based on political orientation are used in the text.", "part of the text": ""}, "Orientamento religioso": {"bias": 0, "explanation": "No language or expressions implying discrimination based on religious orientation are used in the text.", "part of the text": ""}, "Sensazionalismo": {"bias": 1, "explanation": "The use of sensational language is present in the text, with excessive and unbalanced use of exclamation marks.", "part of the text": "A QUESTO TERRORISTA IL GOVERNO HA DATO CASA, STIPENDIO E ASILO POLITICO Vox"}, "Advertising bias": {"bias": 0, "explanation": "No bias towards mainly highlighting events or news that can elicit a positive reaction in the audience is present in the text.", "part of the text": ""}}

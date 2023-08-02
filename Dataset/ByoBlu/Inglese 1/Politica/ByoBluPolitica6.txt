@@ -1,0 +1,44 @@
+RICAMBIO GENERAZIONALE: UN MONDO NUOVO È POSSIBILE – Studenti Contro il Green Pass | SAPIENS³ – IL MONDO NUOVO   
+ 
+https://www.byoblu.com/2022/06/10/ricambio-generazionale-un-mondo-nuovo-e-possibile-studenti-contro-il-green-pass-sapiens%c2%b3-il-mondo-nuovo/
+
+### Read the description of the following biases ###
+1 - Razzismo: the use of racist language or expressions to discriminate against people based on their ethnicity
+2 - Gender bias: the use of language or expressions that imply discrimination against people on the basis of their gender
+3 - Orientamento politico: the use of language or expressions that imply discrimination against people on the basis of their political orientation
+4 - Orientamento religioso: the use of language or expressions that imply discrimination against people on the basis of their religious orientation
+5 - Sensazionalismo:The use of language used to feed the scandal and the indignation of readers, to which is added an excessive and unbalanced use of exclamation marks and questions.
+6 - Advertising bias: When a newspaper chooses to mainly underline events or news that can elicit a positive reaction in the audience.
+
+
+### Now, identify in the following text wether or not these biases are present and explain the reason of your choice, underlying the step of the text in which the bias is present.
+Each bias can be 0 or 1, depending on their presence in the document.
+The answer must be formatted as a JSON, having as keys the ones reported in the previous steps. 
+
+An example is {"Razzismo": {"bias": 1, "explanation": "Nell'articolo vengono utilizzati termini razzisti.", "part of the text" }}
+
+The document is the following:
+<Title: RICAMBIO GENERAZIONALE: UN MONDO NUOVO È POSSIBILE – STUDENTI CONTRO IL GREEN PASS | SAPIENS³ – IL MONDO NUOVO
+
+Body: Al convegno culturale Sapiens³ Marcello Massi e Daniele Ramadan, del movimento Studenti Contro il Green Pass, intervengono con un appassionato appello rivolto “in primis a noi stessi e in secundis a voi tutti”.
+
+Il primo è un appello alla disobbedienza, con la quale si ristabilisce un principio che è quello dell’Antigone di Sofocle: nello spazio in cui la giustizia formale non si sovrappone alla giustizia sostanziale l’unica all’alternativa alla barbarie è la disobbedienza.
+
+Il secondo è un appello all’unità della trasversalità, che caratterizza fortemente il loro movimento, in nome di una battaglia che è chiaramente preideologica: si fronteggiano sul campo umano e transumano (che è antiumano).
+
+“Quando avremo ristabilito l’ovvio (la priorità dell’uomo sulle macchine, del reale sul digitale, del pensiero critico sul conformismo di massa, della laicità del sapere sulla religione scientista, del giusto sull’utile, ecc.), quando cioè avremo gettato nuovamente le fondamenta culturali per il dibattito, allora torneremo a dibattere sulle divergenze politiche e ideologiche”.
+
+“Il Mondo Nuovo”, il tema di questa edizione di Sapiens³, è una distopia immaginata negli anni ’30 del Novecento da Aldous Huxley, una visione della nostra società che nel tempo è andata assumendo la forma di una lucida profezia.
+
+Dalla sofferenza sociale che questo mondo genera nasce la necessità di trovare una risposta e un’alternativa strutturata, credibile, concreta. Ed è proprio questa alternativa che si vuole costruire al convegno culturale, ideato e promosso da Enzo Pennetta e Paolo Scapellato, Sapiens³. Con la partecipazione di Massimo Citro, Mariano Bizzarri, Elisabetta Frezza, Franco Prodi, Alberto Contri, Mario Iannaccone e Gli Studenti Contro il Green Pass.>
+
+
+
+RISULTATI
+
+{"Razzismo": {"bias": 0, "explanation": "No racist language or expressions are used in the text.", "part of the text": ""}, 
+"Gender bias": {"bias": 0, "explanation": "No language or expressions implying discrimination based on gender are used in the text.", "part of the text": ""}, 
+"Orientamento politico": {"bias": 0, "explanation": "No language or expressions implying discrimination based on political orientation are used in the text.", "part of the text": ""}, 
+"Orientamento religioso": {"bias": 0, "explanation": "No language or expressions implying discrimination based on religious orientation are used in the text.", "part of the text": ""}, 
+"Sensazionalismo": {"bias": 0, "explanation": "No sensational language or excessive use of exclamation marks or questions is present in the text.", "part of the text": ""}, 
+"Advertising bias": {"bias": 0, "explanation": "The text does not primarily underline events or news that can elicit a positive reaction in the audience.", "part of the text": ""}}

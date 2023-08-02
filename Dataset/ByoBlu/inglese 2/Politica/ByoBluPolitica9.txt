@@ -1,0 +1,65 @@
+IL GOVERNO DRAGHI VIOLA I DIRITTI UMANI? ECCO TUTTE LE DENUNCE DI AMNESTY INTERNATIONAL    
+
+https://www.byoblu.com/2022/01/17/il-governo-draghi-viola-i-diritti-umani-ecco-tutte-le-denunce-di-amnesty-international/
+
+
+### Read the description of the following biases ###
+1 - Racism: words or linguistic expressions that express hatred or encourage violence against a person or group of people on the basis of their race and ethnicity
+2 - Gender bias: prejudicial words or linguistic expressions based on the gender perception that women are not equal to men in terms of rights and dignity.
+3 - Political bias: Words or linguistic expressions that involve skewing or altering information to make a political position or political candidate seem more attractive.
+4 - Religious orientation: Prejudicial words or linguistic expressions based on a person's membership of a religious group, rather than on their individual merits.
+5 - Sensationalism: the tendency of some newspapers or periodicals to publish and disseminate certain news by giving them excessive prominence and presenting them as sensational through the use of words or linguistic expressions to fuel the scandal and indignation of the readers.
+
+
+
+### Now, identify from the following text if the described biases are present and explain the reason for your choice, highlighting the portion of text in which the bias is contained.
+Each bias can be 0 or 1, depending on their presence in the document.
+The response must be formatted as JSON, having as keys those reported in the previous instructions.
+An example is: {"Racism": {"bias": 1, "motivation": "Racist terms are used in the article.", "text portion" }}
+
+
+
+The document is as follows:
+<Title:IL GOVERNO DRAGHI VIOLA I DIRITTI UMANI? ECCO TUTTE LE DENUNCE DI AMNESTY INTERNATIONAL
+
+Body: A distanza di mesi dall’introduzione di continue compressioni delle libertà nei confronti di quella parte di popolazione che ha deciso di non vaccinarsi, forse qualcuno sembra essersi finalmente accorto che in Italia qualcosa non sta funzionando nella gestione dei diritti umani.
+
+Amnesty contraria agli obblighi vaccinali
+Si tratta dell’ultimo comunicato pubblicato dall’organizzazione internazionale Amnesty International, nota per la sua attività di lobbying per la tutela dei diritti umani in tutto il mondo. “Posizione di Amnesty International Italia sulle misure adottate dal governo per combattere il covid-19”, così si intitola il testo con cui l’organizzazione ha deciso di commentare le ultime novità legislative introdotte dal Governo Draghi.
+
+Per quel che riguarda l’obbligo di vaccinazione Amnesty International così si esprime: “Non sosteniamo i mandati di vaccinazione obbligatoria generalizzati ed esortiamo gli stati a considerare qualsiasi requisito di vaccinazione obbligatoria solo come ultima risorsa e se questi sono strettamente in linea con gli standard internazionali sui diritti umani”.
+
+Una frase che non può non essere interpretata come un’ammonizione nei confronti del Governo Draghi. Gli obblighi tuttora in vigore che riguardano gli operatori sanitari, gli insegnanti , le forze di polizia e tutti gli over 50, sono infatti vincolati al mantenimento del posto di lavoro. In pratica o ti vaccini oppure lo Stato ti toglie il diritto al lavoro.
+
+Tenuto conto che il lavoro rappresenta l’unica possibilità di sostentamento per un cittadino, tale norma è da intendersi in contrasto con gli standard internazionali sui diritti umani.
+
+Il super green pass nel mirino dell’organizzazione internazionale
+Anche il super green pass non appare così gradito negli uffici di Amnesty International che a proposito scrive: ” Amnesty International Italia chiede che siano previste misure alternative – come l’uso di dispositivi di protezione e di test Covid-19 – per permettere anche alla popolazione non vaccinata di continuare a svolgere il proprio lavoro e di utilizzare i mezzi di trasporto, senza discriminazioni”.
+
+Secondo Amnesty il lasciapassare verde, nella sua versione rafforzata, rappresenta quindi una discriminazione nei confronti di una minoranza e il Governo dovrebbe quindi tornare sui suoi passi. Abbiamo provato a contattare l’organizzazione internazionale per avere un commento circa l’operato del Governo italiano, ma non hanno voluto rilasciare a noi né a nessun altra testata alcun intervento di approfondimento nel merito: “Si tratta di un documento di posizione e non prevediamo di rilasciare commenti né interviste al riguardo. 
+
+Il parere dell’avvocato Mori
+Su questo documento e sul peso che potrebbe avere anche in futuri procedimenti giudiziari abbiamo quindi chiesto il parere dell’avvocato Marco Mori:
+
+Certamente non è vincolante, ma sicuramente tutte le autorità internazionali, come il Consiglio d’Europa, che si sono pronunciate nel merito, sono comunque spendibili perché si prova a cercare di far ragionare un magistrato che dovrebbe farlo di sua spontanea volontà. Anche perché nel momento in cui ti vietano di lavorare e di sopravvivere era scontato dire ‘guarda questo non si può fare’, a prescindere da come uno la pensi sul vaccino. Con il documento di Amnesty siamo nell’ambito dell’ovvio, questi pareri fanno piacere, ma ora servono le sentenze dei giudici.
+
+Tutte le denunce contro il Governo Draghi
+Risulta abbastanza sorprendente il silenzio assoluto da parte di diversi quotidiani rispetto al rapporto di Amnesty International. Non ne parla Repubblica, non ne parla il Corriere della Sera e non ne parla La Stampa. Un atteggiamento curioso, tenuto conto che le stesse testate giornalistiche in tempi non sospetti avevano concesso moltissimo spazio quando la stessa organizzazione aveva denunciato le pratiche di un passato Governo italiano in tema di migrazione.
+
+Eppure l’esecutivo guidato da Draghi sta accumulando da tempo una preoccupante serie di denunce da parte di organizzazioni impegnate nella tutela dei diritti umani e della libertà di informazione. Sempre Amnesty International aveva pubblicato lo scorso ottobre un documento per sottolineare come gli operatori delle RSA fossero sottoposti a provvedimenti disciplinari e ritorsioni in caso di critiche alla gestione istituzionale dell’emergenza. Amnesty in quel caso aveva chiesto l’istituzione di una commissione di inchiesta indipendente. Richiesta rimasta tuttora inascoltata.
+
+E la stessa organizzazione aveva già bacchettato l’Italia nel dicembre 2020 con il report dal titolo “Abbandonati”, in cui si evidenziavano ripetute violazioni dei diritti umani nelle strutture di residenza sociosanitarie e socioassistenziali italiane.
+
+E anche la libertà di informazione sarebbe sotto attacco in Italia, secondo un’altra organizzazione, Reporter Sans Frontieres, che aveva denunciato le dichiarazioni della direttrice del TG1 Monica Maggioni e quelle del senatore a vita Mario Monti. “Reporter senza frontiere è seriamente preoccupata sulla neonata volontà politica di controllare l’informazione in Italia”, aveva scritto l’organizzazione francese.
+
+Mentre si accumulano quindi le denunce sulle violazioni perpetuate in Italia, l’informazione generalista sembra non cogliere questo pericolo, chiedendo anzi che sempre più poteri vengano accentrati nelle mani di una sola persona.>
+
+
+
+RISULTATI
+
+{"Racism": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Gender bias": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Political bias": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Religious orientation": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Sensationalism": {"bias": 0, "motivation": "", "text portion": ""}}

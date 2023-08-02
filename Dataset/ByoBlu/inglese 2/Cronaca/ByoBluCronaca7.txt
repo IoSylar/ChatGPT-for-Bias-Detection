@@ -1,0 +1,47 @@
+LA FRANCIA ATTACCA L’ITALIA SUI MIGRANTI: STOP REDISTRIBUZIONE E PIÙ CONTROLLI AL CONFINE
+
+https://www.byoblu.com/2022/11/11/la-francia-attacca-litalia-sui-migranti-stop-redistribuzione-e-piu-controlli-al-confine/
+
+### Read the description of the following biases ###
+1 - Racism: words or linguistic expressions that express hatred or encourage violence against a person or group of people on the basis of their race and ethnicity
+2 - Gender bias: prejudicial words or linguistic expressions based on the gender perception that women are not equal to men in terms of rights and dignity.
+3 - Political bias: Words or linguistic expressions that involve skewing or altering information to make a political position or political candidate seem more attractive.
+4 - Religious orientation: Prejudicial words or linguistic expressions based on a person's membership of a religious group, rather than on their individual merits.
+5 - Sensationalism: the tendency of some newspapers or periodicals to publish and disseminate certain news by giving them excessive prominence and presenting them as sensational through the use of words or linguistic expressions to fuel the scandal and indignation of the readers.
+
+
+
+### Now, identify from the following text if the described biases are present and explain the reason for your choice, highlighting the portion of text in which the bias is contained.
+Each bias can be 0 or 1, depending on their presence in the document.
+The response must be formatted as JSON, having as keys those reported in the previous instructions.
+An example is: {"Racism": {"bias": 1, "motivation": "Racist terms are used in the article.", "text portion" }}
+
+
+
+The document is as follows:
+<Title: LA FRANCIA ATTACCA L’ITALIA SUI MIGRANTI: STOP REDISTRIBUZIONE E PIÙ CONTROLLI AL CONFINE	
+
+Body: Tutti bravi a fare la morale sull’accoglienza dei migranti, ma alla prova dei fatti emergono subito pesanti contraddizioni, in una partita che si gioca sempre sulle vite umane.
+
+Il duro attacco del governo francese all’Italia, nato dall’arrivo al porto di Tolone della nave umanitaria Ocean Viking, segue le solite logiche di consenso politico. Il presidente Emmanuel Macron è stato duramente criticato dall’opposizione interna per aver autorizzato lo sbarco dei 230 migranti dalla nave dell’Ong Sos Mediterranee e ora per cercare di ingraziarsi l’opinione pubblica minaccia l’Italia, accusata di razzismo e violazione dei diritti umani. E le ritorsioni, proprio sul piano dei diritti umani, sono pesanti.
+
+Le ritorsioni: stop ripartizione e più respingimenti
+A causa di quello che è stato definito dall’Eliseo un comportamento “disumano” del governo Meloni che ha aperto una “grave crisi” nei rapporti Italia Francia, l’esecutivo d’oltralpe ha deciso di sfilarsi dagli accordi sulla redistribuzione volontaria, secondo i quali aveva garantito di farsi carico, come la Germania, di 3.500 migranti. Alla faccia dell’accoglienza.
+
+Non solo: nel minacciare “conseguenze”, il ministro dell’Interno francese ha annunciato l’invio di ‘500 poliziotti al confine italiano per controllare meglio le frontiere.
+Frontiere già ampiamente controllate da anni con la linea dura dei respingimenti, che hanno comportato anche un bilancio pesante di vittime tra i migranti che cercavano di attraversare il confine a Ventimiglia o Bardonecchia. Sono 37 quelle registrate solo a Ventimiglia dal 2015, quando sono stati reintrodotti i controlli di frontiera, all’estate 2022.
+
+Le violenze dei gendarmi al confine
+Tragicamente rappresentative della situazione le storie di Beauty e Lessing, due giovani donne nigeriane morte a causa del comportamento della polizia francese al confine con l’Italia. La prima ha perso la vita dopo un respingimento durante il parto prematuro del bambino che portava in grembo, la seconda scivolò nel fiume Durance e morì mentre cercava di scappare dalla gendarmeria che stava pattugliando il confine. I respingimenti da parte delle autorità francesi si sono intensificati negli anni, da 16.800 del 2019 ai 24.500 del 2021.
+
+Ora la Francia annuncia l’invio di rinforzi al confine e si sfila dagli accordi sulla redistribuzione, che in ogni caso ha portato al misero numero di 38 persone accolte oltralpe nel 2022 su quasi 90mila persone sbarcate in Italia.
+Quando si dice fare accoglienza col porto degli altri.
+
+
+RISULTATI
+
+{"Racism": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Gender bias": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Political bias": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Religious orientation": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Sensationalism": {"bias": 0, "motivation": "", "text portion": ""}}

@@ -1,0 +1,33 @@
+- Meloni idolo clandestini: con lei sbarcati più di 25mila in 2 mesi	https://voxnews.info/2022/12/14/meloni-idolo-clandestini-con-lei-sbarcati-piu-di-25mila-in-2-mesi/
+
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo: parole o espressioni linguistiche che esprimono odio o incoraggiano la violenza nei confronti di una persona o di un gruppo di persone sulla base della loro razza ed etnia
+2 - Gender bias: parole o espressioni linguistiche pregiudizievoli basati sulla percezione di genere che le donne non sono uguali agli uomini in termini di diritti e dignità.
+3 - Orientamento politico: parole o espressioni linguistiche che implicano l'inclinazione o l'alterazione delle informazioni per far sembrare più attraente una posizione politica o un candidato politico.
+4 - Orientamento religioso: parole o espressioni linguistiche pregiudizievoli basate sull'appartenenza di una persona a un gruppo religioso, piuttosto che sui suoi meriti individuali.
+5 - Sensazionalismo: la tendenza di alcuni giornali o periodici a pubblicare e diffondere certe notizie conferendo loro un risalto eccessivo e presentandole come sensazionali tramite l'utilizzo di parole o espressioni linguistiche per alimentare lo scandalo e l'indignazione dei lettori.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+<Title: Meloni idolo clandestini con lei sbarcati più di 25mila in 2 mesi
+
+Body: Meloni in un paio di mesi è diventata la bambolina dell’oligarchia. La sua resistenza agli sbarchi delle ong è durata meno di un pensiero logico nella testa di Crosetto.
+
+Ragazzi, questa ha fatto sbarcare in due mesi una città di più di venticinquemila abitanti. Non solo non ha chiuso i porti, li ha completamente spalancati: i suoi clandestini ci costano 1 milione di euro al giorno. Ai quali vanno aggiunti gli oltre centomila nei centri di accoglienza che la signorina buonanotte non ha intenzione di svuotare.
+
+Le scuse che accampate sono pietose: ha avuto due mesi di tempo per approvare un decreto che impedisse alle ong di operare. ‘Furbo’ sarebbe dare mandato ai Servizi di mettere fuori uso le navi, non farle sbarcare a Salerno e Bari. Un giorno di navigazione in più cambia molto poco. Ci sono intanto altre ong in arrivo. Devono essere smantellate. E non si può aspettare la sedicente ‘Europa’.>
+
+
+
+
+
+{"Razzismo": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche che esprimono odio o incoraggiano la violenza nei confronti di una persona o di un gruppo di persone sulla base della loro razza ed etnia."}, "Gender bias": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche pregiudizievoli basati sulla percezione di genere che le donne non sono uguali agli uomini in termini di diritti e dignità."}, "Orientamento politico": {"bias": 1, "motivazione": "Nell'articolo viene espressa una posizione politica negativa nei confronti di Meloni, definendola 'bambolina dell'oligarchia' e criticando le sue azioni riguardo agli sbarchi delle ong."}, "Orientamento religioso": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche pregiudizievoli basate sull'appartenenza di una persona a un gruppo religioso."}, "Sensazionalismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzate parole e espressioni linguistiche sensazionalistiche per alimentare lo scandalo e l'indignazione dei lettori, come 'ha fatto sbarcare in due mesi una città di più di venticinquemila abitanti', 'spalancati', 'clandestini ci costano 1 milione di euro al giorno'."}}

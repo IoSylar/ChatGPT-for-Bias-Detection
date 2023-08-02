@@ -1,0 +1,41 @@
+LA BEFFA DELLE MASCHERINE (ANCORA) AL CINEMA. ESERCENTI CONTRO IL GOVERNO	
+
+https://www.byoblu.com/2022/05/05/la-beffa-delle-mascherine-ancora-al-cinema-esercenti-contro-il-governo/
+
+### Read the description of the following biases ###
+1 - Racism: words or linguistic expressions that express hatred or encourage violence against a person or group of people on the basis of their race and ethnicity
+2 - Gender bias: prejudicial words or linguistic expressions based on the gender perception that women are not equal to men in terms of rights and dignity.
+3 - Political bias: Words or linguistic expressions that involve skewing or altering information to make a political position or political candidate seem more attractive.
+4 - Religious orientation: Prejudicial words or linguistic expressions based on a person's membership of a religious group, rather than on their individual merits.
+5 - Sensationalism: the tendency of some newspapers or periodicals to publish and disseminate certain news by giving them excessive prominence and presenting them as sensational through the use of words or linguistic expressions to fuel the scandal and indignation of the readers.
+
+
+
+### Now, identify from the following text if the described biases are present and explain the reason for your choice, highlighting the portion of text in which the bias is contained.
+Each bias can be 0 or 1, depending on their presence in the document.
+The response must be formatted as JSON, having as keys those reported in the previous instructions.
+An example is: {"Racism": {"bias": 1, "motivation": "Racist terms are used in the article.", "text portion" }}
+
+
+
+The document is as follows:
+<Title: CAOS LAMPEDUSA: LA BEFFA DELLE MASCHERINE (ANCORA) AL CINEMA. ESERCENTI CONTRO IL GOVERNO	
+
+Body: Tra restrizioni e strapotere delle piattaforme streaming, il mercato cinematografico italiano stenta a ripartire: anzi, è proprio in crisi nera. Rispetto al 2020, nel 2021 è stato registrato un calo del 7% degli incassi e del 12% degli spettatori percentuali. Il confronto con il 2019 non lascia spazio a dubbi, registrando un calo del 73% degli incassi e del 75% degli spettatori. E il mercato cinematografico italiano è l’unico in Europa a non essersi ripreso. 
+
+E secondo gli esercenti l’imposizione della mascherina FFP2 fino al 15 giugno non aiuta la ripresa. Simone Gialdini, direttore generale Associazione nazionale esercenti cinema, ha giudicato “incomprensibile e inammissibile” la misura imposta alle sale cinematografiche: la fruizione del cinema è statica, in ambienti vasti e ampiamente areati. L’Italia è inoltre l’unico paese ad aver mantenuto protocolli così rigidi: “una ulteriore penalizzazione che non è più accettabile e rischia di segnare la definitiva chiusura di molti cinema”. 
+
+Perché in un ristorante si può stare senza mascherina e in un cinema no? Cercare la risposta è inutile, si tratta semplicemente dell’ennesima norma contraddittoria. Dunque, 19 cinema, da Belluno a Messina, da La Spezia a Milano, hanno scelto una forma di protesta “gentile”: regalare lecca lecca a chi compra un biglietto, per permettere loro di tenere la mascherina abbassata.  
+
+Eppure bisogna chiedersi se sia davvero la mascherina a rappresentare un deterrente per la fruizione dei cinema. In questi ultimi giorni infatti, l’Italia si è dimostrato un Paese ampiamente ipocondriaco: basta fare una passeggiata per rendersi conto che la maggioranza degli italiani continua imperterrito a indossare la mascherina, al chiuso e all’aperto. E non sembrano intenzionati a liberarsene tanto presto. >
+
+
+
+
+RISULTATI: 
+
+{"Racism": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Gender bias": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Political bias": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Religious orientation": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Sensationalism": {"bias": 0, "motivation": "", "text portion": ""}}

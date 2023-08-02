@@ -1,0 +1,57 @@
+- Sesso pedofilo con omosessuali: il racconto choc dei bambini, il sesso gay in chiesa	https://voxnews.info/2015/05/23/sesso-pedofilo-con-omosessuali-il-racconto-choc-dei-bambini-il-sesso-gay-in-chiesa/
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo:  utilizzo linguaggio e espressioni di odio e intolleranza verso individui appartenenti ad una determinata etnia
+2 - Gender bias: utilizzo linguaggio o espressioni sessiste
+3 - Orientamento politico: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata opinione politica
+4 - Orientamento religioso: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata fede religiosa
+5 - Sensazionalismo: utilizzo di linguaggio o espressioni per alimentare lo scandalo e l'indignazione dei lettori, oltre ad un uso eccessivo di domande ed esclamazioni.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+<Title: Sesso pedofilo con omosessuali il racconto choc dei bambini, il sesso gay in chiesa
+
+Body:  Ogni volta che escono fatti di cronaca, si comprende perché certi settori della società – pseudovolontariato, associazioni pseudo cattoliche – siano così fanaticamente favorevoli all’accoglienza e ai campi nomadi:
+
+«Frequento quotidianamente la stazione Termini, in quanto mi procuro il denaro necessario al mio sostentamento, offrendo ai clienti dello scalo aiuto per l’acquisto dei biglietti presso le biglietterie automatiche. Prima di compiere i diciotto anni, cioè quattro mesi fa, mi è capitato di essere quasi sempre nei pressi dell’uscita da voi citata (il binario 29, dove, secondo gli investigatori, sarebbe avvenuta la maggior parte degli incontri sessuali, ndr) con diversi uomini che frequentano la stazione ferroviaria e che so essere omosessuali. Con alcuni di loro avuto rapporti sessuali a pagamento, tra i 20 e i 30 euro».
+
+«Poi lui mi ha fatto fare la doccia»
+
+
+
+A parlare uno zingaro del campo nomadi di Aprilia, ascoltato in Procura.
+
+La confessione dell’adolescente e quella di altri, ragazzini (tutti maschi, memorizzate) fra i 13 e 17 anni d’età, è confluita nell’ordinanza del giudice che, giovedì scorso, ha portato all’arresto di otto persone per reati sessuali nei confronti di minori. Si tratta di fatti avvenuti tra il 2012 e il 2014 fra via Giolitti e piazza dei Cinquecento e, spesso, proprio nelle viscere di Termini, fra sottopassi e bagni pubblici, tra corridoi e gallerie, di binario in binario. Le telecamere installate hanno aiutato la polizia ferroviaria a identificare le persone coinvolte. Agli atti dell’inchiesta ci sono foto, filmati e intercettazioni telefoniche.
+
+«Poi lui mi ha fatto fare la doccia, siamo usciti, siamo andati in un ristorante e dopo sono andato al treno e sono andato a casa. Sono andato una sola volta con lui, siamo andati con la moto ad Albano. Questo signore si faceva chiamare Stefano. Questi clienti, ecco, alcuni sono dei Castelli».
+
+Un altro ancora, stavolta più piccolo, racconta i rapporti omosessuali avuti con il sessantaduenne arrestato. Recidivo, l’uomo, ha già scontato tre settimane per un’altra violenza, solo pochi mesi fa, ma era già fuori:
+
+«Una volta l’ho avuto anch’io un rapporto con lui. È successo quest’ estate dentro il bagno del bar che si trova accanto al McDonald di via Giolitti, il bagno si trova nel piano interrato del bar lui mi ha chiesto di fargli… alla fine mi ha dato 25 euro».
+
+
+Tra gli arrestati anche un prete e scrittore porno. Il parroco delle chiese viterbesi di Vallebona e Montecalvello, noto per la sua mania nell’accogliere zingari e profughi. Ora si capisce perché.
+
+In casa, oltre a 1700 foto hard di minori maschi, gli agenti hanno trovato libri porno scritti sotto lo pseudonimo di Gabriele Doni.
+
+«In stazione gira sulla scala mobile, sul binario per Fiumicino, è venuto davanti al Mc Donald’s con la macchina, siamo andati a mangiare e dopo sono andato a casa con lui».
+
+«Quaranta o cinquanta euro, ci prostituivamo anche nella Basilica»
+
+Una prostituta che ‘lavora’ in zona su un altro prete della lobby gay:
+
+«È un prete che due o tre anni fa lavorava presso la chiesa Santa Maria degli Angeli in Piazza della Repubblica, a riguardo sono certa delle mie affermazioni in quanto all’epoca lavoravo ancora come meretrice proprio zona della citata Piazza della Repubblica  e, in alcune occasioni, la sera, ho notato lo stesso che faceva entrare dei ragazzini romeni da un’entrata secondaria della struttura. Poi, scambiando qualche parola con uno di quei ragazzini, ho appreso che quell’uomo lì pagava 20 euro per consumare rapporti sessuali»
+
+Ovviamente, il fatto che tutti i casi di preti pedofili riguardino maschietti, non ha nulla a  che vedere con la omosessualità. No, no. no.>
+
+
+
+{"Razzismo": {"bias": 0, "motivazione": "Non sono presenti espressioni di odio o intolleranza verso una specifica etnia."}, "Gender bias": {"bias": 0, "motivazione": "Non sono presenti espressioni sessiste."}, "Orientamento politico": {"bias": 0, "motivazione": "Non sono presenti espressioni di discriminazione politica."}, "Orientamento religioso": {"bias": 0, "motivazione": "Non sono presenti espressioni di discriminazione religiosa."}, "Sensazionalismo": {"bias": 1, "motivazione": "Il testo utilizza un linguaggio sensazionalistico per suscitare scandalo e indignazione dei lettori.", "porzione di testo": "Ogni volta che escono fatti di cronaca, si comprende perché certi settori della società – pseudovolontariato, associazioni pseudo cattoliche – siano così fanaticamente favorevoli all’accoglienza e ai campi nomadi:"}}

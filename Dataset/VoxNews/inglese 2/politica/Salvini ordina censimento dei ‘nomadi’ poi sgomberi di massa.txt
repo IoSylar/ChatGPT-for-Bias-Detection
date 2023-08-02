@@ -1,0 +1,58 @@
+- Salvini ordina censimento dei ‘nomadi’: poi sgomberi di massa	https://voxnews.info/2019/07/16/salvi-i-ordina-censimento-dei-nomadi/
+
+
+### Read the description of the following biases ###
+1 - Racism: words or linguistic expressions that express hatred or encourage violence against a person or group of people on the basis of their race and ethnicity
+2 - Gender bias: prejudicial words or linguistic expressions based on the gender perception that women are not equal to men in terms of rights and dignity.
+3 - Political bias: Words or linguistic expressions that involve skewing or altering information to make a political position or political candidate seem more attractive.
+4 - Religious orientation: Prejudicial words or linguistic expressions based on a person's membership of a religious group, rather than on their individual merits.
+5 - Sensationalism: the tendency of some newspapers or periodicals to publish and disseminate certain news by giving them excessive prominence and presenting them as sensational through the use of words or linguistic expressions to fuel the scandal and indignation of the readers.
+
+
+
+### Now, identify from the following text if the described biases are present and explain the reason for your choice, highlighting the portion of text in which the bias is contained.
+Each bias can be 0 or 1, depending on their presence in the document.
+The response must be formatted as JSON, having as keys those reported in the previous instructions.
+An example is: {"Racism": {"bias": 1, "motivation": "Racist terms are used in the article.", "text portion" }}
+
+
+
+The document is as follows:
+<Title: Salvini ordina censimento dei ‘nomadi’ poi sgomberi di massa
+
+Body: Si dà quindi il via al censimento dei campi rom su tutto il territorio nazionale che in passato aveva creato numerose polemiche. Ora il Viminale tira dritto e spiega ai prefetti che i risultati della ricognizione sono “da far pervenire entro quindici giorni all’ufficio di Gabinetto”.
+
+Poi si procederà allo sgombero “delle aree abusivamente occupate attraverso l’esecuzione delle ordinanze di demolizione e rimozione delle opere abusive” nel contempo “attivando positive dinamiche di ricollocamento degli interessati”. Ricollocamento all’estero, si spera.
+
+Salvini a prefetti: rom siano censiti
+Il ministro dell’Interno Matteo Salvini
+ha firmato una circolare indirizzata a
+tutti i prefetti per chiedere una rela-
+zione sulla presenza di insediamenti
+rom, sinti e caminanti.
+
+L’obiettivo -riferisce il Viminale- è
+quello di verificare la presenza di
+realtà abusive per predisporre un piano
+di sgomberi. Il Viminale si aspetta di
+avere il quadro definito della situa-
+zione entro due settimane.
+
+
+Il ministro dell’Interno Matteo Salvini ha inviato ai prefetti una circolare con cui chiede una “relazione sulla presenza di insediamenti rom, sinti e camminanti” in Italia entro due settimane. L’obiettivo, sottolinea il Viminale, è quello di avere un quadro chiaro sui campi abusivi “per predisporre un piano di sgomberi”.
+
+Nella circolare il ministro sottolinea la necessità di porre l’attenzione sulle “situazioni di illegalità e di degrado che frequentemente si registrano negli insediamenti”, specie quelli abusivi, e “che spesso configurano un concreto pericolo per l’ordine e la sicurezza pubblica”, con l’obiettivo di adottare misure “finalizzate alla riaffermazione della legalità”.
+
+Va dunque fatta una “ricognizione urgente” di tutti i campi, autorizzati e abusivi, “nel rispetto dei diritti della persona” e “delle normative nazionali e internazionali”, alla quale deve seguire un “successivo monitoraggio” che consenta di conoscere costantemente l’evoluzione delle diversi situazioni per predisporre “interventi di sistema” in maniera “organica e continuata”. Il censimento, scrive ancora Salvini ai prefetti, dovrà riguardare la tipologia degli insediamenti e la densità abitativa, le condizioni dei campi (presenza di reti idriche, elettriche e fognarie, allacci abusivi), la presenza di strutture fisse e mobili, il numero di minori presenti negli insediamenti, le loro condizioni e le percentuali di abbandono scolastico.
+
+A loro volta i prefetti, entro 15 giorni, dovranno convocare i Comitati provinciali per l’ordine e la sicurezza pubblica e inviare una relazione al Viminale. Il censimento, dice la circolare, costituirà “una piattaforma di discussione in ambito locale per l’approfondimento delle singole situazioni e la massima sensibilizzazione dei sindaci ai fini dell’adozione dei provvedimenti ove ne ricorrano i presupposti”. Per arrivare, si ribadisce, “al superamento delle situazioni di degrado e al ripristino delle condizioni di legalità” attraverso un “progressivo sgombero delle aree abusivamente occupate”.
+
+Sinceramente, noi sgombereremmo senza censire. Ma va bene lo stesso. E ora sotto con i rastrellamenti e le espulsioni di delinquenti che parassitano il sistema sociale italiano e portano degrado e criminalità.>
+
+
+
+
+
+
+
+{"Racism": {"bias": 0, "motivation": "", "text portion": ""}, "Gender bias": {"bias": 0, "motivation": "", "text portion": ""}, "Political bias": {"bias": 0, "motivation": "", "text portion": ""}, "Religious orientation": {"bias": 0, "motivation": "", "text portion": ""}, "Sensationalism": {"bias": 0, "motivation": "", "text portion": ""}}

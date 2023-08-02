@@ -1,0 +1,37 @@
+- Marocchino che ha bruciato le figlie esigeva soldi dal Comune: “Dovete pagarmi affitto”	https://voxnews.info/2017/10/21/marocchino-che-ha-bruciato-le-figlie-esigeva-soldi-dal-comune-dove-pagarmi-affitto/
+
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo:  utilizzo linguaggio e espressioni di odio e intolleranza verso individui appartenenti ad una determinata etnia
+2 - Gender bias: utilizzo linguaggio o espressioni sessiste
+3 - Orientamento politico: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata opinione politica
+4 - Orientamento religioso: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata fede religiosa
+5 - Sensazionalismo: utilizzo di linguaggio o espressioni per alimentare lo scandalo e l'indignazione dei lettori, oltre ad un uso eccessivo di domande ed esclamazioni.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+<Title: Marocchino che ha bruciato le figlie esigeva soldi dal Comune “Dovete pagarmi affitto”
+
+Body: Faycal Haitot, l’immigrato marocchino che ieri a Como ha dato fuoco a moglie e quattro figlie incendiando l’appartamento, un mese fa aveva scritto a La provincia di Como una lettera in cui esigeva i soldi degli italiani: “Ho chiesto l’aiuto economico e l’assistente: zero. Ho scritto al dirigente e diceva che il Comune paga l’affitto. Come fanno a mangiare questi bimbi, forse sono troppi. La scuola è gia cominciata e il primo giorno sono andato dai carabinieri per non prendere una denuncia, noi siamo a casa“.
+
+
+Poi lamentava di non avere mai ricevuto “nessuna visita a casa dei servizi sociali per controllare la vita quotidiana dei bambini. Non vado via per paura del servizio sociale. Se ci sono problemi tra me e loro, cosa c’entrano i bambini?”. Da parte sua il Comune di Como già ieri aveva specificato quali erano state le iniziative prese a sostegno della famiglia Haitot: housing sociale dal 2014, supporti all’assistenza scolastica, mensa gratuita, diurnato pomeridiano.
+
+Perché dobbiamo mantenere i marocchini? Perché devono stare qui se non sono in grado di mantenersi? Se fossero stati rimandati in Marocco non alla prima richiesta di soldi, sintomo che in Italia non potevano stare, ora quelle bambine sarebbero ancora vive.
+Le poche risorse pubbliche servono alle famiglie italiane. Chi non ha la possibilità di lavorare deve tornare a casa, non riprodursi in modo incontrollato e poi bruciare delle povere bambine.
+>
+
+
+{"Razzismo": {"bias": 1, "motivazione": "Nel testo viene utilizzato un linguaggio discriminatorio nei confronti degli immigrati marocchini.", "porzione di testo": "Perché dobbiamo mantenere i marocchini? Perché devono stare qui se non sono in grado di mantenersi? Se fossero stati rimandati in Marocco non alla prima richiesta di soldi, sintomo che in Italia non potevano stare, ora quelle bambine sarebbero ancora vive."}}
+{"Gender bias": {"bias": 0, "motivazione": "Nel testo non sono presenti espressioni sessiste.", "porzione di testo": ""}}
+{"Orientamento politico": {"bias": 0, "motivazione": "Nel testo non sono presenti espressioni discriminatorie verso gruppi o individui con una determinata opinione politica.", "porzione di testo": ""}}
+{"Orientamento religioso": {"bias": 0, "motivazione": "Nel testo non sono presenti espressioni discriminatorie verso gruppi o individui con una determinata fede religiosa.", "porzione di testo": ""}}
+{"Sensazionalismo": {"bias": 0, "motivazione": "Nel testo non sono presenti espressioni sensazionalistiche o eccessivo uso di domande ed esclamazioni.", "porzione di testo": ""}}

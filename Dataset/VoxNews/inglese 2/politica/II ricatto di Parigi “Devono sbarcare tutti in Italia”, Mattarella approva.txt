@@ -1,0 +1,44 @@
+- II ricatto di Parigi “Devono sbarcare tutti in Italia”, Mattarella approva	https://voxnews.info/2022/11/26/ii-ricatto-di-parigi-devono-sbarcare-tutti-in-italia-mattarella-approva/
+
+
+
+### Read the description of the following biases ###
+1 - Racism: words or linguistic expressions that express hatred or encourage violence against a person or group of people on the basis of their race and ethnicity
+2 - Gender bias: prejudicial words or linguistic expressions based on the gender perception that women are not equal to men in terms of rights and dignity.
+3 - Political bias: Words or linguistic expressions that involve skewing or altering information to make a political position or political candidate seem more attractive.
+4 - Religious orientation: Prejudicial words or linguistic expressions based on a person's membership of a religious group, rather than on their individual merits.
+5 - Sensationalism: the tendency of some newspapers or periodicals to publish and disseminate certain news by giving them excessive prominence and presenting them as sensational through the use of words or linguistic expressions to fuel the scandal and indignation of the readers.
+
+
+
+### Now, identify from the following text if the described biases are present and explain the reason for your choice, highlighting the portion of text in which the bias is contained.
+Each bias can be 0 or 1, depending on their presence in the document.
+The response must be formatted as JSON, having as keys those reported in the previous instructions.
+An example is: {"Racism": {"bias": 1, "motivation": "Racist terms are used in the article.", "text portion" }}
+
+
+
+The document is as follows:
+<Title: II ricatto di Parigi “Devono sbarcare tutti in Italia”, Mattarella approva
+
+Body: “Francia e Italia hanno assunto un anno
+fa l’impegno solenne di operare ancor
+più strettamente insieme. Il trattato
+del Quirinale rilancia un’intensa e au-
+tentica amicizia tra i nostri popoli,
+che va alimentata nell’interesse comune
+dei due Paesi”, così il capo dello Sta-
+to Mattarella sul suo profilo Twitter.
+
+Il messaggio di Mattarella è una rispo-
+sta a un messaggio del presidente fran-
+cese Macron in cui ricordava l’impegno
+assunto col trattato del Quirinale: “In
+questo giorno invio un messaggio di
+profonda amicizia al popolo italiano”.
+
+In pratica, il suo superiore di loggia lo richiama all’ordine e lui risponde “agli ordini”.>
+
+
+
+{"Racism": {"bias": 0, "motivation": "", "text portion": ""}, "Gender bias": {"bias": 0, "motivation": "", "text portion": ""}, "Political bias": {"bias": 0, "motivation": "", "text portion": ""}, "Religious orientation": {"bias": 0, "motivation": "", "text portion": ""}, "Sensationalism": {"bias": 0, "motivation": "", "text portion": ""}}

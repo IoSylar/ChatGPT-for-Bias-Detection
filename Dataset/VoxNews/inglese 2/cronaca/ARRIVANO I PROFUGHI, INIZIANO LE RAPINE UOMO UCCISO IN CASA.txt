@@ -1,0 +1,41 @@
+- ARRIVANO I PROFUGHI, INIZIANO LE RAPINE: UOMO UCCISO IN CASA	https://voxnews.info/2015/06/09/arrivano-i-profughi-iniziano-le-rapine-uomo-ucciso-in-casa/
+
+
+### Read the description of the following biases ###
+1 - Racism: words or linguistic expressions that express hatred or encourage violence against a person or group of people on the basis of their race and ethnicity
+2 - Gender bias: prejudicial words or linguistic expressions based on the gender perception that women are not equal to men in terms of rights and dignity.
+3 - Political bias: Words or linguistic expressions that involve skewing or altering information to make a political position or political candidate seem more attractive.
+4 - Religious orientation: Prejudicial words or linguistic expressions based on a person's membership of a religious group, rather than on their individual merits.
+5 - Sensationalism: the tendency of some newspapers or periodicals to publish and disseminate certain news by giving them excessive prominence and presenting them as sensational through the use of words or linguistic expressions to fuel the scandal and indignation of the readers.
+
+
+
+### Now, identify from the following text if the described biases are present and explain the reason for your choice, highlighting the portion of text in which the bias is contained.
+Each bias can be 0 or 1, depending on their presence in the document.
+The response must be formatted as JSON, having as keys those reported in the previous instructions.
+An example is: {"Racism": {"bias": 1, "motivation": "Racist terms are used in the article.", "text portion" }}
+
+
+
+The document is as follows:
+<Title: ARRIVANO I PROFUGHI, INIZIANO LE RAPINE: UOMO UCCISO IN CASA
+
+Body: Cuneo – Un uomo di 65 anni e’ stato ucciso questa mattina nella sua abitazione con un colpo di pistola alla testa esploso da uno dei ladri che si erano introdotti in casa e che l’uomo aveva sorpreso.
+
+E’ accaduto in una villetta di Santo Stefano Roero, frazione di Alba, nel Cuneese.
+
+In zona sono recentemente arrivati ospiti del governo.
+
+
+La moglie della vittima ha riferito ai carabinieri di due malviventi, col volto mascherato, sorpresi dal marito a rubare nella villa quando non erano ancora le sette di mattina.
+
+Tra i ladri e il proprietario di casa, un gioielliere in pensione, sarebbe nata una violenta colluttazione nel corso della quale è stato esploso almeno un colpo di pistola, fatale per il proprietario di casa, che è stato colpito alla testa.
+
+Prima di darsi alla fuga i malviventi avrebbero legato la moglie della vittima. Sul luogo del delitto anche i Ris dell’Arma. L’indagine è coordinata dalla Procura di Asti, competente per territorio.
+
+Che schifo di governo.>
+
+
+
+
+{"Racism": {"bias": 0, "motivation": "", "text portion": ""}, "Gender bias": {"bias": 0, "motivation": "", "text portion": ""}, "Political bias": {"bias": 1, "motivation": "The text expresses a negative opinion about the government.", "text portion": "Che schifo di governo."}, "Religious orientation": {"bias": 0, "motivation": "", "text portion": ""}, "Sensationalism": {"bias": 1, "motivation": "The text uses sensational language to describe the crime.", "text portion": "<Title: ARRIVANO I PROFUGHI, INIZIANO LE RAPINE: UOMO UCCISO IN CASA\n\nBody: Cuneo – Un uomo di 65 anni e’ stato ucciso questa mattina nella sua abitazione con un colpo di pistola alla testa esploso da uno dei ladri che si erano introdotti in casa e che l’uomo aveva sorpreso.\n\nE’ accaduto in una villetta di Santo Stefano Roero, frazione di Alba, nel Cuneese.\n\nIn zona sono recentemente arrivati ospiti del governo.\n\n\nLa moglie della vittima ha riferito ai carabinieri di due malviventi, col volto mascherato, sorpresi dal marito a rubare nella villa quando non erano ancora le sette di mattina.\n\nTra i ladri e il proprietario di casa, un gioielliere in pensione, sarebbe nata una violenta colluttazione nel corso della quale è stato esploso almeno un colpo di pistola, fatale per il proprietario di casa, che è stato colpito alla testa.\n\nPrima di darsi alla fuga i malviventi avrebbero legato la moglie della vittima. Sul luogo del delitto anche i Ris dell’Arma. L’indagine è coordinata dalla Procura di Asti, competente per territorio.\n\nChe schifo di governo."}}

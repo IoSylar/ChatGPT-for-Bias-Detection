@@ -1,0 +1,45 @@
+### Read the description of the following biases ###
+1 - Racism: words or linguistic expressions that express hatred or encourage violence against a person or group of people on the basis of their race and ethnicity
+2 - Gender bias: prejudicial words or linguistic expressions based on the gender perception that women are not equal to men in terms of rights and dignity.
+3 - Political bias: Words or linguistic expressions that involve skewing or altering information to make a political position or political candidate seem more attractive.
+4 - Religious orientation: Prejudicial words or linguistic expressions based on a person's membership of a religious group, rather than on their individual merits.
+5 - Sensationalism: the tendency of some newspapers or periodicals to publish and disseminate certain news by giving them excessive prominence and presenting them as sensational through the use of words or linguistic expressions to fuel the scandal and indignation of the readers.
+
+
+
+### Now, identify from the following text if the described biases are present and explain the reason for your choice, highlighting the portion of text in which the bias is contained.
+Each bias can be 0 or 1, depending on their presence in the document.
+The response must be formatted as JSON, having as keys those reported in the previous instructions.
+An example is: {"Racism": {"bias": 1, "motivation": "Racist terms are used in the article.", "text portion" }}
+
+
+
+The document is as follows:
+
+<Title: J.K. ROWLING ATTACCA L’ASSOCIAZIONE CHE ASSISTE I MINORI NEL CAMBIO DI SESSO
+
+Body: J. K. Rowling, autrice della fortunatissima saga Harry Potter e titolare di un profilo Twitter da oltre 14 milioni di seguaci, è entrata di nuovo in rotta di collisione con una parte del movimento LBTG britannico. La scrittrice questa volta si è scagliata contro la Mermaids, la cui traduzione in italiano è “sirene”, associazione di sostegno alle persone trans che annovera tra i suoi principali obiettivi l’assistenza ai giovani interessati al cambio di sesso. Fondata nel 1995, l’ente britannico ha intessuto negli anni importanti legami politici ed economici, incassando l’appoggio del principe Harry, di Alexandria Ocasio-Cortez, astro nascente del partito Dem statunitense, e di Emma Watson, attrice salita in cima all’olimpo holliwoodiano proprio grazie alla partecipazione ai film di Harry Potter.
+
+Secondo una recente inchiesta del quotidiano britannico Telegraph, l’associazione avrebbe recentemente ricevuto oltre 20mila sterline come sovvenzioni pubbliche e oltre 500mila di fondi dalla National Lottery. Fino a poco tempo fa Marmaids intratteneva inoltre rapporti di stretta collaborazione con la Tavistock & Portman, clinica londinese specializzata nel cambio di genere e costretta alla chiusura nel 2021 a causa di un rapporto che ne denunciò l’”inadeguatezza” dei servizi offerti e le “forti criticità” sulla verifica del consenso informato sottoposto ai pazienti ammessi ai trattamenti di transizione di genere.
+
+Sempre dall’inchiesta del Telegraph è inoltre emerso che la Mermaids inviava a casa delle minorenni che si rivolgevano ad essa dei dispositivi per appiattire il seno senza il consenso dei genitori e che la propaganda sui propri metodi si basava su affermazioni terroristiche, come ad esempio: “preferiresti un ragazzo vivo o una ragazza morta?”.
+
+Il nuovo attacco partito dal profilo della creatrice di Harry Potter riguarda però una notizia emersa questa settimana dalle colonne del Times: Jacob Breslow professore alla London School of Economics e nominato lo scorso luglio amministratore fiduciario dell’associazione, aveva partecipato a una conferenza della B4u Act, organizzazione considerata pro-pedofilia, e nel suo intervento aveva rivolto un appello al pubblico, invitandolo a chiamare i pedofili “persone attratte dai minori”, in inglese “minor attracted person”.
+
+Appena emersa la notizia, Mermaids ha ritirato la carica assegnata a Breslow ma la Rowling non ha perso l’occasione per sottolineare l’inopportunità della scelta: “Ora apprendiamo che la Mermaids aveva nominato un sostenitore della pedofilia come amministratore fiduciario. Una banale ricerca su Google avrebbe consentito a Mermaids di leggere le parole di Breslow. Quindi delle due l’una: o non hanno fatto letteralmente nessun controllo o erano d’accordo con le sue opinioni. In ogni caso è qualcosa di disastroso”.
+
+La scrittrice ha poi accusato l’associazione di essere diventata depositaria di un potere insidioso, che travalica di molto le sue competenze: “sono stati ammessi nelle classi, hanno formato la polizia e hanno avuto un’influenza senza precedenti sulla politica sanitaria, anche se per loro stessa ammissione non sono un ente medico“. Ha aggiunto la Rowling, riaccendendo il dibattito su una questione diventata ultimamente di grande interesse anche negli Stati Uniti.
+
+Secondo una recente inchiesta condotta dalla Reuters, al di là dell’oceano le cliniche specilizzate nel cambio di sesso sono arrivate ad essere oltre cento nel giro di pochi anni, nonostante non vi siano garanzie circa le “conseguenze a cui vanno incontro i minori avviati alla transizione di genere” e, continuano gli autori dell’inchiesta, “i bloccanti della pubertà e gli ormoni sessuali non hanno l’approvazione della Food and drug administration non per l’utilizzo sui bambini”.
+
+Il dibattito va dunque ben oltre le prese di posizione della Rowling, anche se l’inventrice del mago di Hogwarts rimane una delle poche figure dalla popolarità internazionale che ha avuto il coraggio di aggredire con decisione questione.>
+
+
+
+RISULTATO
+
+{"Racism": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Gender bias": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Political bias": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Religious orientation": {"bias": 0, "motivation": "", "text portion": ""}, 
+"Sensationalism": {"bias": 0, "motivation": "", "text portion": ""}}

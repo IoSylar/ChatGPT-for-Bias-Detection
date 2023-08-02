@@ -1,0 +1,33 @@
+- Clandestini in hotel: famiglia italiana sotto sfratto	https://voxnews.info/2015/01/20/clandestini-in-hotel-famiglia-italiana-sotto-sfratto/
+
+### Read the description of the following biases ###
+1 - Razzismo: the use of racist language or expressions to discriminate against people based on their ethnicity
+2 - Gender bias: the use of language or expressions that imply discrimination against people on the basis of their gender
+3 - Orientamento politico: the use of language or expressions that imply discrimination against people on the basis of their political orientation
+4 - Orientamento religioso: the use of language or expressions that imply discrimination against people on the basis of their religious orientation
+5 - Sensazionalismo:The use of language used to feed the scandal and the indignation of readers, to which is added an excessive and unbalanced use of exclamation marks and questions.
+6 - Advertising bias: When a newspaper chooses to mainly underline events or news that can elicit a positive reaction in the audience.
+
+
+### Now, identify in the following text wether or not these biases are present and explain the reason of your choice, underlying the step of the text in which the bias is present.
+Each bias can be 0 or 1, depending on their presence in the document.
+The answer must be formatted as a JSON, having as keys the ones reported in the previous steps. 
+
+An example is {"Razzismo": {"bias": 1, "explanation": "Nell'articolo vengono utilizzati termini razzisti.", "part of the text" }}
+
+The document is the following:
+<Title: Clandestini in hotel famiglia italiana sotto sfratto
+
+Body: Casalgrande – Questa mattina i militanti di CasaPound hanno aiutato una famiglia italiana con un bimbo di 10 anni a carico, in grave crisi economica ed emergenza abitativa, a fermare lo sfratto esecutivo che pendeva nei loro confronti. Dopo che il Comune aveva risposto picche alle richieste di aiuto.
+
+E pensare, che poco più in là, ci sono degli hotel che ospitano clandestini africani.
+
+
+“Ci hanno contattato disperati settimane fa per chiederci aiuto -afferma Pier Paolo Mora, coordinatore regionale del movimento- perché non riuscivano più a pagare l’ affitto e poiché il comune li aveva completamente abbandonati, dopo aver proposto a madre e figlio una soluzione di due settimane in hotel senza nessuna garanzia per il futuro, e al padre di dormire in macchina sin da subito.”
+
+“Stiamo parlando di un padre di famiglia di 56 anni -Continua Mora- con 33 anni di contributi alle spalle e 2 alla pensione che attualmente trova solo lavoretti saltuari, di una madre disoccupata in cerca di lavoro e di un bambino di 10 anni, è inammissibile che dopo trent’anni di tasse pagate chi rappresenta lo stato li metta tutti in mezzo a una strada senza proporgli soluzioni alternative a medio-lungo termine, quando chi sbarca in Italia clandestinamente ha già garantiti tutta una serie di diritti che vanno dal vitto, all’ alloggio, all’ assistenzialismo delle cooperative che poi pescano proprio dai soldi pubblici i finanziamenti necessari al proprio mantenimento”
+
+“Chiediamo un incontro immediato al sindaco affinchè trovi una soluzione condivisa e accettabile sia per la famiglia sotto sfratto, sia per il proprietario della casa che giustamente rivuole il suo stabile. Questo -conclude Mora- è un altro tassello che va ad inserirsi nel grande lavoro che stiamo facendo in Emilia, così come in tutta Italia, dove già da tempo a Bologna, Parma Forlì aiutiamo famiglie in difficoltà e abbiamo intrapreso iniziative a sostegno dei diritti degli Italiani, chiamati in causa dallo stato solo quando devono pagare le tasse, e poi abbandonati nel momento del bisogno.”>
+
+
+{"Razzismo": {"bias": 1, "explanation": "Nell'articolo vengono utilizzati termini razzisti.", "part of the text": "E pensare, che poco più in là, ci sono degli hotel che ospitano clandestini africani."}, "Gender bias": {"bias": 0, "explanation": "No gender discrimination is present in the text.", "part of the text": ""}, "Orientamento politico": {"bias": 0, "explanation": "No discrimination based on political orientation is present in the text.", "part of the text": ""}, "Orientamento religioso": {"bias": 0, "explanation": "No discrimination based on religious orientation is present in the text.", "part of the text": ""}, "Sensazionalismo": {"bias": 0, "explanation": "No sensationalism is present in the text.", "part of the text": ""}, "Advertising bias": {"bias": 0, "explanation": "No advertising bias is present in the text.", "part of the text": ""}}

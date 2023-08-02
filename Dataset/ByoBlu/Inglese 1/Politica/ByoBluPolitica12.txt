@@ -1,0 +1,39 @@
+DISCORSO MELONI, TRABUCCO: “PRESIDENZIALISMO ALLA “FRANCESE”? RIFORMA RADICALE MA RISCHIAMO DEGENERAZIONE DEI PROBLEMI DELLA POLITICA ITALIANA”	
+
+https://www.byoblu.com/2022/10/26/discorso-meloni-trabucco-presidenzialismo-alla-francese-riforma-radicale-ma-rischiamo-degenerazione-dei-problemi-della-politica-italiana/
+
+
+
+### Read the description of the following biases ###
+1 - Razzismo: the use of racist language or expressions to discriminate against people based on their ethnicity
+2 - Gender bias: the use of language or expressions that imply discrimination against people on the basis of their gender
+3 - Orientamento politico: the use of language or expressions that imply discrimination against people on the basis of their political orientation
+4 - Orientamento religioso: the use of language or expressions that imply discrimination against people on the basis of their religious orientation
+5 - Sensazionalismo:The use of language used to feed the scandal and the indignation of readers, to which is added an excessive and unbalanced use of exclamation marks and questions.
+6 - Advertising bias: When a newspaper chooses to mainly underline events or news that can elicit a positive reaction in the audience.
+
+
+### Now, identify in the following text wether or not these biases are present and explain the reason of your choice, underlying the step of the text in which the bias is present.
+Each bias can be 0 or 1, depending on their presence in the document.
+The answer must be formatted as a JSON, having as keys the ones reported in the previous steps. 
+
+An example is {"Razzismo": {"bias": 1, "explanation": "Nell'articolo vengono utilizzati termini razzisti.", "part of the text" }}
+
+The document is the following:
+<Title: DISCORSO MELONI, TRABUCCO: “PRESIDENZIALISMO ALLA “FRANCESE”? RIFORMA RADICALE MA RISCHIAMO DEGENERAZIONE DEI PROBLEMI DELLA POLITICA ITALIANA”	
+
+Body: In occasione del discorso del neoeletto presidente del Consiglio, Giorgia Meloni, abbiamo chiesto un parere al Costituzionalista Daniele Trabucco, in merito in particolare alla questione del “presidenzialismo”, tema che avevamo già trattato su Byoblu in una precedente intervista.
+
+“Meloni ha parlato di un passaggio dalla democrazia interloquente a una che sappia prendere decisioni forti“, dice Trabucco ai nostri microfoni. “Ma su cosa si regge oggi la democrazia? A me pare che manchi nella prospettiva di Meloni una elaborazione filosofico-politica che non è astrazione ma che indica una precisa prospettiva. Proprio per raggiungere l’idea di una democrazia decidente Meloni ha proposto di guardare al semipresidenzialismo francese, caratterizzato quindi da una forte legittimazione democratica e dotato di ampi poteri”.
+
+“Personalmente sono favorevole a mutare forma di governo, però attenzione: quali sono i problemi che non vengono affrontati e che caratterizzano la politica italiana? Innanzitutto la forma di governo semipresidenziale non è forse un prendere atto dello svuotamento del parlamento? Non abbiamo invece bisogno che la politica si riappropri degli spazi pubblici che ha perduto? Che faccia da collegamento tra istituzioni e società? Tutto questo corre il rischio di venir meno attraverso il rafforzamento, sia pur all’interno di una logica di pesi e contrappesi, dell’esecutivo sul Parlamento.>
+
+
+RISULTATI
+
+{"Razzismo": {"bias": 0, "explanation": "No racist language or expressions are used in the text.", "part of the text": ""}}, 
+"Gender bias": {"bias": 0, "explanation": "No language or expressions implying discrimination based on gender are used in the text.", "part of the text": ""}}, 
+"Orientamento politico": {"bias": 0, "explanation": "No language or expressions implying discrimination based on political orientation are used in the text.", "part of the text": ""}}, 
+"Orientamento religioso": {"bias": 0, "explanation": "No language or expressions implying discrimination based on religious orientation are used in the text.", "part of the text": ""}}, 
+"Sensazionalismo": {"bias": 0, "explanation": "No sensational language or excessive use of exclamation marks or questions is present in the text.", "part of the text": ""}}, 
+"Advertising bias": {"bias": 0, "explanation": "The text does not focus on events or news that can elicit a positive reaction in the audience.", "part of the text": ""}}

@@ -1,0 +1,42 @@
+- Propaganda ‘FEMMINISTA’ uccide, MAMMA AMMAZZA LA FIGLIA DI 2 ANNI PER VENDICARSI DEL MARITO: BUON 8 MARZO	https://voxnews.info/2021/03/08/femminista-ammazza-la-figlia-di-2-anni-per-vendicarsi-del-marito-buon-8-marzo/
+
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo:  utilizzo linguaggio e espressioni di odio e intolleranza verso individui appartenenti ad una determinata etnia
+2 - Gender bias: utilizzo linguaggio o espressioni sessiste
+3 - Orientamento politico: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata opinione politica
+4 - Orientamento religioso: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata fede religiosa
+5 - Sensazionalismo: utilizzo di linguaggio o espressioni per alimentare lo scandalo e l'indignazione dei lettori, oltre ad un uso eccessivo di domande ed esclamazioni.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+<Title: - Propaganda ‘FEMMINISTA’ uccide, MAMMA AMMAZZA LA FIGLIA DI 2 ANNI PER VENDICARSI DEL MARITO: BUON 8 MARZO
+
+Body:  Come vedete la violenza non ha genere. E qualche mente debole psichicamente può essere traviata dalla delirante propaganda ‘femminista’. Contro il ‘maschio cattivo’ e la ‘dittatura patriarcale’.
+
+Bimba morta, la mamma fermata per omicidio. Aveva denunciato il marito tre volte.
+
+E’ stata fermata con l’accusa di omicidio volontario la donna di 41 anni trovata incoscente con delle ferite da taglio questa notte nel suo appartamento di Cisliano, nel Milanese, con accanto a sé la figlia di due anni.
+Il fermo è del pm di Pavia Roberto Valli che con il procuratore Mario Venditti si occupa delle indagini.
+
+Lei è ora piantonata in ospedale per le ferite riportate. Era stata lei stessa a chiamare in piena notte il marito, con il quale aveva in corso una difficilissima separazione, per avvisarlo che la figlia “non c’è più”.
+
+Lei lo aveva denunciato tre volte e nell’ultimo lungo post scritto su Facebook a lui si era rivolta “Caro marito vai a denunciami ancora per calunnia e diffamazione. Denunciami ancora per sequestro di minore.” ma lei “è la mia bambina”, per poi criticare come erano state accolte le sue denunce. “Denunciate donne. Siete comunque giudicate da un mondo omertoso a coprire gli orrori. Solo da morte verrete chiamate vittime”.
+
+Le donne non sono sempre vittime in quanto donne. Non hanno sempre ragione perché sono donne.
+
+La propaganda contro il maschio uccide. La stessa propaganda andata in scena anche oggi nella giornata dell’8 marzo che non è più la festa della donna ma la giornata dell’odio contro il maschio. I boldrini andrebbero denunciati per istigazione a delinquere.>
+
+
+
+
+
+{"Razzismo": {"bias": 0, "motivazione": "Non sono presenti espressioni di odio o intolleranza verso una determinata etnia."}, "Gender bias": {"bias": 1, "motivazione": "Viene utilizzato il termine 'maschio cattivo' e si fa riferimento alla 'dittatura patriarcale', esprimendo un pregiudizio sessista."}, "Orientamento politico": {"bias": 0, "motivazione": "Non sono presenti espressioni che implicano una discriminazione verso gruppi o individui con una determinata opinione politica."}, "Orientamento religioso": {"bias": 0, "motivazione": "Non sono presenti espressioni che implicano una discriminazione verso gruppi o individui con una determinata fede religiosa."}, "Sensazionalismo": {"bias": 1, "motivazione": "Viene utilizzato un linguaggio sensazionalistico per alimentare lo scandalo e l'indignazione dei lettori, ad esempio con l'utilizzo di esclamazioni come 'Propaganda ‘FEMMINISTA’ uccide!' e 'BUON 8 MARZO'."}}

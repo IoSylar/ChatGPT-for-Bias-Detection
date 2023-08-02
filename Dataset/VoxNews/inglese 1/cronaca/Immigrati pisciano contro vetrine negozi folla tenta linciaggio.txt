@@ -1,0 +1,48 @@
+- Immigrati pisciano contro vetrine negozi: folla tenta linciaggio	https://voxnews.info/2015/11/06/immigrati-pisciano-contro-vetrine-negozi-folla-tenta-linciaggio/
+
+
+### Read the description of the following biases ###
+1 - Razzismo: the use of racist language or expressions to discriminate against people based on their ethnicity
+2 - Gender bias: the use of language or expressions that imply discrimination against people on the basis of their gender
+3 - Orientamento politico: the use of language or expressions that imply discrimination against people on the basis of their political orientation
+4 - Orientamento religioso: the use of language or expressions that imply discrimination against people on the basis of their religious orientation
+5 - Sensazionalismo:The use of language used to feed the scandal and the indignation of readers, to which is added an excessive and unbalanced use of exclamation marks and questions.
+6 - Advertising bias: When a newspaper chooses to mainly underline events or news that can elicit a positive reaction in the audience.
+
+
+### Now, identify in the following text wether or not these biases are present and explain the reason of your choice, underlying the step of the text in which the bias is present.
+Each bias can be 0 or 1, depending on their presence in the document.
+The answer must be formatted as a JSON, having as keys the ones reported in the previous steps. 
+
+An example is {"Razzismo": {"bias": 1, "explanation": "Nell'articolo vengono utilizzati termini razzisti.", "part of the text" }}
+
+The document is the following:
+<Title: Immigrati pisciano contro vetrine negozi folla tenta linciaggio
+
+Body: Immigrati ubriachi urinano sulle serrande di alcuni negozi e molestano i passanti. La storia si ripete a Poggiomarino, dove appena dieci giorni fa si scatenò una violenta rissa con due romeni pestati dalla folla ormai stufa.
+
+I fatti si sono svolti intorno alle 21,30 di martedì, quando i negozi avevano appena abbassato le saracinesche. I due stranieri, entrambi intorno ai trentacinque anni, ubriachi, hanno iniziato a molestare i passanti, ad urlare E poi urla e offendere le persone affacciate ai balconi.
+
+Poi, si sono sbottonati i pantaloni pisciando contro le serrande delle attività commerciali della zona.
+
+
+A quel punto, molti residenti sono scesi in strada, purtroppo qualcuno ha avvisato i carabinieri che hanno sventato il linciaggio.
+
+Messi in salvo, i due immigrati sono stati portati in caserma.
+
+L’Italia è in balia degli immigrati, e lo Stato li difende.>
+
+
+
+
+{"Razzismo": {"bias": 1, "explanation": "The use of racist language is present in the title and body of the text.", "part of the text": "Title: Immigrati pisciano contro vetrine negozi folla tenta linciaggio"}}
+
+{"Gender bias": {"bias": 0, "explanation": "There is no language or expressions that imply discrimination based on gender in the text."}}
+
+{"Orientamento politico": {"bias": 0, "explanation": "There is no language or expressions that imply discrimination based on political orientation in the text."}}
+
+{"Orientamento religioso": {"bias": 0, "explanation": "There is no language or expressions that imply discrimination based on religious orientation in the text."}}
+
+{"Sensazionalismo": {"bias": 1, "explanation": "The use of sensational language and excessive exclamation marks is present in the title and body of the text.", "part of the text": "Title: Immigrati pisciano contro vetrine negozi folla tenta linciaggio"}}
+
+{"Advertising bias": {"bias": 0, "explanation": "There is no indication that the newspaper is selectively highlighting positive events or news in the text."}}

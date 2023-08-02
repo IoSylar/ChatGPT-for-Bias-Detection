@@ -1,0 +1,45 @@
+- PD, finalmente lo ammettono: “Siamo associazione a delinquere”	https://voxnews.info/2022/08/20/pd-finalmente-lo-ammettono-siamo-associazione-a-delinquere/
+
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo:  utilizzo linguaggio e espressioni di odio e intolleranza verso individui appartenenti ad una determinata etnia
+2 - Gender bias: utilizzo linguaggio o espressioni sessiste
+3 - Orientamento politico: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata opinione politica
+4 - Orientamento religioso: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata fede religiosa
+5 - Sensazionalismo: utilizzo di linguaggio o espressioni per alimentare lo scandalo e l'indignazione dei lettori, oltre ad un uso eccessivo di domande ed esclamazioni.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+<Title: PD, finalmente lo ammettono “Siamo associazione a delinquere”	
+
+Body: Quando i partiti perdono l’ideologia diventano macchine per rubare soldi. Ma sia chiaro, il crimine più grande del Pd non è rubare soldi, è rubare il futuro degli italiani imponendo l’immigrazione di massa e la sostituzione etnica. Anche questo per interesse, più che per ideologia: gli servono nuovi elettori e iscritti che i capibastone possono utilizzare per gonfiare le correnti con l’emissione di tessere.
+
+Dalle parti del Pd romano l’aria è pesante. È difficile orientarsi tra rivalità e divisioni che durano da oltre vent’anni. A tratteggiare la storia del Pd romano è Repubblica che parte dagli scontri sulla politica nelle sezioni del Partito comunista italiano fino ad arrivare ai nostri giorni.
+
+
+«”Che poi dentro ‘sta sezione se semo gonfiati pe’ er compromesso storico, to’ o ricordi Morico’?”. Gonfiati – scrive il quotidiano – a Roma sta per picchiati, al tempo in cui nelle sezioni del Partito comunista italiano ci si scannava sulla politica, a parlare era un militante della sezione Testaccio ripreso da Nanni Moretti nel documentario La Cosa, novembre 1989, dibattito congressuale su: restare comunisti o diventare cosa? Diventare cosa. Ormai nel Pd romano – osserva il quotidiano – e nelle sue appendici laziali – da lustri teatro di faide, intrighi, scandali, “ciarpame”, parola dell’indigeno Roberto Morassut – si gonfiano solo lontano dalle sezioni, e per questioni poco politiche. Delle sezioni, comunque, è rimasto poco».
+«Quando nel 2015 l’ex ministro Fabrizio Barca fu incaricato dall’allora commissario romano Matteo Orfini di redigere un dossier sui circoli dem della Capitale il responso fu devastante – si legge su Repubblica – Tessere gonfiate, sezioni fantasma, “una su quattro è infetta”, scrisse Barca, e le tre ancora salvabili non gli impedirono di arrivare a queste conclusioni: “Partito cattivo e pericoloso, che lavora per gli eletti anziché per i cittadini e subisce inane le scorribande dei capibastone”».
+
+
+Poco prima del report Barca, ricorda ancora Repubblica, «era scoppiata Mafia capitale, l’incerto Ignazio Marino a districarsi in mezzo a un Pd investito di arresti e infine di condanne, con il ras degli appalti Salvatore Buzzi che negli interrogatori ironizzava sulle correnti in guerra: “Ormai mi toccava paga’ due Pd”». E poi ancora. «”Nel partito romano – si legge ancora su Repubblica – ci sono associazioni a delinquere”, denunciò con preveggenza nel 2013 Marianna Madia (…). Addirittura quattro anni prima era stato Goffredo Bettini, per anni il dirigente più influente in città, a sentenziare: “Il Pd romano è corrotto”».
+
+Le conclusioni sono amare. «Orientarsi nella geografia – scrive ancora il quotidiano romano – della ventennale guerra di correnti locali è come entrare in un tunnel fuligginoso e senza uscita: in origine fu lo scontro tra dalemiani e veltroniani, poi tra bettiniani e dalemiani, quindi con la fondazione del Pd arrivarono a metterci del loro gli ex democristiani, gli zingarettiani fecero l’accordo con un pezzo di dalemiani, gli altri dalemiani litigarono con D’Alema. Claudio Mancini, la mente e il braccio del sindaco Roberto Gualtieri, è uno dei veterani di questa guerra, Bruno Astorre, il segretario regionale, sta con Dario Franceschini. È sulla designazione del possibile successore di Zingaretti alla presidenza della Regione – si legge infine – che si è rimessa in moto la macchina dello scontro».
+
+E’ a stessa strada intrapresa da FdI, se vogliamo essere onesti. Un partito che non ha una chiara idea di futuro.>
+
+
+
+{"Razzismo": {"bias": 1, "motivazione": "Nel testo viene utilizzato il termine 'sostituzione etnica' che implica una discriminazione verso individui di diverse etnie.", "porzione di testo": "Ma sia chiaro, il crimine più grande del Pd non è rubare soldi, è rubare il futuro degli italiani imponendo l’immigrazione di massa e la sostituzione etnica."}}, 
+{"Gender bias": {"bias": 0, "motivazione": "Nessuna espressione sessista presente nel testo."}}, 
+{"Orientamento politico": {"bias": 0, "motivazione": "Nessuna discriminazione verso gruppi o individui con una determinata opinione politica presente nel testo."}}, 
+{"Orientamento religioso": {"bias": 0, "motivazione": "Nessuna discriminazione verso gruppi o individui con una determinata fede religiosa presente nel testo."}}, 
+{"Sensazionalismo": {"bias": 0, "motivazione": "Nessun utilizzo di linguaggio sensazionalistico presente nel testo."}}
+

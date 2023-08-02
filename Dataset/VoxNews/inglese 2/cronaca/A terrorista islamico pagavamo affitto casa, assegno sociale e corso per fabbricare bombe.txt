@@ -1,0 +1,37 @@
+- A terrorista islamico pagavamo affitto casa, assegno sociale e corso per fabbricare bombe	https://voxnews.info/2015/12/05/al-terrorista-islamico-renzi-pagava-affitto-casa-assegno-sociale-e-corso-per-fabbricare-bombe/
+
+### Read the description of the following biases ###
+1 - Racism: words or linguistic expressions that express hatred or encourage violence against a person or group of people on the basis of their race and ethnicity
+2 - Gender bias: prejudicial words or linguistic expressions based on the gender perception that women are not equal to men in terms of rights and dignity.
+3 - Political bias: Words or linguistic expressions that involve skewing or altering information to make a political position or political candidate seem more attractive.
+4 - Religious orientation: Prejudicial words or linguistic expressions based on a person's membership of a religious group, rather than on their individual merits.
+5 - Sensationalism: the tendency of some newspapers or periodicals to publish and disseminate certain news by giving them excessive prominence and presenting them as sensational through the use of words or linguistic expressions to fuel the scandal and indignation of the readers.
+
+
+
+### Now, identify from the following text if the described biases are present and explain the reason for your choice, highlighting the portion of text in which the bias is contained.
+Each bias can be 0 or 1, depending on their presence in the document.
+The response must be formatted as JSON, having as keys those reported in the previous instructions.
+An example is: {"Racism": {"bias": 1, "motivation": "Racist terms are used in the article.", "text portion" }}
+
+
+
+The document is as follows:
+<Title: A terrorista islamico pagavamo affitto casa, assegno sociale e corso per fabbricare bombe
+
+Body: Abdul Rahman Nauroz è stato arrestato venti giorni fa nel blitz antiterrorismo condotto dal Ros; era una delle figure più carismatiche della cellula guidata dal mullah Krekar. In Italia sette persone sono finite in manette, tutti membri della cellula terroristica, la cui guida spirituale e operativa è il mullah Krekar, in carcere in Norvegia.
+
+Tra gli arrestati a Merano spicca proprio la figura di Abdul Rahman Nauroz, incaricato di organizzare un comitato segreto destinato ad operare anche in Europa e che reclutava combattenti per il Kurdistan e il Medio Oriente. “L’uomo, grazie alla sua forte personalità” era in grado “di far abbracciare agli adepti la causa fino al martirio”.
+
+A QUESTO TERRORISTA IL GOVERNO HA DATO CASA, STIPENDIO E ASILO POLITICO
+Vox
+Ora emerge che, non solo il comune di Merano pagava l’affitto del monolocale usato come base logistica dagli islamici, il loro leader, che viveva grazie all’assegno sociale, frequentava il corso da fabbro della provincia di Bolzano ma, scrive il Ros, “precisa di aver aderito a tale iniziativa al solo fine di acquisire specifiche competenze meccaniche per costruire ordigni esplosivi artigianali”. Insomma, il governo Renzi addestra anche i terroristi. E li paga.
+
+Secondo il governo: “L’uomo era un richiedente asilo: come risultava dalla documentazione presentata (poi rivelatasi falsa) era perseguitato dagli estremisti islamici”.
+E chi meglio del capo di estremisti islamici, può fornire prove false di essere perseguitato da estremisti islamici?>
+
+
+
+
+
+{"Racism": {"bias": 0, "motivation": "", "text portion": ""}, "Gender bias": {"bias": 0, "motivation": "", "text portion": ""}, "Political bias": {"bias": 1, "motivation": "The text presents a biased view of the government, suggesting that they train and pay terrorists.", "text portion": "Ora emerge che, non solo il comune di Merano pagava l’affitto del monolocale usato come base logistica dagli islamici, il loro leader, che viveva grazie all’assegno sociale, frequentava il corso da fabbro della provincia di Bolzano ma, scrive il Ros, “precisa di aver aderito a tale iniziativa al solo fine di acquisire specifiche competenze meccaniche per costruire ordigni esplosivi artigianali”. Insomma, il governo Renzi addestra anche i terroristi. E li paga."}, "Religious orientation": {"bias": 0, "motivation": "", "text portion": ""}, "Sensationalism": {"bias": 1, "motivation": "The text uses sensational language to fuel scandal and indignation.", "text portion": "A QUESTO TERRORISTA IL GOVERNO HA DATO CASA, STIPENDIO E ASILO POLITICO"}}

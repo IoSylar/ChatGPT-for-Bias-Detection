@@ -1,0 +1,40 @@
+- Clandestini in hotel: famiglia italiana sotto sfratto	https://voxnews.info/2015/01/20/clandestini-in-hotel-famiglia-italiana-sotto-sfratto/
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo: parole o espressioni linguistiche che esprimono odio o incoraggiano la violenza nei confronti di una persona o di un gruppo di persone sulla base della loro razza ed etnia
+2 - Gender bias: parole o espressioni linguistiche pregiudizievoli basati sulla percezione di genere che le donne non sono uguali agli uomini in termini di diritti e dignità.
+3 - Orientamento politico: parole o espressioni linguistiche che implicano l'inclinazione o l'alterazione delle informazioni per far sembrare più attraente una posizione politica o un candidato politico.
+4 - Orientamento religioso: parole o espressioni linguistiche pregiudizievoli basate sull'appartenenza di una persona a un gruppo religioso, piuttosto che sui suoi meriti individuali.
+5 - Sensazionalismo: la tendenza di alcuni giornali o periodici a pubblicare e diffondere certe notizie conferendo loro un risalto eccessivo e presentandole come sensazionali tramite l'utilizzo di parole o espressioni linguistiche per alimentare lo scandalo e l'indignazione dei lettori.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+<Title: Clandestini in hotel famiglia italiana sotto sfratto
+
+Body: Casalgrande – Questa mattina i militanti di CasaPound hanno aiutato una famiglia italiana con un bimbo di 10 anni a carico, in grave crisi economica ed emergenza abitativa, a fermare lo sfratto esecutivo che pendeva nei loro confronti. Dopo che il Comune aveva risposto picche alle richieste di aiuto.
+
+E pensare, che poco più in là, ci sono degli hotel che ospitano clandestini africani.
+
+
+“Ci hanno contattato disperati settimane fa per chiederci aiuto -afferma Pier Paolo Mora, coordinatore regionale del movimento- perché non riuscivano più a pagare l’ affitto e poiché il comune li aveva completamente abbandonati, dopo aver proposto a madre e figlio una soluzione di due settimane in hotel senza nessuna garanzia per il futuro, e al padre di dormire in macchina sin da subito.”
+
+“Stiamo parlando di un padre di famiglia di 56 anni -Continua Mora- con 33 anni di contributi alle spalle e 2 alla pensione che attualmente trova solo lavoretti saltuari, di una madre disoccupata in cerca di lavoro e di un bambino di 10 anni, è inammissibile che dopo trent’anni di tasse pagate chi rappresenta lo stato li metta tutti in mezzo a una strada senza proporgli soluzioni alternative a medio-lungo termine, quando chi sbarca in Italia clandestinamente ha già garantiti tutta una serie di diritti che vanno dal vitto, all’ alloggio, all’ assistenzialismo delle cooperative che poi pescano proprio dai soldi pubblici i finanziamenti necessari al proprio mantenimento”
+
+“Chiediamo un incontro immediato al sindaco affinchè trovi una soluzione condivisa e accettabile sia per la famiglia sotto sfratto, sia per il proprietario della casa che giustamente rivuole il suo stabile. Questo -conclude Mora- è un altro tassello che va ad inserirsi nel grande lavoro che stiamo facendo in Emilia, così come in tutta Italia, dove già da tempo a Bologna, Parma Forlì aiutiamo famiglie in difficoltà e abbiamo intrapreso iniziative a sostegno dei diritti degli Italiani, chiamati in causa dallo stato solo quando devono pagare le tasse, e poi abbandonati nel momento del bisogno.”>
+
+
+
+
+{"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo": "E pensare, che poco più in là, ci sono degli hotel che ospitano clandestini africani."}}
+{"Gender bias": {"bias": 0, "motivazione": "Non sono presenti espressioni pregiudizievoli basate sulla percezione di genere.", "porzione di testo": ""}}
+{"Orientamento politico": {"bias": 0, "motivazione": "Non sono presenti espressioni che implicano l'inclinazione o l'alterazione delle informazioni per favorire una posizione politica.", "porzione di testo": ""}}
+{"Orientamento religioso": {"bias": 0, "motivazione": "Non sono presenti espressioni pregiudizievoli basate sull'appartenenza religiosa.", "porzione di testo": ""}}
+{"Sensazionalismo": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche sensazionalistiche.", "porzione di testo": ""}}

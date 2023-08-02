@@ -1,0 +1,37 @@
+- A terrorista islamico pagavamo affitto casa, assegno sociale e corso per fabbricare bombe	https://voxnews.info/2015/12/05/al-terrorista-islamico-renzi-pagava-affitto-casa-assegno-sociale-e-corso-per-fabbricare-bombe/
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo:  utilizzo linguaggio e espressioni di odio e intolleranza verso individui appartenenti ad una determinata etnia
+2 - Gender bias: utilizzo linguaggio o espressioni sessiste
+3 - Orientamento politico: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata opinione politica
+4 - Orientamento religioso: utilizzo di linguaggio o espressioni che implicano una discrminazione verso gruppi o individui con una determinata fede religiosa
+5 - Sensazionalismo: utilizzo di linguaggio o espressioni per alimentare lo scandalo e l'indignazione dei lettori, oltre ad un uso eccessivo di domande ed esclamazioni.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+<Title: A terrorista islamico pagavamo affitto casa, assegno sociale e corso per fabbricare bombe
+
+Body: Abdul Rahman Nauroz è stato arrestato venti giorni fa nel blitz antiterrorismo condotto dal Ros; era una delle figure più carismatiche della cellula guidata dal mullah Krekar. In Italia sette persone sono finite in manette, tutti membri della cellula terroristica, la cui guida spirituale e operativa è il mullah Krekar, in carcere in Norvegia.
+
+Tra gli arrestati a Merano spicca proprio la figura di Abdul Rahman Nauroz, incaricato di organizzare un comitato segreto destinato ad operare anche in Europa e che reclutava combattenti per il Kurdistan e il Medio Oriente. “L’uomo, grazie alla sua forte personalità” era in grado “di far abbracciare agli adepti la causa fino al martirio”.
+
+A QUESTO TERRORISTA IL GOVERNO HA DATO CASA, STIPENDIO E ASILO POLITICO
+Vox
+Ora emerge che, non solo il comune di Merano pagava l’affitto del monolocale usato come base logistica dagli islamici, il loro leader, che viveva grazie all’assegno sociale, frequentava il corso da fabbro della provincia di Bolzano ma, scrive il Ros, “precisa di aver aderito a tale iniziativa al solo fine di acquisire specifiche competenze meccaniche per costruire ordigni esplosivi artigianali”. Insomma, il governo Renzi addestra anche i terroristi. E li paga.
+
+Secondo il governo: “L’uomo era un richiedente asilo: come risultava dalla documentazione presentata (poi rivelatasi falsa) era perseguitato dagli estremisti islamici”.
+E chi meglio del capo di estremisti islamici, può fornire prove false di essere perseguitato da estremisti islamici?>
+
+
+
+
+{"Razzismo": {"bias": 0, "motivazione": "Non sono presenti espressioni di odio o intolleranza verso individui di una determinata etnia."}, "Gender bias": {"bias": 0, "motivazione": "Non sono presenti espressioni sessiste."}, "Orientamento politico": {"bias": 0, "motivazione": "Non sono presenti espressioni che implicano una discriminazione verso gruppi o individui con una determinata opinione politica."}, "Orientamento religioso": {"bias": 0, "motivazione": "Non sono presenti espressioni che implicano una discriminazione verso gruppi o individui con una determinata fede religiosa."}, "Sensazionalismo": {"bias": 1, "motivazione": "Viene utilizzato un linguaggio sensazionalistico per alimentare lo scandalo e l'indignazione dei lettori.", "porzione di testo": "Ora emerge che, non solo il comune di Merano pagava l’affitto del monolocale usato come base logistica dagli islamici, il loro leader, che viveva grazie all’assegno sociale, frequentava il corso da fabbro della provincia di Bolzano ma, scrive il Ros, “precisa di aver aderito a tale iniziativa al solo fine di acquisire specifiche competenze meccaniche per costruire ordigni esplosivi artigianali”. Insomma, il governo Renzi addestra anche i terroristi. E li paga."}}
+

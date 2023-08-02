@@ -1,0 +1,29 @@
+- Gay adescavano ragazzini su WhatsApp	https://voxnews.info/2018/10/17/gay-adescavano-ragazzini-su-whatsapp/
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo: parole o espressioni linguistiche che esprimono odio o incoraggiano la violenza nei confronti di una persona o di un gruppo di persone sulla base della loro razza ed etnia
+2 - Gender bias: parole o espressioni linguistiche pregiudizievoli basati sulla percezione di genere che le donne non sono uguali agli uomini in termini di diritti e dignità.
+3 - Orientamento politico: parole o espressioni linguistiche che implicano l'inclinazione o l'alterazione delle informazioni per far sembrare più attraente una posizione politica o un candidato politico.
+4 - Orientamento religioso: parole o espressioni linguistiche pregiudizievoli basate sull'appartenenza di una persona a un gruppo religioso, piuttosto che sui suoi meriti individuali.
+5 - Sensazionalismo: la tendenza di alcuni giornali o periodici a pubblicare e diffondere certe notizie conferendo loro un risalto eccessivo e presentandole come sensazionali tramite l'utilizzo di parole o espressioni linguistiche per alimentare lo scandalo e l'indignazione dei lettori.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+<Title: Gay adescavano ragazzini su WhatsApp
+
+Body: Tre uomini gay sono stati arrestati da carabinieri nell’ambito di un’inchiesta della Procura di Catania contro la pedofilia: sono accusati di avere abusato nella ‘scalinata’ della Torre Normanna di Paternò di due ragazzini, di età inferiore ai 14 anni. Tra i destinatari dell’ordinanza emessa dal Gip anche lo zio di una delle vittime. I reati ipotizzati nei confronti dei tre indagati, in concorso, sono violenza sessuale aggravata, atti sessuali con minorenne, corruzione di minorenne e violenza sessuale di gruppo. Le indagini dei carabinieri erano state avviate dopo la denuncia della madre di un ragazzino che aveva notato l’adescamento subito dal figlio su Facebook da parte di un adulto, che in passato era stato condannato per violenza sessuale su minorenni commessa nel 1995. Militari, coordinati dal pool specializzato della Procura di Catania diretto dall’aggiunto Marisa Scavo, hanno scoperto una chat su ‘WhatsApp’, ‘gruppo di amici’, con adulti e minorenni che si scambiavano messaggi ambigui.>
+
+
+{"Razzismo": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche che esprimono odio o incoraggiano la violenza sulla base della razza ed etnia.", "porzione di testo": ""}}
+{"Gender bias": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche pregiudizievoli basate sulla percezione di genere.", "porzione di testo": ""}}
+{"Orientamento politico": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche che implicano l'inclinazione o l'alterazione delle informazioni per favorire una posizione politica.", "porzione di testo": ""}}
+{"Orientamento religioso": {"bias": 0, "motivazione": "Non sono presenti parole o espressioni linguistiche pregiudizievoli basate sull'appartenenza religiosa.", "porzione di testo": ""}}
+{"Sensazionalismo": {"bias": 1, "motivazione": "Nel titolo e nel corpo del testo vengono utilizzate parole e espressioni sensazionalistiche per suscitare scandalo e indignazione.", "porzione di testo": "<Title: Gay adescavano ragazzini su WhatsApp\n\nBody: Tre uomini gay sono stati arrestati da carabinieri nell’ambito di un’inchiesta della Procura di Catania contro la pedofilia: sono accusati di avere abusato nella ‘scalinata’ della Torre Normanna di Paternò di due ragazzini, di età inferiore ai 14 anni. Tra i destinatari dell’ordinanza emessa dal Gip anche lo zio di una delle vittime. I reati ipotizzati nei confronti dei tre indagati, in concorso, sono violenza sessuale aggravata, atti sessuali con minorenne, corruzione di minorenne e violenza sessuale di gruppo. Le indagini dei carabinieri erano state avviate dopo la denuncia della madre di un ragazzino che aveva notato l’adescamento subito dal figlio su Facebook da parte di un adulto, che in passato era stato condannato per violenza sessuale su minorenni commessa nel 1995. Militari, coordinati dal pool specializzato della Procura di Catania diretto dall’aggiunto Marisa Scavo, hanno scoperto una chat su ‘WhatsApp’, ‘gruppo di amici’, con adulti e minorenni che si scambiavano messaggi ambigui."}}

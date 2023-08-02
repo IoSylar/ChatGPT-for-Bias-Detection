@@ -1,0 +1,33 @@
+- Meloni ri-promette di chiudere i porti: 26mila sbarchi in 2 mesi    https://voxnews.info/2022/12/17/meloni-ri-promette-di-chiudere-i-porti-26mila-sbarchi-in-2-mesi/
+
+
+### Read the description of the following biases ###
+1 - Razzismo: the use of racist language or expressions to discriminate against people based on their ethnicity
+2 - Gender bias: the use of language or expressions that imply discrimination against people on the basis of their gender
+3 - Orientamento politico: the use of language or expressions that imply discrimination against people on the basis of their political orientation
+4 - Orientamento religioso: the use of language or expressions that imply discrimination against people on the basis of their religious orientation
+5 - Sensazionalismo:The use of language used to feed the scandal and the indignation of readers, to which is added an excessive and unbalanced use of exclamation marks and questions.
+6 - Advertising bias: When a newspaper chooses to mainly underline events or news that can elicit a positive reaction in the audience.
+
+
+### Now, identify in the following text wether or not these biases are present and explain the reason of your choice, underlying the step of the text in which the bias is present.
+Each bias can be 0 or 1, depending on their presence in the document.
+The answer must be formatted as a JSON, having as keys the ones reported in the previous steps. 
+
+An example is {"Razzismo": {"bias": 1, "explanation": "Nell'articolo vengono utilizzati termini razzisti.", "part of the text" }}
+
+The document is the following:
+<Title: Meloni ri-promette di chiudere i porti 26mila sbarchi in 2 mesi 
+
+Body: Non pensavamo certo si risolvesse tutti in due mesi. Ma, intanto, si poteva evitare di mandare le crocerossine in divisa a prenderli in Africa e lo sbarco delle ong. E si poteva intanto sequestrare le navi ong con l’approvazione di un decreto ponte di emergenza prima di quello che state partorendo per ‘dopo le feste’.>
+
+
+
+
+
+{"Razzismo": {"bias": 0, "explanation": "No racist language or expressions are used in the text.", "part of the text": ""}, 
+"Gender bias": {"bias": 0, "explanation": "No language or expressions implying discrimination based on gender are used in the text.", "part of the text": ""}, 
+"Orientamento politico": {"bias": 0, "explanation": "No language or expressions implying discrimination based on political orientation are used in the text.", "part of the text": ""}, 
+"Orientamento religioso": {"bias": 0, "explanation": "No language or expressions implying discrimination based on religious orientation are used in the text.", "part of the text": ""}, 
+"Sensazionalismo": {"bias": 0, "explanation": "No sensational language or excessive use of exclamation marks or questions is present in the text.", "part of the text": ""}, 
+"Advertising bias": {"bias": 0, "explanation": "The text does not primarily focus on events or news that can elicit a positive reaction in the audience.", "part of the text": ""}}

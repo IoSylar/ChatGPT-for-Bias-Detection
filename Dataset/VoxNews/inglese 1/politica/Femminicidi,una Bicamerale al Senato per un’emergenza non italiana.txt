@@ -1,0 +1,42 @@
+- Femminicidi,una Bicamerale al Senato per un’emergenza non italiana 🤡	https://voxnews.info/2022/11/24/femminidiuna-bicamerale-al-senato-per-unemergenza-non-italiana-%f0%9f%a4%a1/
+
+### Read the description of the following biases ###
+1 - Razzismo: the use of racist language or expressions to discriminate against people based on their ethnicity
+2 - Gender bias: the use of language or expressions that imply discrimination against people on the basis of their gender
+3 - Orientamento politico: the use of language or expressions that imply discrimination against people on the basis of their political orientation
+4 - Orientamento religioso: the use of language or expressions that imply discrimination against people on the basis of their religious orientation
+5 - Sensazionalismo:The use of language used to feed the scandal and the indignation of readers, to which is added an excessive and unbalanced use of exclamation marks and questions.
+6 - Advertising bias: When a newspaper chooses to mainly underline events or news that can elicit a positive reaction in the audience.
+
+
+### Now, identify in the following text wether or not these biases are present and explain the reason of your choice, underlying the step of the text in which the bias is present.
+Each bias can be 0 or 1, depending on their presence in the document.
+The answer must be formatted as a JSON, having as keys the ones reported in the previous steps. 
+
+An example is {"Razzismo": {"bias": 1, "explanation": "Nell'articolo vengono utilizzati termini razzisti.", "part of the text" }}
+
+The document is the following:
+<Title: Femminicidi,una Bicamerale al Senato per un’emergenza non italiana
+
+Body: Non c’è nulla da fare, sono culturalmente succubi della sinistra. Fino ad inventare un problema inesistente. Speriamo si rendano conto, ‘studiandolo’, che c’è una sproporzione di immigrati a commettere questo reato rispetto agli italiani. L’Italia è il Paese europeo con il più basso tasso di ‘femminicidi’. In testa la Svezia: mix di liberalismo ed immigrazione afroislamica.
+
+L’aula del Senato ha approvato all’una-
+nimità il disegno di legge per l’isti-
+tuzione di una commissione bicamerale
+di inchiesta sui femminicidi e su ogni
+forma di violenza di genere. Applauso
+all’annuncio dell’esito del voto.
+La decisione dimostra la volontà di ar-
+ginare il problema, ha detto il presi-
+dente La Russa. “Sbaglia chi pensa” che
+il femminicidio “sia una questione di
+donne, è essenzialmente una questione
+di uomini”.”E’ una grave violazione dei
+diritti umani”, un fenomeno che spesso
+nasce da ignoranza e intolleranza”.
+>
+
+
+
+
+{"Razzismo": {"bias": 1, "explanation": "Nell'articolo vengono utilizzati termini razzisti.", "part of the text": "Fino ad inventare un problema inesistente. Speriamo si rendano conto, ‘studiandolo’, che c’è una sproporzione di immigrati a commettere questo reato rispetto agli italiani. L’Italia è il Paese europeo con il più basso tasso di ‘femminicidi’. In testa la Svezia: mix di liberalismo ed immigrazione afroislamica."}, "Gender bias": {"bias": 1, "explanation": "Il testo implica una discriminazione basata sul genere.", "part of the text": "La decisione dimostra la volontà di ar- ginare il problema, ha detto il presi- dente La Russa. “Sbaglia chi pensa” che il femminicidio “sia una questione di donne, è essenzialmente una questione di uomini”."}}

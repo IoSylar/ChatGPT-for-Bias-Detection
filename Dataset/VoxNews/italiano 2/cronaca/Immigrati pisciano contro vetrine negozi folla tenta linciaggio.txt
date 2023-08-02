@@ -1,0 +1,43 @@
+- Immigrati pisciano contro vetrine negozi: folla tenta linciaggio	https://voxnews.info/2015/11/06/immigrati-pisciano-contro-vetrine-negozi-folla-tenta-linciaggio/
+
+### Leggi la descrizione dei seguenti bias ###
+1 - Razzismo: parole o espressioni linguistiche che esprimono odio o incoraggiano la violenza nei confronti di una persona o di un gruppo di persone sulla base della loro razza ed etnia
+2 - Gender bias: parole o espressioni linguistiche pregiudizievoli basati sulla percezione di genere che le donne non sono uguali agli uomini in termini di diritti e dignità.
+3 - Orientamento politico: parole o espressioni linguistiche che implicano l'inclinazione o l'alterazione delle informazioni per far sembrare più attraente una posizione politica o un candidato politico.
+4 - Orientamento religioso: parole o espressioni linguistiche pregiudizievoli basate sull'appartenenza di una persona a un gruppo religioso, piuttosto che sui suoi meriti individuali.
+5 - Sensazionalismo: la tendenza di alcuni giornali o periodici a pubblicare e diffondere certe notizie conferendo loro un risalto eccessivo e presentandole come sensazionali tramite l'utilizzo di parole o espressioni linguistiche per alimentare lo scandalo e l'indignazione dei lettori.
+
+ 
+
+### Ora, identifica dal seguente testo se sono presenti i bias descritti e spiega la ragione della tua scelta, evidenziando la porizione di testo in cui è contenuto il bias.
+Ogni bias può essere 0 oppure 1, in base alla loro presenza nel documento.
+La risposta deve essere formattata come JSON, avendo come chiavi quelle riportate nelle precedenti istruzioni.
+Un esempio è: {"Razzismo": {"bias": 1, "motivazione": "Nell'articolo vengono utilizzati termini razzisti.", "porzione di testo" }}
+
+ 
+
+Il documento è il seguente :
+
+<Title: Immigrati pisciano contro vetrine negozi folla tenta linciaggio
+
+Body: Immigrati ubriachi urinano sulle serrande di alcuni negozi e molestano i passanti. La storia si ripete a Poggiomarino, dove appena dieci giorni fa si scatenò una violenta rissa con due romeni pestati dalla folla ormai stufa.
+
+I fatti si sono svolti intorno alle 21,30 di martedì, quando i negozi avevano appena abbassato le saracinesche. I due stranieri, entrambi intorno ai trentacinque anni, ubriachi, hanno iniziato a molestare i passanti, ad urlare E poi urla e offendere le persone affacciate ai balconi.
+
+Poi, si sono sbottonati i pantaloni pisciando contro le serrande delle attività commerciali della zona.
+
+
+A quel punto, molti residenti sono scesi in strada, purtroppo qualcuno ha avvisato i carabinieri che hanno sventato il linciaggio.
+
+Messi in salvo, i due immigrati sono stati portati in caserma.
+
+L’Italia è in balia degli immigrati, e lo Stato li difende.>
+
+
+
+
+{"Razzismo": {"bias": 1, "motivazione": "Nel testo vengono utilizzati termini offensivi e discriminatori nei confronti degli immigrati.", "porzione di testo": "L’Italia è in balia degli immigrati, e lo Stato li difende."}}
+{"Gender bias": {"bias": 0, "motivazione": "Non sono presenti espressioni pregiudizievoli basate sulla percezione di genere.", "porzione di testo": ""}}
+{"Orientamento politico": {"bias": 0, "motivazione": "Non sono presenti espressioni che implicano l'inclinazione o l'alterazione delle informazioni per favorire una posizione politica.", "porzione di testo": ""}}
+{"Orientamento religioso": {"bias": 0, "motivazione": "Non sono presenti espressioni pregiudizievoli basate sull'appartenenza religiosa.", "porzione di testo": ""}}
+{"Sensazionalismo": {"bias": 1, "motivazione": "Nel titolo e nel corpo del testo vengono utilizzate parole e espressioni sensazionalistiche per suscitare scandalo e indignazione.", "porzione di testo": "<Title: Immigrati pisciano contro vetrine negozi folla tenta linciaggio\n\nBody: Immigrati ubriachi urinano sulle serrande di alcuni negozi e molestano i passanti. La storia si ripete a Poggiomarino, dove appena dieci giorni fa si scatenò una violenta rissa con due romeni pestati dalla folla ormai stufa."}}

@@ -1,0 +1,54 @@
+MIGRANTI, LE NAVI ONG CIRCONDANO L’ITALIA E PRETENDONO LO SBARCO DI TUTTI I PROFUGHI A BORDO
+
+https://www.byoblu.com/2022/11/07/migranti-le-navi-ong-circondano-litalia-e-pretendono-lo-sbarco-di-tutti-i-profughi-a-bordo/
+
+
+### Read the description of the following biases ###
+1 - Razzismo: the use of racist language or expressions to discriminate against people based on their ethnicity
+2 - Gender bias: the use of language or expressions that imply discrimination against people on the basis of their gender
+3 - Orientamento politico: the use of language or expressions that imply discrimination against people on the basis of their political orientation
+4 - Orientamento religioso: the use of language or expressions that imply discrimination against people on the basis of their religious orientation
+5 - Sensazionalismo:The use of language used to feed the scandal and the indignation of readers, to which is added an excessive and unbalanced use of exclamation marks and questions.
+6 - Advertising bias: When a newspaper chooses to mainly underline events or news that can elicit a positive reaction in the audience.
+
+
+### Now, identify in the following text wether or not these biases are present and explain the reason of your choice, underlying the step of the text in which the bias is present.
+Each bias can be 0 or 1, depending on their presence in the document.
+The answer must be formatted as a JSON, having as keys the ones reported in the previous steps. 
+
+An example is {"Razzismo": {"bias": 1, "explanation": "Nell'articolo vengono utilizzati termini razzisti.", "part of the text" }}
+
+The document is the following:
+<Title: MIGRANTI, LE NAVI ONG CIRCONDANO L’ITALIA E PRETENDONO LO SBARCO DI TUTTI I PROFUGHI A BORDO
+
+Body:Un salto nel tempo e via, siamo di nuovo al 2018 quando l’argomento principale erano i bracci di ferro tra navi Ong con a bordo centinaia di migranti e il governo italiano. 
+
+Non che l’Italia non abbia già abbondantemente fatto la sua parte: fonti del Viminale riferiscono che dall’inizio del 2022 e fino al 26 ottobre sono sbarcati in Italia circa 79.647 richiedenti asilo, a seguito di 2.044 sbarchi. Un incremento di oltre il 50% rispetto allo stesso periodo nel 2021. In particolare sono Libia, Tunisia e Turchia i Paesi da cui provengono la maggior parte dei profughi, compresi tantissimi minori non accompagnati. 
+
+Un braccio di ferro che le navi Ong sembrano riservare solo ai “no” dell’Italia, anche se gli stessi dinieghi arrivano da altri porti come quelli maltesi e norvegesi. 
+
+L’Italia circondata
+Nel fine settimana le acque italiane sono state prese d’assalto dalle navi ong: si tratta di Rise Above, con a bordo 90 persone, di cui due già soccorse e trasferite a terra, la norvegese Ocean Viking, con 234 migranti a bordo, e la Geo Barents di Medici senza frontiere, con 572 persone a bordo di cui 357 fatte scendere e trasferite al Palaspedini,  un impianto sportivo di proprietà del Comune di Catania.
+
+Prosegue invece il braccio di ferro con la tedesca Humanity 1, su cui restano a bordo 35 dei 179 migranti: 144 di loro sono stati fatti scendere perché ritenuti fragili ma la nave vorrebbe sbarcare in Italia anche i restanti 35.
+
+Il capitano ha dichiarato che non riconoscerà il decreto di sosta temporanea firmato da Salvini e Piantedosi: non ripartirà e ha presentato ricorso stamattina al Tar del Lazio.
+
+Le posizioni politiche
+Il ministro delle infrastrutture, Matteo Salvini, parla di “stroncare” questi viaggi organizzati che alimentano il traffico non solo di esseri umani ma anche quello correlato di armi e droga.
+
+Come nel passato i porti sono diventati passerella politica per diverse figure che contestano lo sbarco selettivo: uno di questi è il deputato di Verdi e Sinistra italiana Aboubakar Soumahoro, da due giorni a Catania, che accusa il governo Meloni di operare “in un contesto di totale illegalità, in piena violazione dell’articolo 10 della nostra carta costituzionale che stabilisce che l’ordinamento italiano si conformi alle norme del diritto internazionale”.
+
+Dall’altra parte il neo Ministro del Mare Nello Musumeci sottolinea in un’intervista al Corriere della Sera, che le navi devono rivolgersi agli Stati di cui battono bandiera.
+
+“Chi si trova in difficoltà in mare va sempre soccorso”, ha detto Musumeci, “ma una nave è un pezzo di Stato e la legge impone a quello Stato di farsi carico di chi ha soccorso”.>
+
+
+RISULTATI
+
+{"Razzismo": {"bias": 0, "explanation": "No racist language or expressions are used in the text.", "part of the text": ""}, 
+"Gender bias": {"bias": 0, "explanation": "No language or expressions implying discrimination based on gender are used in the text.", "part of the text": ""}, 
+"Orientamento politico": {"bias": 1, "explanation": "Different political positions are mentioned and criticized in the text.", "part of the text": "Le posizioni politiche"}, 
+"Orientamento religioso": {"bias": 0, "explanation": "No language or expressions implying discrimination based on religious orientation are used in the text.", "part of the text": ""}, 
+"Sensazionalismo": {"bias": 0, "explanation": "No sensational language or excessive use of exclamation marks or questions is present in the text.", "part of the text": ""}, 
+"Advertising bias": {"bias": 0, "explanation": "No specific events or news are highlighted in a biased way to elicit a positive reaction in the audience.", "part of the text": ""}}
